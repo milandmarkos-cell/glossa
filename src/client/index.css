@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-reading: "Iowan Old Style", "Charter", "Source Serif Pro", Georgia, "Noto Serif", serif;
+  --font-ui: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+}
+
+:root {
+  --bg: #faf9f7;
+  --surface: #ffffff;
+  --text: #1f1d1a;
+  --muted: #6b665e;
+  --line: #e7e3dc;
+  --accent: #b45309;
+  --mark-bg: #fde68a;
+  --mark-ring: #f59e0b;
+  --saved: #0f766e;
+  --hover: #f1ede6;
+  color-scheme: light;
+}
+.dark {
+  --bg: #1c1b1a;
+  --surface: #252321;
+  --text: #ece8e1;
+  --muted: #a39e95;
+  --line: #3a3733;
+  --accent: #f59e0b;
+  --mark-bg: #78350f;
+  --mark-ring: #d97706;
+  --saved: #5eead4;
+  --hover: #33302c;
+  color-scheme: dark;
+}
+
+html, body { background: var(--bg); color: var(--text); }
+body { font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
+
+/* Reading surface */
+.passage { font-family: var(--font-reading); }
+.passage:lang(ja), .passage:lang(zh), .passage:lang(ko) {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif CJK JP", "Noto Serif CJK SC", "Noto Serif KR", "Songti SC", serif;
+  line-break: strict;
+}
+.passage:lang(ar) { font-family: "Noto Naskh Arabic", "Geeza Pro", "Amiri", "Times New Roman", serif; }
+.passage p { white-space: pre-line; overflow-wrap: break-word; }
+
+/* Word tokens. Marked/saved states are injected as [data-k] rules by the reader (see highlight.ts). */
+.w { cursor: pointer; border-radius: 0.2em; padding: 0.02em 0; transition: background-color 60ms; -webkit-tap-highlight-color: transparent; }
+@media (hover: hover) { .w:hover { background: var(--hover); } }
+.w:focus { outline: none; }
+.w:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
