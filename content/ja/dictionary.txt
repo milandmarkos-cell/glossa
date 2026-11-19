@@ -841,3 +841,480 @@
 わかめ | wakame seaweed | noun
 いれば | if there are (people) | verb | いる
 弱い | weak; low (heat) | adjective
+
+# --- B2 stories ---
+フリッシュ | Frisch (surname) | name
+カール | Karl (name) | name
+オーストリア | Austria | name
+京都 | Kyoto | name
+江戸 | Edo (old name for Tokyo; 江戸時代 = Edo period) | name
+東海道新幹線 | Tōkaidō Shinkansen | name
+北海道 | Hokkaido | name
+九州 | Kyushu | name
+名古屋 | Nagoya | name
+ノーベル | Nobel | name
+オリンピック | the Olympics | name
+# grammar / function words
+的 | -ic, -al (makes adjectives: 科学的 = scientific) | suffix
+性 | -ness, -ity (安全性 = safety) | suffix
+さ | -ness (速さ = speed) | suffix
+として | as | particle
+によって | by; depending on | particle
+による | according to; by | particle
+という | called; that says | particle
+ながら | while | particle
+そのため | for that reason | conjunction
+しかし | however | conjunction
+一方で | on the other hand | conjunction
+一方 | on the other hand; one side | noun
+さらに | moreover; even more | adverb
+およそ | about, approximately | adverb
+最も | most | adverb
+何より | above all | adverb
+ますます | more and more | adverb
+わずか | only, just | adverb
+当時 | at that time | noun
+以上 | more than | noun
+以来 | since | noun
+未満 | less than | noun
+約 | about, approximately | prefix
+など | and so on, etc. | particle
+ほか | other | noun
+ほかに | besides | adverb
+ところが | however | conjunction
+最近 | recently | noun
+次々と | one after another | adverb
+とも | also, as well | particle
+これ | this | pronoun
+これほど | this much, so | adverb
+こうした | such | determiner
+それなのに | even so, despite that | conjunction
+ただし | however | conjunction
+そして | and | conjunction
+なので | because, since | conjunction
+彼 | he | pronoun
+べき | should | particle
+べ | (part of べきだ: should) | particle | べき
+きだ | (part of べきだ: should) | particle | べき
+をもって | with (身をもって = first-hand) | particle
+てあ | (part of てあげた: did for someone) | verb | あげる
+げた | (part of てあげた) | verb | あげる
+あげる | to give; to do for someone | verb
+しょう | (part of でしょう: probably; I wonder) | verb | でしょう
+でしょう | probably; I wonder | verb
+いた | was (…-ing) | verb | いる
+いく | to go (on doing) | verb | 行く
+き | (part of a verb) | verb
+おい | (part of 覚えておいて: keep in mind) | verb | おく
+おく | to do in advance; to put | verb
+られる | can be; is done (passive) | verb
+られ | (passive/potential ending) | verb | られる
+られて | being done (passive) | verb | られる
+られてきました | has been (thought) | verb | られる
+てきました | has come to (…) | verb | くる
+され | (passive of する) | verb | する
+された | was done (passive of する) | verb | する
+されました | was done | verb | する
+すれば | if (one) does | verb | する
+なら | (part of なければならない: must) | verb | なる
+なって | becoming | verb | なる
+なった | became | verb | なる
+がって | (part of 上がって: going up) | verb | 上がる
+上がる | to rise | verb
+すぎ | too much (stem of すぎる) | verb | すぎる
+# numbers
+一九 | 19 (part of a year) | numeral
+六 | six | numeral
+百 | hundred | numeral
+二百 | two hundred | numeral
+十 | ten | numeral
+九 | nine | numeral
+九十 | ninety | numeral
+四年 | four years; (196)4 | noun
+十月 | October | noun
+一分 | one minute | noun
+三分 | (三分の一 = one third) | noun
+一匹 | one (small animal) | noun
+匹もの | as many as (animals) | noun | 匹
+匹 | (counter for small animals) | noun
+十代 | teens | noun
+回 | times | noun
+二十世紀 | the twentieth century | noun
+世紀 | century | noun
+# verbs
+言われています | it is said | verb | 言う
+増え | increasing (stem of 増える) | verb | 増える
+増える | to increase | verb
+守る | to protect | verb
+結ぶ | to connect | verb
+使って | using | verb | 使う
+かかり | costing; taking | verb | かかる
+生まれ | being born (stem of 生まれる) | verb | 生まれる
+生まれる | to be born | verb
+伝え | conveying (stem of 伝える) | verb | 伝える
+伝える | to convey | verb
+考え | idea; thinking | noun | 考える
+考える | to think | verb
+並んでいる | are lined up | verb | 並ぶ
+並ぶ | to line up | verb
+気づきます | notice | verb | 気づく
+気づく | to notice | verb
+気づいてい | (part of 気づいていました: had noticed) | verb | 気づく
+呼ばれる | to be called | verb | 呼ぶ
+呼ばれます | is called | verb | 呼ぶ
+呼ぶ | to call | verb
+住み | living (stem of 住む) | verb | 住む
+住んでいる | lives | verb | 住む
+面した | facing | verb | 面する
+面する | to face | verb
+向 | (part of 向かって: towards) | verb | 向かう
+向かう | to face, to head for | verb
+伸び | stretching (stem of 伸びる) | verb | 伸びる
+伸びる | to stretch | verb
+決まって | being decided | verb | 決まる
+決まる | to be decided | verb
+続く | to continue | verb
+届ける | to deliver | verb
+壊されてい | (part of 取り壊されていきました: were torn down) | verb | 壊す
+壊す | to break, to demolish | verb
+移って | moving | verb | 移る
+移る | to move | verb
+いき | going (stem of いく) | verb | 行く
+消えて | disappearing | verb | 消える
+消える | to disappear | verb
+痛める | to hurt (心を痛める = to be pained) | verb
+見 | (part of 見直されています: is being re-evaluated) | verb | 見直す
+直されています | (part of 見直されています: is being re-evaluated) | verb | 見直す
+見直す | to re-evaluate | verb
+残す | to leave, to preserve | verb
+騒 | (part of 騒がしく: noisy) | adjective | 騒がしい
+しく | (part of an adjective ending: -shiku) | adjective
+騒がしい | noisy | adjective
+引っ | (part of 引っ越す: to move house) | verb | 引っ越す
+越さ | (part of 引っ越さなければ: must move house) | verb | 引っ越す
+引っ越す | to move house | verb
+学んでいます | is learning | verb | 学ぶ
+学ぶ | to learn | verb
+学んだ | learned | verb | 学ぶ
+咲いている | blooming | verb | 咲く
+咲く | to bloom | verb
+見つけて | finding | verb | 見つける
+見つけた | found | verb | 見つける
+戻る | to return | verb
+飛んで | flying | verb | 飛ぶ
+飛ぶ | to fly | verb
+出た | went out | verb | 出る
+描く | to draw | verb
+歩き | walking (stem of 歩く) | verb | 歩く
+ふる | (part of ふるわせます: shakes) | verb | ふるわせる
+わせます | (part of ふるわせます: shakes) | verb | ふるわせる
+ふるわせる | to make tremble, to shake | verb
+驚く | to be surprised (驚くべき = surprising) | verb
+含まれています | is contained | verb | 含む
+含む | to include | verb
+示します | shows | verb | 示す
+示す | to show | verb
+表していて | representing | verb | 表す
+表す | to represent | verb
+見ている | watching | verb | 見る
+触れ | touching (stem of 触れる) | verb | 触れる
+触れる | to touch | verb
+受け取る | to receive | verb
+疑って | doubting | verb | 疑う
+疑う | to doubt | verb
+持たない | doesn't have | verb | 持つ
+信 | (part of 信じられ: be believed) | verb | 信じる
+じられ | (part of 信じられなかった: couldn't believe) | verb | 信じる
+信じる | to believe | verb
+信じてい | (part of 信じていました: believed) | verb | 信じる
+なかった | did not; was not | adjective | ない
+たより | (part of 考えられていたより: than was thought) | particle
+調整 | adjustment, coordination | noun
+さら | (さらされる = to be exposed) | verb | さらす
+さらす | to expose | verb
+減っている | is decreasing | verb | 減る
+減る | to decrease | verb
+食べている | eating | verb | 食べる
+支え | supporting (stem of 支える) | verb | 支える
+支える | to support | verb
+終わって | ended | verb | 終わる
+終わった | ended | verb | 終わる
+終わる | to end | verb
+起きてい | (part of 起きていません: has not happened) | verb | 起きる
+止める | to stop | verb
+変えました | changed | verb | 変える
+変える | to change | verb
+集まり | gathering (stem of 集まる) | verb | 集まる
+集まる | to gather | verb
+広 | (part of 広がっています: is spreading) | verb | 広がる
+広がる | to spread | verb
+浮いて | floating | verb | 浮く
+浮く | to float | verb
+進んでいます | is progressing | verb | 進む
+進む | to progress | verb
+始まった | began | verb | 始まる
+続いている | continues | verb | 続く
+眠って | sleeping | verb | 眠る
+眠っている | sleeping | verb | 眠る
+眠った | slept | verb | 眠る
+眠らない | not sleeping | verb | 眠る
+眠れば | if one sleeps | verb | 眠る
+眠る | to sleep | verb
+過ごします | spend | verb | 過ごす
+休める | to rest | verb
+くり返します | repeat | verb | くり返す
+くり返す | to repeat | verb
+強くします | makes stronger | verb | 強い
+忘れる | to forget | verb
+決め | deciding (stem of 決める) | verb | 決める
+決める | to decide | verb
+中起 | (part of 一晩中起きていた: stayed up all night) | verb | 起きる
+与えます | gives | verb | 与える
+与える | to give | verb
+引き | (part of 引き起こします: causes) | verb | 引き起こす
+起こします | causes | verb | 引き起こす
+引き起こす | to cause | verb
+すすめ | recommending (stem of すすめる) | verb | すすめる
+すすめる | to recommend | verb
+やすい | easy to (…) | adjective
+立ちます | stands (役に立つ = to be useful) | verb | 立つ
+立つ | to stand | verb
+寝て | sleeping, going to bed | verb | 寝る
+見ない | not looking | verb | 見る
+飲まない | not drinking | verb | 飲む
+生む | to give birth to; to produce | verb
+# nouns
+町家 | machiya (traditional townhouse) | noun
+多く | many; most | noun
+ミツバチ | honeybee | noun
+ハチ | bee | noun
+睡眠 | sleep | noun
+睡眠不足 | lack of sleep | noun
+ダンス | dance | noun
+体 | body | noun
+昔 | long ago, in the past | noun
+時代 | era, period | noun
+観光 | tourism, sightseeing | noun
+客 | customer, visitor (観光客 = tourist) | noun
+問題 | problem | noun
+巣 | nest, hive | noun
+動き | movement | noun
+情報 | information | noun
+中央 | centre | noun
+鉄道 | railway | noun
+一晩 | one night | noun
+木造 | wooden (building) | noun
+伝統 | tradition | noun
+間口 | frontage (house width) | noun
+奥 | the back, the inner part | noun
+形 | shape | noun
+心 | heart, mind | noun
+発見 | discovery | noun
+部分 | part | noun
+正確 | accurate | adjective
+方向 | direction | noun
+食べ物 | food | noun
+科学 | science | noun
+現在 | now, the present | noun
+世界 | world | noun
+地域 | region, area | noun
+開業 | opening (of service) | noun
+列車 | train | noun
+大都市 | big city | noun
+簡単 | easy | adjective
+建設 | construction | noun
+人口 | population | noun
+事故 | accident | noun
+遅れ | delay | noun
+力 | power, force | noun
+脳 | brain | noun
+脳しか | only a brain | noun | 脳
+段階 | stage | noun
+学生 | student | noun
+危険 | danger; dangerous | noun
+大人 | adult | noun
+習慣 | habit | noun
+商人 | merchant | noun
+職人 | craftsman | noun
+仕事場 | workplace | noun
+特徴 | feature | noun
+狭く | narrow | adjective | 狭い
+狭い | narrow | adjective
+広さ | width, area | noun
+税金 | tax | noun
+うなぎ | eel | noun
+寝床 | bed (うなぎの寝床 = eel's bed: long narrow house) | noun
+表 | front | noun
+裏 | back | noun
+細い | thin, narrow | adjective
+細長い | long and narrow | adjective
+土間 | earthen-floored passage | noun
+あり | there being (stem of ある) | verb | ある
+途中 | on the way, halfway | noun
+光 | light | noun
+風 | wind | noun
+役割 | role | noun
+後半 | latter half | noun
+手入れ | upkeep, maintenance | noun
+寒く | cold (adverbial) | adjective | 寒い
+火事 | fire (blaze) | noun
+便利 | convenient | adjective
+マンション | apartment building | noun
+町並み | townscape | noun
+価値 | value | noun
+改装 | renovation | noun
+レストラン | restaurant | noun
+ゲストハウス | guesthouse | noun
+外国 | foreign country | noun
+暮らし | way of life, living | noun
+体験 | experience | noun
+人気 | popularity | noun
+市 | city | noun
+補助金 | subsidy | noun
+住宅地 | residential area | noun
+建物 | building | noun
+人々 | people | noun
+生活 | life, daily life | noun
+難しさ | difficulty | noun
+身 | body, oneself (身をもって = first-hand) | noun
+養蜂 | beekeeping | noun
+家たち | (養蜂家たち = beekeepers) | noun | 家
+不思議 | mysterious | adjective
+現象 | phenomenon | noun
+野原 | field, meadow | noun
+仲間 | companion, fellow | noun
+まっすぐ | straight | adverb
+地図 | map | noun
+答え | answer | noun
+生物 | living thing; biology | noun
+学者 | scholar (生物学者 = biologist) | noun
+長年 | many years | noun
+根気 | patience | noun
+強い | strong | adjective
+実験 | experiment | noun
+結果 | result | noun
+偵察 | scouting | noun
+数字 | number, digit | noun
+おしり | bottom, rear | noun
+左右 | left and right | noun
+激しく | violently, intensely | adjective | 激しい
+激しい | violent, intense | adjective
+一つ一つ | each one | noun
+直線 | straight line | noun
+垂直 | vertical | noun
+角度 | angle | noun
+太陽 | the sun | noun
+位置 | position | noun
+基準 | standard, reference | noun
+長さ | length | noun
+距離 | distance | noun
+暗い | dark | adjective
+振動 | vibration | noun
+賞 | prize | noun
+受賞 | winning a prize | noun
+昆虫 | insect | noun
+複雑 | complicated | adjective
+豊か | rich | adjective
+行動 | behaviour | noun
+残念 | regrettable (残念ながら = unfortunately) | adjective
+賢い | clever | adjective
+生き物 | living creature | noun
+深刻 | serious | adjective
+危機 | crisis | noun
+農薬 | pesticide | noun
+すみか | habitat, dwelling | noun
+減少 | decrease | noun
+気候 | climate | noun
+変動 | change (気候変動 = climate change) | noun
+好奇心 | curiosity | noun
+最高 | highest, maximum | noun
+時速 | speed per hour | noun
+移動 | travel, movement | noun
+戦争 | war | noun
+時期 | period, time | noun
+実現 | realisation | noun
+莫大 | enormous | adjective
+費用 | cost | noun
+政府 | government | noun
+飛行機 | aeroplane | noun
+反対 | opposition | noun
+声 | voice | noun
+技術 | technology, technique | noun
+者たち | people (技術者たち = engineers) | noun | 者
+高速 | high-speed | noun
+成功 | success | noun
+理由 | reason | noun
+速さ | speed | noun
+注目 | attention | noun
+安全 | safety | noun
+乗客 | passenger | noun
+死亡 | death | noun
+衝突 | collision | noun
+脱線 | derailment | noun
+地震 | earthquake | noun
+国 | country | noun
+揺れ | shaking | noun
+自動的 | automatic | adjective
+システム | system | noun
+開発 | development | noun
+平均 | average | noun
+社会 | society | noun
+大きく | greatly | adjective | 大きい
+日帰り | day trip | noun
+出張 | business trip | noun
+都市 | city | noun
+地方 | region, the provinces | noun
+ビジネス | business | noun
+路線 | line, route | noun
+磁石 | magnet | noun
+リニア | linear (maglev) | noun
+完成 | completion | noun
+予定 | plan, schedule | noun
+挑戦 | challenge | noun
+人生 | life | noun
+活発 | active | adjective
+周期 | cycle | noun
+深い | deep | adjective
+眠り | sleep | noun
+細胞 | cell | noun
+修復 | repair | noun
+免疫 | immunity | noun
+働き | function, work | noun
+夢 | dream | noun
+レム | REM | noun
+記憶 | memory | noun
+整理 | organising | noun
+勉強 | study | noun
+さまざま | various | adjective
+影響 | influence | noun
+短期 | short term | noun
+いらいら | irritation | noun
+集中 | concentration | noun
+低下 | decline | noun
+研究 | research | noun
+酒 | alcohol, sake | noun
+長期 | long term | noun
+肥満 | obesity | noun
+糖尿病 | diabetes | noun
+心臓 | heart | noun
+病気 | illness | noun
+高く | high (adverbial) | adjective | 高い
+専門 | specialty (専門家 = expert) | noun
+場合 | case | noun
+個人 | individual | noun
+差 | difference | noun
+若者 | young people | noun
+体内 | inside the body (体内時計 = body clock) | noun
+時計 | clock | noun
+ときには | when | noun | とき
+とき | time, when | noun
+意見 | opinion | noun
+役 | role (役に立つ = useful) | noun
+パソコン | computer | noun
+画面 | screen | noun
+寝室 | bedroom | noun
+暗く | dark (adverbial) | adjective | 暗い
+涼しく | cool (adverbial) | adjective | 涼しい
+涼しい | cool | adjective
+違い | difference | noun
+古い | old | adjective
