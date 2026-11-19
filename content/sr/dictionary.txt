@@ -240,7 +240,7 @@
 бацам | I throw | verb | бацати
 бацати | to throw | verb
 доноси | brings | verb | доносити
-доносити | to bring | verb
+доносити | to bring; to make (decisions) | verb
 живим | I live | verb | живети
 живети | to live | verb
 црта | draws | verb | цртати
@@ -277,7 +277,7 @@
 видети | to see | verb
 користи | uses | verb | користити
 користити | to use | verb
-чита | reads | verb | читати
+чита | reads; is read (чита се) | verb | читати
 читати | to read | verb
 слуша | listens to | verb | слушати
 слушати | to listen to | verb
@@ -721,7 +721,7 @@
 савршено | perfectly | adverb
 # verbs
 може | can | verb | моћи
-моћи | can, to be able to | verb
+моћи | can, to be able to; of power | verb
 нема | there is no; doesn't have | verb | немати
 немати | not to have | verb
 биле | were (feminine plural) | verb | бити
@@ -808,7 +808,7 @@
 затворити | to close | verb
 почеле | began | verb | почети
 почети | to begin | verb
-почне | begins | verb | почети
+почне | begins; starts | verb | почети
 свидео | pleased (свидео им се = they liked it) | verb | свидети
 свидети | to please (свидети се = to like) | verb
 написала | wrote | verb | написати
@@ -866,7 +866,7 @@
 предложи | suggests | verb | предложити
 предложити | to suggest | verb
 купимо | (we) buy | verb | купити
-одговара | answers | verb | одговарати
+одговара | answers; corresponds | verb | одговарати
 одговарати | to answer | verb
 упали | starts (engine) | verb | упалити
 упалити | to start; to switch on | verb
@@ -1909,3 +1909,1524 @@
 научни | scientific | adjective
 с | with (variant of са) | preposition | са
 друге | other (с друге стране = on the other hand) | adjective | други
+
+# --- C1 stories ---
+немања | Nemanja (name) | name
+немањића | of the Nemanjić dynasty | name | Немањићи
+немањићи | the Nemanjić dynasty | name
+тамара | Tamara (name) | name
+студеница | Studenica (monastery) | name
+милешева | Mileševa (monastery) | name
+христос | Christ | name
+унесковој | UNESCO's | adjective | Унесков
+унесков | UNESCO's | adjective
+србије | of Serbia | name | Србија
+# function words / adverbs / particles
+често | often | adverb
+ли | (question particle: whether) | particle
+уз | with; along; next to | preposition
+углавном | mostly, mainly | adverb
+сами | themselves; alone | pronoun | сам
+томе | that (у томе = in that) | pronoun | то
+њима | them | pronoun | они
+ноћу | at night | adverb
+викендом | at weekends | adverb
+неочекивано | unexpectedly | adverb
+заредом | in a row | adverb
+оштро | sharply | adverb
+чешће | more often | adverb
+неким | some | determiner | неки
+свега | all (пре свега = above all) | pronoun | сав
+чије | whose | pronoun | чији
+друго | second(ly); other | adjective | други
+одакле | where from | adverb
+укупно | in total | adverb
+практично | practical(ly) | adverb
+чак | even | adverb
+довољно | enough | adverb
+значајно | significantly | adverb
+ко | who | pronoun
+год | -ever (ко год = whoever) | particle
+тешко | hardly; difficult | adverb
+касно | late | adverb
+случајно | by chance | adverb
+временом | over time | adverb
+иза | behind | preposition
+уопште | at all | adverb
+макар | at least | adverb
+крајем | at the end of | adverb
+захваљујући | thanks to | preposition
+лако | easily | adverb
+спорије | more slowly | adverb
+петнаестак | about fifteen | numeral
+десетине | tens | numeral | десетина
+десетина | ten (or so) | numeral
+# verbs
+покренули | launched, started | verb | покренути
+радили | worked | verb | радити
+програмирали | programmed | verb | програмирати
+програмирати | to program | verb
+делили | handed out, shared | verb | делити
+делити | to share; to divide | verb
+бројали | were counted (бројали су се) | verb | бројати
+бројати | to count | verb
+питали | wondered (питали су се) | verb | питати
+дошла | came | verb | доћи
+објавила | published, posted | verb | објавити
+објавити | to publish | verb
+препоручује | recommends | verb | препоручивати
+падали | crashed, fell | verb | падати
+гомилале | piled up (гомилале су се) | verb | гомилати
+гомилати | to pile up | verb
+уступио | lent, gave up | verb | уступити
+уступити | to give up, to lend | verb
+донео | brought | verb | донети
+донети | to bring | verb
+морали | had to | verb | морати
+запосле | (to) hire | verb | запослити
+изнајме | (to) rent | verb | изнајмити
+изнајмити | to rent | verb
+финансирали | (to) finance | verb | финансирати
+финансирати | to finance | verb
+прихвате | (to) accept | verb | прихватити
+прихватити | to accept | verb
+прешла | moved over, went over | verb | прећи
+прећи | to cross, to move over | verb
+желели | wanted | verb | желети
+предложили | suggested | verb | предложити
+успротивио | opposed (успротивио се) | verb | успротивити
+успротивити | to oppose (успротивити се) | verb
+уништило | would destroy | verb | уништити
+уништити | to destroy | verb
+размењују | exchange | verb | размењивати
+размењивати | to exchange | verb
+постајале | became | verb | постајати
+постајати | to become | verb
+откупили | bought out | verb | откупити
+откупити | to buy out, to buy back | verb
+одустали | gave up | verb | одустати
+одустати | to give up | verb
+имају | have | verb | имати
+обећавали | promised | verb | обећавати
+обећавати | to promise | verb
+верује | trusts, believes | verb | веровати
+научили | learned | verb | научити
+знаш | you know | verb | знати
+кажеш | you say | verb | казати
+могли | could | verb | моћи
+могла | could | verb | моћи
+виде | see | verb | видети
+производе | produce | verb | производити
+производи | is produced (производи се); produces | verb | производити
+производио | produced | verb | производити
+производити | to produce | verb
+чине | make up | verb | чинити
+чини | seems (чини се) | verb | чинити
+изгледа | seems, looks | verb | изгледати
+испуштају | emit | verb | испуштати
+испуштати | to emit, to release | verb
+побољша | improve | verb | побољшати
+захтевају | require | verb | захтевати
+захтевати | to require, to demand | verb
+указују | point out | verb | указивати
+указивати | to point out | verb
+оставља | leaves | verb | остављати
+долази | comes | verb | долазити
+напуни | fills up | verb | напунити
+напунити | to fill up | verb
+путују | travel | verb | путовати
+одвраћа | discourages | verb | одвраћати
+одвраћати | to discourage | verb
+напредује | advances | verb | напредовати
+напредовати | to advance, to progress | verb
+постају | become | verb | постајати
+повећава | increases (повећава се) | verb | повећавати
+повећавати | to increase | verb
+развијају | develop | verb | развијати
+развијала | developed (развијала се) | verb | развијати
+развијати | to develop | verb
+смање | reduce | verb | смањити
+одрастао | grew up | verb | одрасти
+одрасти | to grow up | verb
+избегао | avoided | verb | избећи
+избећи | to avoid | verb
+висе | hang | verb | висити
+висити | to hang | verb
+чисте | clean | verb | чистити
+чистити | to clean | verb
+шутирају | (to) shoot (ball) | verb | шутирати
+шутирати | to shoot (a ball) | verb
+настао | arose, came about | verb | настати
+настати | to arise | verb
+улагала | invested | verb | улагати
+улагати | to invest | verb
+створен | created | verb | створити
+створити | to create | verb
+инсистирали | insisted | verb | инсистирати
+инсистирати | to insist | verb
+ценила | was valued (ценила се) | verb | ценити
+ценити | to value | verb
+подреди | subordinate | verb | подредити
+подредити | to subordinate | verb
+постали | became | verb | постати
+освајала | won | verb | освајати
+освајати | to win, to conquer | verb
+одлазили | went (away) | verb | одлазити
+одлазити | to go away, to leave | verb
+постајали | became | verb | постајати
+крију | hide (крију се) | verb | крити
+крити | to hide | verb
+почиње | begins | verb | почињати
+открију | discover | verb | открити
+воле | love, like | verb | волети
+одустану | give up | verb | одустати
+успе | succeeds | verb | успети
+успети | to succeed | verb
+живи | lives | verb | живети
+живе | live | verb | живети
+слаби | weakens | verb | слабити
+слабити | to weaken | verb
+зависе | depend | verb | зависити
+остају | stay | verb | остајати
+остајати | to stay | verb
+утихну | go quiet | verb | утихнути
+утихнути | to go quiet | verb
+дише | breathes | verb | дисати
+дисати | to breathe | verb
+налазе | are located (налазе се) | verb | налазити
+налази | is located (налази се) | verb | налазити
+налазити | to find (налазити се = to be located) | verb
+чувају | keep, preserve | verb | чувати
+подигнути | built | verb | подићи
+сматрали | considered | verb | сматрати
+сматра | is considered (сматра се) | verb | сматрати
+сматрати | to consider | verb
+осигурају | ensure | verb | осигурати
+осигурати | to ensure | verb
+основао | founded | verb | основати
+основати | to found | verb
+назива | is called (назива се) | verb | називати
+преузет | taken over | verb | преузети
+преузети | to take over | verb
+донето | brought | verb | донети
+постаће | will become | verb | постати
+оставили | left | verb | оставити
+оставити | to leave | verb
+задивљују | amaze | verb | задивљивати
+задивљивати | to amaze | verb
+васкрсао | is risen | verb | васкрснути
+васкрснути | to rise from the dead | verb
+послата | sent | verb | послати
+упутило | sent, addressed | verb | упутити
+упутити | to send, to address | verb
+страдала | were damaged | verb | страдати
+страдати | to suffer, to be damaged | verb
+прекречене | whitewashed | verb | прекречити
+прекречити | to whitewash | verb
+оштећене | damaged | verb | оштетити
+оштетити | to damage | verb
+обновљен | restored | verb | обновити
+обновити | to restore | verb
+обрађују | farm, cultivate | verb | обрађивати
+обрађивати | to cultivate | verb
+дочекују | welcome | verb | дочекивати
+дочекивати | to welcome | verb
+проведе | spends | verb | провести
+подизали | built | verb | подизати
+подизати | to build, to raise | verb
+одзвањају | ring out | verb | одзвањати
+одзвањати | to ring out | verb
+# nouns
+батерије | batteries | noun | батерија
+батерија | battery | noun
+апликацију | app (object) | noun | апликација
+апликација | app, application | noun
+корисника | of users | noun | корисник
+корисници | users | noun | корисник
+корисник | user | noun
+успех | success | noun
+успеху | (about) success | noun | успех
+фонда | of the fund | noun | фонд
+фонд | fund | noun
+инвеститори | investors | noun | инвеститор
+инвеститора | of investors | noun | инвеститор
+инвеститор | investor | noun
+раст | growth | noun
+књиге | books | noun | књига
+књига | book; (of) books | noun
+улицама | (in the) streets | noun | улица
+земљама | (in) countries | noun | земља
+возила | vehicles | noun | возило
+возило | vehicle | noun
+метала | of metals | noun | метал
+метал | metal | noun
+градови | cities | noun | град
+градова | of cities | noun | град
+градовима | (in) cities | noun | град
+репрезентација | national team | noun
+иностранство | abroad (foreign countries) | noun
+манастири | monasteries | noun | манастир
+манастира | of monasteries | noun | манастир
+манастиру | (in the) monastery | noun | манастир
+манастир | monastery | noun
+уметности | of art | noun | уметност
+уметност | art | noun
+начин | way, manner | noun
+фреске | frescoes | noun | фреска
+фреска | fresco | noun
+размену | exchange (object) | noun | размена
+размена | exchange | noun
+гарсоњере | of a studio flat | noun | гарсоњера
+гарсоњера | studio flat | noun
+канцеларије | of an office | noun | канцеларија
+канцеларији | (in the) office | noun | канцеларија
+канцеларију | office (object) | noun | канцеларија
+канцеларија | office | noun
+плате | of a salary | noun | плата
+плата | salary | noun
+посла | of work | noun | посао
+летке | leaflets | noun | летак
+летак | leaflet | noun
+факултетима | (at) universities | noun | факултет
+факултет | faculty, university | noun
+стотинама | (in) hundreds | numeral | стотина
+смисла | of sense | noun | смисао
+смисао | sense, meaning | noun
+прекретница | turning point | noun
+блогерка | (female) blogger | noun
+сервери | servers | noun | сервер
+сервер | server | noun
+подршке | of support | noun | подршка
+подршка | support | noun
+одговора | of an answer | noun | одговор
+пријатеља | of a friend | noun | пријатељ
+простор | space | noun
+одлуке | decisions | noun | одлука
+одлука | decision | noun
+програмере | programmers | noun | програмер
+програмер | programmer | noun
+улагање | investment | noun
+капитала | of capital | noun | капитал
+капитал | capital | noun
+фирме | of the company | noun | фирма
+писања | of writing | noun | писање
+писање | writing | noun
+кода | of code | noun | код
+састанке | meetings | noun | састанак
+састанак | meeting | noun
+табеле | spreadsheets | noun | табела
+табела | spreadsheet, table | noun
+разговоре | conversations, interviews | noun | разговор
+разговора | of conversation | noun | разговор
+разговор | conversation | noun
+партнерима | (with) partners | noun | партнер
+партнер | partner | noun
+захтеви | demands | noun | захтев
+захтев | demand, request | noun
+огласе | ads | noun | оглас
+оглас | advertisement | noun
+страни | (on the) page | noun | страна
+мишљењу | (in the) opinion | noun | мишљење
+идеју | idea (object) | noun | идеја
+заједници | (about the) community | noun | заједница
+заједницу | community (object) | noun | заједница
+заједница | community | noun
+читалаца | of readers | noun | читалац
+читалац | reader | noun
+свађе | quarrels | noun | свађа
+свађа | quarrel | noun
+ивици | (on the) edge | noun | ивица
+ивица | edge | noun
+распада | of collapse | noun | распад
+распад | collapse | noun
+оснивачи | founders | noun | оснивач
+оснивач | founder | noun
+кредита | of a loan | noun | кредит
+кредит | loan, credit | noun
+удео | share, stake | noun
+ширења | of expansion | noun | ширење
+ширење | expansion | noun
+напредак | progress | noun
+аутомобили | cars | noun | аутомобил
+реткост | rarity | noun
+становници | inhabitants | noun | становник
+становника | of inhabitants | noun | становник
+становник | inhabitant | noun
+произвођачи | manufacturers | noun | произвођач
+произвођач | manufacturer | noun
+половину | half (object) | noun | половина
+половина | half | noun
+прелазак | transition | noun
+сагоревањем | with combustion | noun | сагоревање
+сагоревање | combustion | noun
+погон | drive, propulsion | noun
+погона | of propulsion | noun | погон
+предност | advantage | noun
+гасове | gases | noun | гас
+гас | gas | noun
+вожње | of driving | noun | вожња
+загађење | pollution | noun
+ваздуха | of air | noun | ваздух
+проблем | problem | noun
+здравље | health | noun
+одржавања | of maintenance | noun | одржавање
+одржавање | maintenance | noun
+километру | (per) kilometre | noun | километар
+коришћење | use | noun
+критичари | critics | noun | критичар
+критичар | critic | noun
+тачака | of points | noun | тачка
+тачка | point | noun
+литијум | lithium | noun
+никл | nickel | noun
+кобалт | cobalt | noun
+ископавање | mining | noun
+средину | environment (животна средина) | noun | средина
+средина | environment; middle | noun
+раднике | workers | noun | радник
+радник | worker | noun
+рудницима | (in) mines | noun | рудник
+рудник | mine | noun
+корист | benefit | noun
+термоелектранама | (in) thermal power plants | noun | термоелектрана
+термоелектрана | thermal power plant | noun
+угаљ | coal | noun
+случај | case | noun
+смањење | reduction | noun
+емисија | of emissions | noun | емисија
+пуњења | of charging | noun | пуњење
+пуњење | charging; filling | noun
+бензин | petrol | noun
+резервоар | tank | noun
+пуњачима | (on) chargers | noun | пуњач
+пуњача | of chargers | noun | пуњач
+пуњач | charger | noun
+крајевима | (in) regions | noun | крај
+мрежа | network | noun
+возаче | drivers | noun | возач
+куповине | of buying | noun | куповина
+куповина | purchase, buying | noun
+технологија | technology | noun
+домет | range | noun
+истраживачи | researchers | noun | истраживач
+истраживач | researcher | noun
+саставе | compositions | noun | састав
+састав | composition | noun
+зависност | dependence | noun
+људима | (to) people | noun | човек
+обручи | hoops | noun | обруч
+обруч | hoop | noun
+мрежица | of nets | noun | мрежица
+зидовима | (on) walls | noun | зид
+зид | wall | noun
+дворишта | of yards | noun | двориште
+двориштима | (in) yards | noun | двориште
+теренима | (on) courts | noun | терен
+терена | of the court | noun | терен
+терен | court, pitch | noun
+солитера | of tower blocks | noun | солитер
+солитер | tower block | noun
+стубовима | (on) posts | noun | стуб
+стуб | post, pillar | noun
+светлост | light | noun
+лампи | of lamps | noun | лампа
+лампа | lamp | noun
+снег | snow | noun
+ентузијазам | enthusiasm | noun
+школе | schools | noun | школа
+кадар | staff | noun
+играче | players | noun | играч
+играчи | players | noun | играч
+играча | of players | noun | играч
+играч | player | noun
+тренери | coaches | noun | тренер
+тренер | coach | noun
+основама | (on the) basics | noun | основа
+основа | basis | noun
+додавању | (on) passing | noun | додавање
+додавање | passing | noun
+игри | (on) play | noun | игра
+лопте | of the ball | noun | лопта
+размишљању | (on) thinking | noun | размишљање
+размишљање | thinking | noun
+таленат | talent | noun
+дисциплина | discipline | noun
+спремност | readiness | noun
+интерес | interest | noun
+појединца | of the individual | noun | појединац
+појединац | individual | noun
+екипи | (to the) team | noun | екипа
+екипа | team | noun
+резултати | results | noun | резултат
+резултат | result | noun
+медаље | medals | noun | медаља
+медаља | medal | noun
+првенствима | (at) championships | noun | првенство
+првенство | championship | noun
+звезде | stars | noun | звезда
+сањаре | dreamers | noun | сањар
+сањар | dreamer | noun
+доказ | proof | noun
+радом | with work | noun | рад
+рад | work | noun
+игралишта | of the playground | noun | игралиште
+игралиште | playground | noun
+дворана | of halls | noun | дворана
+приче | of the story | noun | прича
+притисак | pressure | noun
+децу | children (object) | noun | деца
+родитељи | parents | noun | родитељ
+родитељ | parent | noun
+професионалце | professionals | noun | професионалац
+професионалац | professional | noun
+спорта | of sport | noun | спорт
+спорт | sport | noun
+одлазак | departure | noun
+лигу | league (object) | noun | лига
+лига | league | noun
+клубови | clubs | noun | клуб
+клуб | club | noun
+сезона | of seasons | noun | сезона
+генерација | of generations | noun | генерација
+кафанама | (in) taverns | noun | кафана
+кафана | kafana (traditional tavern) | noun
+повод | occasion, reason | noun
+славља | of celebration | noun | славље
+славље | celebration | noun
+утакмицу | match (object) | noun | утакмица
+утакмица | match, game | noun
+ритму | (in) rhythm | noun | ритам
+ритам | rhythm | noun
+долинама | (in) valleys | noun | долина
+долине | of the valley | noun | долина
+долина | valley | noun
+споменика | of monuments | noun | споменик
+врхунцу | (at the) peak | noun | врхунац
+врхунац | peak | noun
+моћ | power | noun
+владари | rulers | noun | владар
+владар | ruler | noun
+династије | of the dynasty | noun | династија
+династија | dynasty | noun
+градња | building | noun
+градње | of building | noun | градња
+задужбина | of endowments | noun | задужбина
+спас | salvation | noun
+душе | of the soul | noun | душа
+душа | soul | noun
+сећање | memory | noun
+мајком | (as) mother | noun | мајка
+црква | church | noun
+мермера | of marble | noun | мермер
+мермер | marble | noun
+сликарство | painting | noun
+истока | of the east | noun | исток
+исток | east | noun
+мешавина | mixture | noun
+утицаја | of influences | noun | утицај
+утицај | influence | noun
+обележја | of the features | noun | обележје
+обележје | feature, hallmark | noun
+раскршћу | (at the) crossroads | noun | раскршће
+раскршће | crossroads | noun
+аутори | authors | noun | аутор
+аутор | author | noun
+посетиоце | visitors | noun | посетилац
+анђела | of the angel | noun | анђео
+анђео | angel | noun
+гробу | (on the) grave | noun | гроб
+гроб | grave | noun
+женама | (to the) women | noun | жена
+ремек | ремек-дело = masterpiece | noun
+свемир | space (outer) | noun
+човечанство | humanity | noun
+цивилизацијама | (to) civilisations | noun | цивилизација
+цивилизација | civilisation | noun
+векови | centuries | noun | век
+здањима | (to) buildings | noun | здање
+здање | building, edifice | noun
+ратовима | (in) wars | noun | рат
+пожарима | (in) fires | noun | пожар
+пожар | fire (blaze) | noun
+земљотресима | (in) earthquakes | noun | земљотрес
+земљотрес | earthquake | noun
+кровова | of roofs | noun | кров
+кров | roof | noun
+конзерваторима | (to) conservators | noun | конзерватор
+конзерватор | conservator | noun
+наслеђа | of heritage | noun | наслеђе
+наслеђе | heritage | noun
+листи | (on the) list | noun | листа
+листа | list | noun
+баштине | of heritage | noun | баштина
+баштина | heritage | noun
+музеји | museums | noun | музеј
+већини | (in the) majority | noun | већина
+већина | majority | noun
+монаси | monks | noun | монах
+монах | monk | noun
+монахиње | nuns | noun | монахиња
+монахиња | nun | noun
+путнике | travellers | noun | путник
+путник | traveller | noun
+градитељи | builders | noun | градитељ
+градитељ | builder | noun
+местима | (in) places | noun | место
+тишини | (in) silence | noun | тишина
+тишина | silence | noun
+звона | bells | noun | звоно
+звоно | bell | noun
+брда | hills | noun | брдо
+брдо | hill | noun
+# adjectives
+нове | new | adjective | нов
+нових | new | adjective | нов
+електрични | electric | adjective | електричан
+половних | second-hand | adjective | половни
+половни | second-hand | adjective
+изнајмљене | rented | adjective | изнајмљен
+изнајмљен | rented | adjective
+позната | well-known | adjective | познат
+њихову | their | determiner | њихов
+изненадни | sudden | adjective | изненадан
+изненадан | sudden | adjective
+спремни | ready | adjective | спреман
+спреман | ready | adjective
+ризичног | venture (ризични капитал = venture capital) | adjective | ризичан
+ризичан | risky | adjective
+свакој | every | determiner | сваки
+наглог | sudden, rapid | adjective | нагао
+нагао | sudden, rapid | adjective
+стабилан | stable | adjective
+средњовековне | medieval | adjective | средњовековни
+средњовековни | medieval | adjective
+дванаестог | twelfth | adjective | дванаести
+дванаести | twelfth | adjective
+белог | white | adjective | бео
+богатих | rich | adjective | богат
+продатих | sold | adjective | продат
+продат | sold | adjective
+унутрашњим | internal | adjective | унутрашњи
+унутрашњи | internal | adjective
+сложенији | more complex | adjective | сложен
+највећа | biggest | adjective | велики
+издувне | exhaust (adj.) | adjective | издувни
+издувни | exhaust (adj.) | adjective
+тиши | quieter | adjective | тих
+пређеном | travelled, covered | adjective | пређен
+пређен | covered (distance) | adjective
+јефтинији | cheaper | adjective | јефтин
+јефтиније | cheaper | adjective | јефтин
+класичних | conventional, classic | adjective | класичан
+класичан | classic | adjective
+слабих | weak | adjective | слаб
+слаб | weak | adjective
+тешке | heavy, severe | adjective | тежак
+животну | living (животна средина = environment) | adjective | животни
+животни | life (adj.) | adjective
+еколошка | ecological | adjective | еколошки
+еколошки | ecological | adjective
+очекиваног | expected | adjective | очекиван
+очекиван | expected | adjective
+брзим | fast | adjective | брз
+развијена | developed | adjective | развијен
+развијен | developed | adjective
+хемијске | chemical | adjective | хемијски
+хемијски | chemical | adjective
+ретких | rare | adjective | редак
+редак | rare | adjective
+техничко | technical | adjective | технички
+технички | technical | adjective
+друштвено | social | adjective | друштвени
+друштвени | social | adjective
+планирани | planned | adjective | планиран
+планиран | planned | adjective
+ког | whichever (било ког = any) | pronoun | који
+школских | school (adj.) | adjective | школски
+школски | school (adj.) | adjective
+бетонским | concrete (adj.) | adjective | бетонски
+бетонски | concrete (adj.) | adjective
+дрвеним | wooden | adjective | дрвен
+дрвен | wooden | adjective
+сеоским | village (adj.), rural | adjective | сеоски
+сеоски | village (adj.), rural | adjective
+уличних | street (adj.) | adjective | улични
+улични | street (adj.) | adjective
+масовни | mass (adj.) | adjective
+педесетих | the fifties | adjective | педесети
+педесети | fiftieth | adjective
+шездесетих | the sixties | adjective | шездесети
+шездесети | sixtieth | adjective
+спортске | sports (adj.) | adjective | спортски
+спортски | sports (adj.) | adjective
+тренерски | coaching (adj.) | adjective
+изузетне | exceptional | adjective | изузетан
+изузетан | exceptional | adjective
+прецизном | precise | adjective | прецизан
+тимском | team (adj.) | adjective | тимски
+тимски | team (adj.) | adjective
+легендарни | legendary | adjective
+светским | world (adj.) | adjective | светски
+европским | European | adjective | европски
+европске | European | adjective | европски
+европски | European | adjective
+многе | many | determiner | многи
+младе | young | adjective | млад
+млади | young | adjective | млад
+млад | young | adjective
+упорним | persistent | adjective | упоран
+упоран | persistent | adjective
+блатњавог | muddy | adjective | блатњав
+блатњав | muddy | adjective
+блиставе | shiny, glamorous | adjective | блистав
+блистав | shiny | adjective
+амбициозни | ambitious | adjective | амбициозан
+амбициозан | ambitious | adjective
+будуће | future | adjective | будући
+будући | future | adjective
+разочарани | disappointed | adjective | разочаран
+разочаран | disappointed | adjective
+најталентованијих | most talented | adjective | талентован
+талентован | talented | adjective
+домаћу | domestic | adjective | домаћи
+домаћи | domestic, home | adjective
+заједнички | common, shared | adjective
+важну | important | adjective | важан
+централне | central | adjective | централни
+централни | central | adjective
+југозападне | south-western | adjective | југозападни
+југозападни | south-western | adjective
+главних | main | adjective | главни
+главни | main | adjective
+највреднијих | most valuable | adjective | вредан
+вредан | valuable | adjective
+петнаестог | fifteenth | adjective | петнаести
+петнаести | fifteenth | adjective
+српска | Serbian | adjective | српски
+српских | Serbian | adjective | српски
+српске | Serbian | adjective | српски
+трајно | lasting | adverb
+њена | her | determiner | њен
+романички | Romanesque | adjective
+византијско | Byzantine | adjective | византијски
+византијски | Byzantine | adjective
+најпознатије | best-known | adjective | познат
+њихови | their | determiner | њихов
+непознати | unknown | adjective | непознат
+непознат | unknown | adjective
+данашње | today's | adjective | данашњи
+данашњи | today's | adjective
+занимљиво | interesting | adjective | занимљив
+могућим | possible | adjective | могућ
+могућ | possible | adjective
+милостиви | merciful | adjective | милостив
+милостив | merciful | adjective
+овим | these | determiner | овај
+многа | many | determiner | многи
+нека | some | determiner | неки
+светске | world (adj.) | adjective | светски
+ови | these | determiner | овај
+којем | which (locative) | pronoun | који
+којима | which (plural, locative) | pronoun | који
+та | that (feminine) | determiner | тај
+
+# --- C2 stories ---
+вука | of Vuk | name | Вук
+вук | Vuk (name); wolf | name
+караџића | of Karadžić | name | Караџић
+караџић | Karadžić (Vuk Karadžić, language reformer) | name
+балкана | of the Balkans | name | Балкан
+балкан | the Balkans | name
+берлину | (in) Berlin | name | Берлин
+берлин | Berlin | name
+лисабону | (in) Lisbon | name | Лисабон
+лисабон | Lisbon | name
+б | B (letter) | noun
+# function words / adverbs
+нам | (to) us | pronoun | ми
+наше | our | determiner | наш
+нашим | our | determiner | наш
+нашег | of our | determiner | наш
+нашу | our | determiner | наш
+наш | our | determiner
+ових | of these | determiner | овај
+ова | this | determiner | овај
+управо | precisely, just | adverb
+постепено | gradually | adverb
+последњих | last, recent | adjective | последњи
+уместо | instead of | preposition
+ретко | rarely | adverb
+нарочито | especially | adverb
+онако | that way, as | adverb
+парадоксално | paradoxically | adverb
+коме | which (у коме = in which) | pronoun | који
+којих | which (genitive plural) | pronoun | који
+сасвим | quite, completely | adverb
+заиста | really, indeed | adverb
+онога | that (из онога што = from what) | pronoun | оно
+ни | not even; nor | particle
+нити | nor | conjunction
+међутим | however | adverb
+намерно | deliberately | adverb
+час | now… now (час једним, час другим); hour | adverb
+оба | both | numeral
+пошто | since, because | conjunction
+свако | everyone, anyone | pronoun
+кад | when | conjunction | када
+ким | whom | pronoun | ко
+над | over, above | preposition
+бар | at least | adverb
+нечега | of something | pronoun | нешто
+међусобно | mutually | adverb
+брже | faster | adverb
+посебно | especially | adverb
+релативно | relatively | adverb
+попут | like | preposition
+прецизно | precisely | adverb
+# verbs
+пише | writes; is written (пише се) | verb | писати
+писати | to write | verb
+напише | writes | verb | написати
+тврде | claim | verb | тврдити
+тврдити | to claim | verb
+придружује | joins (придружује се) | verb | придруживати
+придруживати | to join | verb
+видимо | we see | verb | видети
+устанемо | we get up | verb | устати
+одлучио | decided | verb | одлучити
+прочитати | to read | verb
+свирати | to play (music) | verb
+доручкујемо | we have breakfast | verb | доручковати
+доручковати | to have breakfast | verb
+учинити | to seem (учинити се); to do | verb
+учини | seems (учини се) | verb | учинити
+раде | work, do | verb | радити
+застанемо | we stop | verb | застати
+застати | to stop, to pause | verb
+размислимо | (we) think about | verb | размислити
+размислити | to think over | verb
+лежи | lies | verb | лежати
+лежати | to lie | verb
+штеде | save | verb | штедети
+штедети | to save | verb
+суочени | faced (with) | verb | суочити
+суочити | to confront | verb
+обележава | marks | verb | обележавати
+обележавати | to mark | verb
+филтрира | filters | verb | филтрирати
+филтрирати | to filter | verb
+разврстава | sorts | verb | разврставати
+разврставати | to sort | verb
+рангира | ranks | verb | рангирати
+рангирати | to rank | verb
+одрећи | to give up (одрећи се) | verb
+умеју | are able to | verb | умети
+уме | can, knows how to | verb | умети
+предвиде | predict | verb | предвидети
+предвидели | predict | verb | предвидети
+предвидети | to predict | verb
+настаје | arises | verb | настајати
+настајати | to arise | verb
+пређе | turns (into) | verb | прећи
+уче | learn | verb | учити
+урадили | did | verb | урадити
+урадити | to do | verb
+учвршћују | reinforce | verb | учвршћивати
+учвршћивати | to reinforce | verb
+покажемо | (we) show | verb | показати
+нудиће | will be offered (нудиће се) | verb | нудити
+нудити | to offer | verb
+нуди | offers | verb | нудити
+потврђују | confirm | verb | потврђивати
+потврђивати | to confirm | verb
+даје | gives | verb | давати
+давати | to give | verb
+престајемо | we stop | verb | престајати
+наилазимо | we come across | verb | наилазити
+наилазити | to come across | verb
+узнемирава | disturbs | verb | узнемиравати
+узнемиравати | to disturb | verb
+могло | could | verb | моћи
+могле | could | verb | моћи
+могао | could | verb | моћи
+натера | forces | verb | натерати
+натерати | to force | verb
+предомислимо | (we) change our mind | verb | предомислити
+предомислити | to change one's mind | verb
+објасне | explain | verb | објаснити
+доносе | make (decisions); bring | verb | доносити
+делује | seems | verb | деловати
+деловао | seemed | verb | деловати
+деловати | to seem; to act | verb
+поновити | to repeat | verb
+добија | gets, acquires | verb | добијати
+добијати | to get | verb
+смемо | we may | verb | смети
+сме | may, is allowed | verb | смети
+смети | to be allowed, to dare | verb
+занемарити | to neglect, to ignore | verb
+постојала | existed | verb | постојати
+сачувамо | (we) preserve | verb | сачувати
+прети | threatens | verb | претити
+претити | to threaten | verb
+закржља | wither away | verb | закржљати
+закржљати | to wither, to atrophy | verb
+запитамо | (we) ask ourselves | verb | запитати
+запитати | to ask (запитати се = to wonder) | verb
+тражимо | (we) look for | verb | тражити
+тражити | to look for | verb
+противречи | contradicts | verb | противречити
+противречити | to contradict | verb
+захтевамо | (we) demand | verb | захтевати
+преиспитати | to re-examine | verb
+замени | replaces | verb | заменити
+заменити | to replace | verb
+допуни | complements | verb | допунити
+допунити | to complement | verb
+дођу | come | verb | доћи
+исписан | written | verb | исписати
+исписати | to write out | verb
+излазе | come out | verb | излазити
+излазити | to come out | verb
+штампан | printed | verb | штампати
+штампати | to print | verb
+сежу | reach | verb | сезати
+сезати | to reach | verb
+настала | arose | verb | настати
+продирала | penetrated | verb | продирати
+продирати | to penetrate | verb
+продубиле | deepened | verb | продубити
+продубити | to deepen | verb
+створила | created | verb | створити
+омогућила | made possible | verb | омогућити
+омогућити | to make possible | verb
+преноси | is transferred (преноси се) | verb | преносити
+преносити | to transfer | verb
+прелази | moves over | verb | прелазити
+прелазити | to cross, to switch | verb
+потисне | suppress | verb | потиснути
+потиснути | to suppress | verb
+прописује | prescribes | verb | прописивати
+прописивати | to prescribe | verb
+сматрају | consider | verb | сматрати
+креће | moves (креће се) | verb | кретати
+кретати | to move | verb
+придајући | attaching (importance) | verb | придавати
+придавати | to attach (importance) | verb
+преламају | intersect, are refracted | verb | преламати
+преламати | to refract; to break | verb
+налепи | sticks up | verb | налепити
+налепити | to stick | verb
+одштампа | prints | verb | одштампати
+одштампати | to print | verb
+бира | chooses | verb | бирати
+изоставља | leaves out | verb | изостављати
+изостављати | to leave out | verb
+одвија | takes place (одвија се) | verb | одвијати
+одвијати | to take place (одвијати се) | verb
+склапају | are made (deals) | verb | склапати
+склапати | to make (a deal); to put together | verb
+мире | reconcile | verb | мирити
+мирити | to reconcile | verb
+прослављају | celebrate | verb | прослављати
+прослављати | to celebrate | verb
+испраћају | see off | verb | испраћати
+испраћати | to see off | verb
+испричати | to tell (a story) | verb
+појавиле | appeared | verb | појавити
+појавити | to appear | verb
+служила | was served | verb | служити
+служи | serves | verb | служити
+служити | to serve | verb
+пушио | was smoked | verb | пушити
+пушити | to smoke | verb
+разговарало | was talked about | verb | разговарати
+разговарати | to talk | verb
+постале | became | verb | постати
+рађале | were born | verb | рађати
+рађати | to be born (рађати се) | verb
+имали | had | verb | имати
+памти | remembers | verb | памтити
+зна | knows | verb | знати
+осећа | feels | verb | осећати
+осећати | to feel | verb
+наручи | orders | verb | наручити
+наручити | to order | verb
+подсетити | to remind | verb
+заврши | ends | verb | завршити
+затворене | closed | verb | затворити
+изгледају | look | verb | изгледати
+опстале | survived | verb | опстати
+опстати | to survive | verb
+привлаче | attract | verb | привлачити
+привлачити | to attract | verb
+излаже | exposes | verb | излагати
+излагати | to expose | verb
+постану | become | verb | постати
+окупљају | gather | verb | окупљати
+окупљати | to gather | verb
+мери | is measured (мери се) | verb | мерити
+мерити | to measure | verb
+летовао | spent the summer | verb | летовати
+летовати | to spend the summer | verb
+примети | notice | verb | приметити
+приметити | to notice | verb
+пресушују | dry up | verb | пресушивати
+пресушивати | to dry up | verb
+упозоравају | warn | verb | упозоравати
+упозоравати | to warn | verb
+кружи | circulates | verb | кружити
+кружити | to circulate | verb
+донела | brought | verb | донети
+стигне | manages (in time) | verb | стићи
+упије | absorb | verb | упити
+упити | to absorb | verb
+отиче | runs off | verb | отицати
+отицати | to drain away | verb
+узрокује | causes | verb | узроковати
+узроковати | to cause | verb
+прихрањује | replenishes | verb | прихрањивати
+прихрањивати | to replenish | verb
+значе | mean | verb | значити
+значити | to mean | verb
+функционишу | function | verb | функционисати
+отпуштају | release | verb | отпуштати
+отпуштати | to release | verb
+мења | changes | verb | мењати
+мењати | to change | verb
+убрзава | speeds up | verb | убрзавати
+убрзавати | to speed up | verb
+исцрпљује | depletes | verb | исцрпљивати
+исцрпљивати | to deplete | verb
+обнављају | are renewed (обнављају се) | verb | обнављати
+захватају | take in | verb | захватати
+захватати | to take in, to draw | verb
+остављајући | leaving | verb | остављати
+трпи | suffers | verb | трпети
+трпе | suffer | verb | трпети
+трпети | to suffer, to bear | verb
+смањи | decreases (смањи се) | verb | смањити
+угрожава | threatens | verb | угрожавати
+угрожавати | to endanger | verb
+губе | lose | verb | губити
+погађа | affects | verb | погађати
+погађати | to affect; to guess | verb
+изразити | to express | verb
+наглашавају | emphasise | verb | наглашавати
+наглашавати | to emphasise | verb
+постоје | exist | verb | постојати
+задржавају | retain | verb | задржавати
+задржавати | to retain, to hold | verb
+преокрену | reverse | verb | преокренути
+преокренути | to reverse | verb
+подсећају | remind | verb | подсећати
+спроводи | conducts | verb | спроводити
+спроводити | to conduct, to carry | verb
+дозволи | allows | verb | дозволити
+дозволити | to allow | verb
+опорави | recovers (опорави се) | verb | опоравити
+опоравити | to recover | verb
+# nouns
+кафане | taverns; of the tavern | noun | кафана
+писма | scripts; of the script | noun | писмо
+система | of systems | noun | систем
+песме | songs | noun | песма
+песму | song (object) | noun | песма
+песмом | (for a) song | noun | песма
+песама | of songs | noun | песма
+песмама | (with) songs | noun | песма
+песма | song; poem | noun
+доба | era, age | noun
+потрази | (in) search | noun | потрага
+потрага | search | noun
+способност | ability | noun
+јеловник | menu | noun
+двојности | of duality | noun | двојност
+двојност | duality | noun
+ћирилица | Cyrillic | noun
+ћирилицом | in Cyrillic | noun | ћирилица
+ћирилицу | Cyrillic (object) | noun | ћирилица
+латиница | Latin script | noun
+латиницом | in Latin script | noun | латиница
+суштина | essence | noun
+корита | riverbeds | noun | корито
+корито | riverbed | noun
+лета | of summer | noun | лето
+лето | summer | noun
+шљунка | of gravel | noun | шљунак
+шљунак | gravel | noun
+наводњавање | irrigation | noun
+тачке | point; of the point | noun | тачка
+кревета | of the bed | noun | кревет
+низ | series | noun
+алгоритама | of algorithms | noun | алгоритам
+алгоритам | algorithm | noun
+алгоритми | algorithms | noun | алгоритам
+ефикасношћу | with efficiency | noun | ефикасност
+ефикасност | efficiency | noun
+дискретношћу | with discretion | noun | дискретност
+дискретност | discretion | noun
+заговорници | advocates | noun | заговорник
+заговорник | advocate | noun
+разлога | of reason | noun | разлог
+разлог | reason | noun
+напор | effort | noun
+напора | of effort | noun | напор
+преобиљем | with overabundance | noun | преобиље
+преобиље | overabundance | noun
+алата | of tools | noun | алат
+алат | tool | noun
+склоности | preferences | noun | склоност
+склоност | inclination, preference | noun
+претраживању | (to) searching | noun | претраживање
+претраживање | searching | noun
+полица | shelf; (of) shelves | noun
+плочама | (with) records | noun | плоча
+плоча | record; plate | noun
+удобност | comfort, convenience | noun
+затвореност | closedness, confinement | noun
+ставове | views | noun | став
+став | view, attitude | noun
+интересовање | interest | noun
+становиште | standpoint | noun
+становишта | of standpoints | noun | становиште
+садржаја | of content | noun | садржај
+садржај | content | noun
+манипулација | manipulation | noun
+осиромашење | impoverishment | noun
+непрозирности | of opacity | noun | непрозирност
+непрозирност | opacity | noun
+творци | creators | noun | творац
+творац | creator | noun
+одлуку | decision (object) | noun | одлука
+питању | (in) question | noun | питање
+одобравању | (on) approving | noun | одобравање
+одобравање | approval | noun
+избору | (on the) choice | noun | избор
+избор | choice | noun
+кандидата | of candidates | noun | кандидат
+кандидат | candidate | noun
+процени | (on) assessment | noun | процена
+процена | assessment | noun
+ризика | of risk | noun | ризик
+осуђеник | convict | noun
+дело | deed (кривично дело = crime); work | noun
+недостатак | lack | noun
+транспарентности | of transparency | noun | транспарентност
+транспарентност | transparency | noun
+тежину | weight (object) | noun | тежина
+тежина | weight | noun
+демонизовању | (about) demonising | noun | демонизовање
+демонизовање | demonising | noun
+технологије | of technology | noun | технологија
+чежњи | (about) longing | noun | чежња
+чежња | longing | noun
+прошлошћу | (for the) past | noun | прошлост
+прошлости | of the past | noun | прошлост
+прошлост | the past | noun
+сумње | of doubt | noun | сумња
+сумња | doubt | noun
+уверењима | (to) beliefs | noun | уверење
+уверење | belief | noun
+изазов | challenge | noun
+старање | care, seeing to it | noun
+интелигенција | intelligence | noun
+странци | foreigners | noun | странац
+странцу | (to a) foreigner | noun | странац
+странац | foreigner | noun
+назив | name, title | noun
+табли | (on the) sign | noun | табла
+трафици | (at the) kiosk | noun | трафика
+трафика | kiosk | noun
+ресторану | (in the) restaurant | noun | ресторан
+ресторан | restaurant | noun
+расправа | of debates | noun | расправа
+корени | roots | noun | корен
+корен | root | noun
+кругу | (in the) circle | noun | круг
+кругови | circles | noun | круг
+круг | circle | noun
+ученика | of disciples, pupils | noun | ученик
+просветитеља | of enlighteners | noun | просветитељ
+просветитељ | enlightener, educator | noun
+аката | of documents | noun | акт
+акт | act, document | noun
+западом | (with the) West | noun | запад
+народима | (with) peoples | noun | народ
+народ | people, nation | noun
+реформа | reform | noun
+азбуку | alphabet (object) | noun | азбука
+азбука | alphabet | noun
+гласу | (to a) sound | noun | глас
+гласова | of sounds | noun | глас
+глас | sound; voice | noun
+слово | letter | noun
+пресликавања | mappings | noun | пресликавање
+пресликавање | mapping | noun
+текст | text | noun
+лакоћа | ease | noun
+устав | constitution | noun
+статус | status | noun
+употреби | (in) use | noun | употреба
+употреба | use | noun
+интернету | (on the) internet | noun | интернет
+интернетом | with internet | noun | интернет
+интернет | internet | noun
+рекламама | (in) adverts | noun | реклама
+реклама | advert | noun
+комуникацији | (in) communication | noun | комуникација
+комуникација | communication | noun
+симбол | symbol | noun
+идентитета | of identity | noun | идентитет
+идентитет | identity | noun
+континуитета | of continuity | noun | континуитет
+континуитет | continuity | noun
+нестајања | of disappearing | noun | нестајање
+нестајање | disappearance | noun
+двоазбучности | (in) using two alphabets | noun | двоазбучност
+двоазбучност | use of two alphabets | noun
+начина | ways | noun | начин
+начину | (in the) way | noun | начин
+богатством | (as) wealth | noun | богатство
+богатство | wealth, richness | noun
+претњом | (as a) threat | noun | претња
+говорника | of speakers | noun | говорник
+говорник | speaker | noun
+пракси | (in) practice | noun | пракса
+пракса | practice | noun
+значење | meaning | noun
+лекција | lesson | noun
+запис | record | noun
+политика | politics | noun
+натпис | sign, inscription | noun
+визиткарту | business card (object) | noun | визиткарта
+визиткарта | business card | noun
+страну | side (object) | noun | страна
+разговору | (in the) conversation | noun | разговор
+превод | translation | noun
+крчма | inn | noun
+послови | deals; jobs | noun | посао
+рођења | births | noun | рођење
+рођење | birth | noun
+покојници | the deceased | noun | покојник
+покојник | deceased person | noun
+власти | of rule, authority | noun | власт
+власт | rule, authority | noun
+дуван | tobacco | noun
+вестима | (about) news | noun | вест
+средишта | centres | noun | средиште
+средиште | centre | noun
+странке | parties | noun | странка
+странка | party (political) | noun
+завере | conspiracies | noun | завера
+завера | conspiracy | noun
+песници | poets | noun | песник
+песник | poet | noun
+сликари | painters | noun | сликар
+сликар | painter | noun
+атељеу | (in the) studio | noun | атеље
+атеље | studio | noun
+роштиљ | barbecue, grill | noun
+чорбе | soups | noun | чорба
+чорба | soup | noun
+пасуљ | bean stew | noun
+салата | salad | noun
+парадајза | of tomatoes | noun | парадајз
+краставаца | of cucumbers | noun | краставац
+краставац | cucumber | noun
+ракија | rakija (fruit brandy) | noun
+увод | introduction | noun
+јелу | (in the) food | noun | јело
+јело | dish, food | noun
+кафеџија | tavern keeper | noun
+гости | guests | noun | гост
+гостију | of guests | noun | гост
+гост | guest | noun
+туру | round (of drinks) | noun | тура
+тура | round | noun
+друштво | company; society | noun
+миру | (in) peace | noun | мир
+мир | peace | noun
+позадина | background | noun
+вечери | of the evening | noun | вече
+вече | evening | noun
+младост | youth | noun
+сузама | (in) tears | noun | суза
+суза | tear | noun
+кафићи | cafés | noun | кафић
+кафић | café | noun
+ланци | chains | noun | ланац
+ланац | chain | noun
+објекти | premises | noun | објекат
+објекат | premises, facility | noun
+ход | march, course | noun
+туристе | tourists | noun | туриста
+туриста | tourist | noun
+аутентичношћу | (for) authenticity | noun | аутентичност
+аутентичност | authenticity | noun
+опасности | (to) danger | noun | опасност
+опасност | danger | noun
+сценографија | stage set | noun
+зграду | building (object) | noun | зграда
+зграда | building | noun
+журбе | of hurry | noun | журба
+журба | hurry | noun
+екраном | (over the) screen | noun | екран
+чашама | (in) glasses | noun | чаша
+причама | (in) stories | noun | прича
+минутима | (in) minutes | noun | минут
+призор | sight, scene | noun
+мештанима | (to) locals | noun | мештанин
+мештанин | local inhabitant | noun
+средином | (in the) middle | noun | средина
+камење | stones | noun
+алгама | (with) algae | noun | алга
+алга | alga | noun
+рибе | fish (plural) | noun | риба
+риба | fish | noun
+вировима | (in) pools | noun | вир
+хидролози | hydrologists | noun | хидролог
+хидролог | hydrologist | noun
+појаве | phenomena | noun | појава
+симптоми | symptoms | noun | симптом
+симптом | symptom | noun
+предео | landscape | noun
+узроци | causes | noun | узрок
+узрок | cause | noun
+климе | of climate | noun | клима
+периоде | periods | noun | период
+падавина | of rainfall | noun | падавине
+падавине | precipitation | noun
+пљускове | downpours | noun | пљусак
+пљусак | downpour | noun
+земљиште | soil, ground | noun
+поплаве | floods | noun | поплава
+поплава | flood | noun
+изворе | springs, sources | noun | извор
+извор | spring, source | noun
+снега | of snow | noun | снег
+планине | mountains | noun | планина
+резервоари | reservoirs | noun | резервоар
+топљењем | by melting | noun | топљење
+топљење | melting | noun
+пролећа | of spring | noun | пролеће
+пролеће | spring | noun
+деловање | activity, action | noun
+вађење | extraction | noun
+вађења | of extraction | noun | вађење
+ерозију | erosion (object) | noun | ерозија
+ерозија | erosion | noun
+пољопривреди | (in) agriculture | noun | пољопривреда
+пољопривреда | agriculture | noun
+годинама | (in) years | noun | година
+хидроелектране | hydroelectric plants | noun | хидроелектрана
+потоцима | (on) streams | noun | поток
+проток | flow | noun
+природа | nature | noun
+водостај | water level | noun
+материја | of substances | noun | материја
+снабдевање | supply | noun
+општинама | (in) municipalities | noun | општина
+општина | municipality | noun
+пољопривредници | farmers | noun | пољопривредник
+пољопривредник | farmer | noun
+губитке | losses | noun | губитак
+рибарство | fishing | noun
+туризам | tourism | noun
+селима | (in) villages | noun | село
+основу | basis (object) | noun | основа
+опстанак | survival | noun
+бројкама | (in) figures | noun | бројка
+бројка | figure, number | noun
+везу | link (object) | noun | веза
+везе | links, ties | noun | веза
+веза | link, tie | noun
+местом | (with a) place | noun | место
+обичаје | customs | noun | обичај
+обичај | custom | noun
+успомене | memories | noun | успомена
+успомена | memory | noun
+решења | solutions | noun | решење
+решење | solution | noun
+истрајност | perseverance | noun
+сарадњу | collaboration (object) | noun | сарадња
+обнављање | restoration | noun
+мочвара | of wetlands | noun | мочвара
+подручја | of areas | noun | подручје
+подручје | area | noun
+сунђера | of a sponge | noun | сунђер
+сунђер | sponge | noun
+контрола | control | noun
+изворишта | of water sources | noun | извориште
+извориште | water source | noun
+мера | of measures | noun | мера
+тренд | trend | noun
+канал | canal, channel | noun
+# adjectives
+њихова | their | determiner | њихов
+значајан | significant | adjective
+одређену | certain, specific | adjective | одређен
+одређено | certain, specific | adjective | одређен
+одређен | certain, specific | adjective
+политичке | political | adjective | политички
+политички | political | adjective
+подземне | underground | adjective | подземни
+подземни | underground | adjective
+неопходним | necessary, essential | adjective | неопходан
+неопходно | necessary | adjective | неопходан
+неопходан | necessary | adjective
+задивљујућом | amazing | adjective | задивљујући
+задивљујући | amazing | adjective
+већом | greater | adjective | велики
+апсурдно | absurd | adjective | апсурдан
+апсурдан | absurd | adjective
+самих | ourselves; themselves | pronoun | сам
+склони | inclined | adjective | склон
+склон | inclined, prone | adjective
+формиране | formed | adjective | формиран
+формиран | formed | adjective
+намерна | deliberate | adjective | намеран
+намеран | deliberate | adjective
+сложени | complex | adjective | сложен
+безазлено | harmless | adjective | безазлен
+безазлен | harmless | adjective
+кривично | criminal | adjective | кривичан
+кривичан | criminal | adjective
+идеализованом | idealised | adjective | идеализован
+идеализован | idealised | adjective
+аутоматизоване | automated | adjective | аутоматизован
+аутоматизован | automated | adjective
+највећи | biggest | adjective | велики
+паметнијих | smarter | adjective | паметан
+збуњени | confused | adjective | збуњен
+збуњен | confused | adjective
+суседној | neighbouring | adjective | суседни
+суседни | neighbouring | adjective
+оваквој | this kind of | adjective | овакав
+овакав | such, like this | adjective
+страствених | passionate | adjective | страствен
+страствен | passionate | adjective
+деветом | ninth | adjective | девети
+девети | ninth | adjective
+словенских | Slavic | adjective | словенски
+словенски | Slavic | adjective
+црквених | church (adj.) | adjective | црквени
+црквени | church (adj.) | adjective
+државних | state (adj.) | adjective | државни
+државни | state (adj.) | adjective
+језички | linguistic | adjective
+деветнаестом | nineteenth | adjective | деветнаести
+деветнаестог | nineteenth | adjective | деветнаести
+деветнаести | nineteenth | adjective
+културне | cultural | adjective | културни
+културни | cultural | adjective
+осталим | other | adjective | остали
+јужнословенским | South Slavic | adjective | јужнословенски
+јужнословенски | South Slavic | adjective
+сваком | every | determiner | сваки
+латинична | Latin-script | adjective | латинични
+латинични | Latin-script | adjective
+механички | mechanically | adverb
+упорном | persistent | adjective | упоран
+практичне | practical | adjective | практичан
+практичан | practical | adjective
+службено | official | adjective | службен
+службен | official | adjective
+широкој | wide | adjective | широк
+широк | wide | adjective
+свакодневној | everyday | adjective | свакодневни
+свакодневни | everyday | adjective
+дигиталној | digital | adjective | дигитални
+дигитални | digital | adjective
+постепеног | gradual | adjective | постепен
+постепен | gradual | adjective
+згодније | more convenient | adjective | згодан
+згодан | convenient; handsome | adjective
+дубље | deeper | adjective | дубок
+дубљих | deeper | adjective | дубок
+најзанимљивија | most interesting | adjective | занимљив
+најједноставнији | simplest | adjective | једноставан
+суштинско | essential | adjective | суштински
+суштински | essential | adjective
+друштвеног | social | adjective | друштвени
+завађени | quarrelling people | adjective | завађен
+завађен | at odds | adjective
+османске | Ottoman | adjective | османски
+османски | Ottoman | adjective
+градског | urban, city (adj.) | adjective | градски
+градски | city (adj.) | adjective
+некима | some | determiner | неки
+књижевни | literary | adjective
+кафанским | tavern (adj.) | adjective | кафански
+кафански | tavern (adj.) | adjective
+традиционалне | traditional | adjective | традиционалан
+традиционалан | traditional | adjective
+једноставна | simple | adjective | једноставан
+издашна | generous, hearty | adjective | издашан
+издашан | generous, hearty | adjective
+свежа | fresh | adjective | свеж
+свеж | fresh | adjective
+неизбежна | inevitable | adjective | неизбежан
+неизбежан | inevitable | adjective
+истим | same | adjective | исти
+саставни | integral | adjective
+старе | old | adjective | стари
+брзе | fast | adjective | брз
+угоститељски | catering, hospitality (adj.) | adjective
+незаменљивог | irreplaceable | adjective | незаменљив
+незаменљив | irreplaceable | adjective
+ретке | rare | adjective | редак
+сопствене | one's own | adjective | сопствен
+сопствен | own | adjective
+везана | tied, linked | adjective | везан
+везан | tied | adjective
+старијим | older | adjective | стари
+незамисливо | unimaginable | adjective | незамислив
+незамислив | unimaginable | adjective
+прекривено | covered | adjective | прекривен
+прекривен | covered | adjective
+засушеним | dried-up | adjective | засушен
+засушен | dried | adjective
+збијене | crowded | adjective | збијен
+збијен | crowded, packed | adjective
+преосталог | remaining | adjective | преостао
+преостао | remaining | adjective
+изоловане | isolated | adjective | изолован
+изолован | isolated | adjective
+вишеструки | multiple | adjective | вишеструк
+вишеструк | multiple | adjective
+испреплетани | intertwined | adjective | испреплетан
+испреплетан | intertwined | adjective
+топлије | warmer | adjective | топао
+интензивније | more intense | adjective | интензиван
+интензиван | intense | adjective
+природни | natural | adjective
+људско | human | adjective | људски
+људски | human | adjective
+неконтролисано | uncontrolled | adjective | неконтролисан
+неконтролисан | uncontrolled | adjective
+речних | river (adj.) | adjective | речни
+речни | river (adj.) | adjective
+сушним | dry, drought (adj.) | adjective | сушни
+сушни | drought (adj.) | adjective
+спорна | contentious | adjective | споран
+споран | contentious | adjective
+планинским | mountain (adj.) | adjective | планински
+планински | mountain (adj.) | adjective
+целокупан | entire | adjective
+суво | dry | adjective | сув
+загађујућих | polluting | adjective | загађујући
+загађујући | polluting | adjective
+пијаћом | drinking (adj.) | adjective | пијаћи
+пијаћи | drinking (adj.) | adjective
+приобалним | riverside, coastal | adjective | приобални
+приобални | riverside, coastal | adjective
+плавних | flood (adj.) | adjective | плавни
+плавни | flood (adj.) | adjective
+строжа | stricter | adjective | строг
+строг | strict | adjective
+рационалније | more rational | adjective | рационалан
+рационалан | rational | adjective
+жив | living, alive | adjective
+њихове | their | determiner | њихов
+улице | of the street | noun | улица
