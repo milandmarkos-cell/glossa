@@ -6,6 +6,7 @@ import { FinishPage } from './pages/FinishPage.tsx';
 import { LibraryPage } from './pages/LibraryPage.tsx';
 import { StudyPage } from './pages/StudyPage.tsx';
 import { FlashcardsPage } from './pages/FlashcardsPage.tsx';
+import { GamePage } from './pages/GamePage.tsx';
 
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
             <Route path="/library" element={<LibraryPage />} />
             <Route path="/study" element={<StudyPage />} />
             <Route path="/study/flashcards" element={<FlashcardsPage />} />
+            <Route path="/study/:game" element={<GamePage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
