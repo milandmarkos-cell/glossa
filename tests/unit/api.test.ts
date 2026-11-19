@@ -2,17 +2,17 @@ import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import type { AddressInfo } from 'node:net';
 import type { Server } from 'node:http';
 import { openDb } from '../../src/server/db.ts';
-import { seedSamples } from '../../src/server/seed.ts';
 import { createApp } from '../../src/server/app.ts';
-import { createTranslator } from '../../src/server/services/claude.ts';
+import { loadContent, syncStories } from '../../src/server/content.ts';
 
 let server: Server;
 let base: string;
 const db = openDb(':memory:');
+const content = loadContent('tests/fixtures/content');
 
 beforeAll(async () => {
-  seedSamples(db);
-  server = createApp(db, { translator: createTranslator(db, null), model: 'test' }).listen(0);
+  syncStories(db, content.stories);
+  server = createApp(db, { content }).listen(0);
   await new Promise((r) => server.once('listening', r));
   base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
 });
@@ -24,23 +24,28 @@ const api = async (path: string, init?: RequestInit) => {
 };
 
 describe('API', () => {
-  it('seeds sample texts idempotently, each with source and license', async () => {
-    expect(seedSamples(db)).toBe(0);
+  it('lists bundled stories, each with source and license', async () => {
     const { body } = await api('/api/texts');
-    expect(body.length).toBeGreaterThanOrEqual(3);
+    expect(body).toHaveLength(2);
     for (const t of body) {
-      expect(t.license).toBeTruthy();
+      expect(t.sourceType).toBe('story');
+      expect(t.license).toMatch(/CC0/);
       expect(t.sourceName).toBeTruthy();
     }
-    expect(new Set(body.map((t: { language: string }) => t.language))).toEqual(new Set(['es', 'sr', 'ja', 'ar']));
+    expect((await api('/api/languages')).body).toEqual([
+      { code: 'es', stories: 1 },
+      { code: 'sr', stories: 1 },
+    ]);
   });
 
-  it('filters by language and returns detail with body', async () => {
-    const { body: list } = await api('/api/texts?language=ja');
+  it('returns text detail with a glossary covering its words and their lemmas', async () => {
+    const { body: list } = await api('/api/texts?language=es');
     expect(list).toHaveLength(1);
     const { body: detail } = await api(`/api/texts/${list[0].id}`);
-    expect(detail.body).toContain('公園');
-    expect(detail.wordCount).toBeGreaterThan(20);
+    expect(detail.body).toContain('Lucía come');
+    expect(detail.glossary.come).toEqual({ translation: 'eats', pos: 'verb', lemma: 'comer' });
+    expect(detail.glossary.comer.translation).toBe('to eat');
+    expect(detail.glossary.lucia).toBeUndefined();
   });
 
   it('accepts pasted text and dedupes identical content', async () => {
@@ -49,6 +54,7 @@ describe('API', () => {
     expect(a.status).toBe(201);
     expect(a.body.sourceType).toBe('user');
     expect(a.body.license).toMatch(/Personal use/);
+    expect(a.body.glossary).toEqual({}); // no Spanish fixture entry for hola/mundo
     const b = await api('/api/texts', { method: 'POST', body: JSON.stringify({ ...payload, body: 'Hola mundo.\n\nSegundo  párrafo.' }) });
     expect(b.status).toBe(200);
     expect(b.body.id).toBe(a.body.id);
@@ -69,7 +75,7 @@ describe('API', () => {
     expect(body.reader.lineHeight).toBe(1.8);
   });
 
-  it('reports AI disabled without a key', async () => {
-    expect((await api('/api/health')).body).toEqual({ ok: true, ai: false, model: null });
+  it('health check', async () => {
+    expect((await api('/api/health')).body).toEqual({ ok: true });
   });
 });

@@ -1,6 +1,6 @@
 import type {
   NewTextInput, SavedKey, SaveWordsRequest, SaveWordsResult, Settings, SettingsPatch, TextDetail, TextSummary,
-  TranslateItem, TranslateResponse, Word, WordPatch, WordStatus,
+  LanguageInfo, Word, WordPatch, WordStatus,
 } from '../../shared/types.ts';
 
 export class ApiError extends Error {
@@ -21,7 +21,8 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 export const api = {
-  health: () => request<{ ok: boolean; ai: boolean; model: string | null }>('/api/health'),
+  health: () => request<{ ok: boolean }>('/api/health'),
+  languages: () => request<LanguageInfo[]>('/api/languages'),
   texts: (language?: string) =>
     request<TextSummary[]>(`/api/texts${language ? `?language=${encodeURIComponent(language)}` : ''}`),
   text: (id: number) => request<TextDetail>(`/api/texts/${id}`),
@@ -30,8 +31,6 @@ export const api = {
   saveSettings: (patch: SettingsPatch) =>
     request<Settings>('/api/settings', { method: 'PUT', body: JSON.stringify(patch) }),
   savedKeys: (language: string) => request<SavedKey[]>(`/api/words/keys?language=${encodeURIComponent(language)}`),
-  translate: (language: string, words: TranslateItem[]) =>
-    request<TranslateResponse>('/api/translate', { method: 'POST', body: JSON.stringify({ language, words }) }),
   lookupWords: (language: string, keys: string[]) =>
     request<Word[]>('/api/words/lookup', { method: 'POST', body: JSON.stringify({ language, keys }) }),
   saveWords: (req: SaveWordsRequest) => request<SaveWordsResult>('/api/words/batch', { method: 'POST', body: JSON.stringify(req) }),

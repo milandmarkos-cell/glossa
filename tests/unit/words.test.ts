@@ -1,65 +1,10 @@
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import type { AddressInfo } from 'node:net';
 import type { Server } from 'node:http';
-import Anthropic from '@anthropic-ai/sdk';
 import { openDb } from '../../src/server/db.ts';
-import { seedSamples } from '../../src/server/seed.ts';
 import { createApp } from '../../src/server/app.ts';
-import { createTranslator, describeAiError, type BatchTranslateFn } from '../../src/server/services/claude.ts';
+import { loadContent, syncStories } from '../../src/server/content.ts';
 import { boldContext } from '../../src/server/repo/words.ts';
-
-describe('translator (batched, cached)', () => {
-  const calls: number[] = [];
-  const fake: BatchTranslateFn = async ({ items }) => {
-    calls.push(items.length);
-    return { items: items.map((it, index) => ({ index, translation: `T(${it.surface})`, pos: 'noun', lemma: it.surface.toLowerCase() })) };
-  };
-
-  it('translates in one call, then serves from cache', async () => {
-    const db = openDb(':memory:');
-    const t = createTranslator(db, fake);
-    calls.length = 0;
-    const items = [
-      { surface: 'casa', sentence: 'La casa es grande.' },
-      { surface: 'gato', sentence: 'El gato duerme.' },
-    ];
-    const a = await t.translate('es', 'en', items);
-    expect(a).toEqual({ ok: true, results: [{ translation: 'T(casa)', pos: 'noun', lemma: 'casa' }, { translation: 'T(gato)', pos: 'noun', lemma: 'gato' }] });
-    expect(calls).toEqual([2]);
-    // Same word+sentence (different case) is a cache hit; only the new one is sent.
-    const b = await t.translate('es', 'en', [{ surface: 'Casa', sentence: 'La casa es grande.' }, { surface: 'perro', sentence: 'Un perro.' }]);
-    expect(b.ok).toBe(true);
-    expect(calls).toEqual([2, 1]);
-  });
-
-  it('splits very large requests into batches of 60', async () => {
-    const db = openDb(':memory:');
-    calls.length = 0;
-    const items = Array.from({ length: 130 }, (_, i) => ({ surface: `palabra${i}`, sentence: `Frase ${i}.` }));
-    const r = await createTranslator(db, fake).translate('es', 'en', items);
-    expect(r.ok).toBe(true);
-    expect(calls).toEqual([60, 60, 10]);
-  });
-
-  it('reports a readable reason instead of throwing', async () => {
-    const db = openDb(':memory:');
-    const failing: BatchTranslateFn = async () => {
-      throw new Anthropic.APIConnectionError({ message: 'down' });
-    };
-    const r = await createTranslator(db, failing).translate('es', 'en', [{ surface: 'casa', sentence: 'x' }]);
-    expect(r).toEqual({ ok: false, reason: 'Could not reach the Claude API.' });
-  });
-
-  it('says AI is off when no key is configured', async () => {
-    const r = await createTranslator(openDb(':memory:'), null).translate('es', 'en', [{ surface: 'casa', sentence: 'x' }]);
-    expect(r.ok).toBe(false);
-    expect(r.ok === false && r.aiDisabled).toBe(true);
-  });
-
-  it('maps unknown errors to a generic message', () => {
-    expect(describeAiError(new Error('boom'))).toBe('Translation failed.');
-  });
-});
 
 describe('words API', () => {
   let server: Server;
@@ -68,10 +13,10 @@ describe('words API', () => {
   let textId: number;
 
   beforeAll(async () => {
-    seedSamples(db);
+    const content = loadContent('tests/fixtures/content');
+    syncStories(db, content.stories);
     textId = (db.prepare(`SELECT id FROM texts WHERE language = 'sr'`).get() as { id: number }).id;
-    const fake: BatchTranslateFn = async ({ items }) => ({ items: items.map((_it, index) => ({ index, translation: 'chair', pos: 'noun', lemma: 'stolica' })) });
-    server = createApp(db, { translator: createTranslator(db, fake), model: 'test' }).listen(0);
+    server = createApp(db, { content }).listen(0);
     await new Promise((r) => server.once('listening', r));
     base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
   });
@@ -90,11 +35,6 @@ describe('words API', () => {
   };
   const post = (path: string, data: unknown) => api(path, { method: 'POST', body: JSON.stringify(data) });
 
-  it('translates through the server', async () => {
-    const r = await post('/api/translate', { language: 'sr', words: [{ surface: 'столицу', sentence: 'Марко је купио нову столицу.' }] });
-    expect(r.body).toEqual({ ok: true, results: [{ translation: 'chair', pos: 'noun', lemma: 'stolica' }] });
-  });
-
   it('saves words with context, upserts on the normalized key, creates SRS cards', async () => {
     const first = await post('/api/words/batch', {
       language: 'sr',
@@ -105,7 +45,7 @@ describe('words API', () => {
     expect(first.body.created).toBe(1);
     const w = first.body.words[0];
     expect(w.key).toBe('stolicu');
-    expect(w.contexts[0].sourceTitle).toBe('Нова столица');
+    expect(w.contexts[0].sourceTitle).toBe('Столица');
     expect(w.status).toBe('new');
 
     // Same word in Latin script from another sentence: same entry, second context, translation kept.

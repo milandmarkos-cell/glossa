@@ -129,6 +129,12 @@ const MIGRATIONS: string[] = [
   ALTER TABLE word_contexts ADD COLUMN form TEXT;
   CREATE INDEX words_user_lang ON words(user_id, language, created_at);
   `,
+  // 3: bundled stories are identified by a stable slug (content/<lang>/stories/<slug>.md) so edits update in place.
+  `
+  ALTER TABLE texts ADD COLUMN slug TEXT;
+  CREATE UNIQUE INDEX texts_slug ON texts(slug) WHERE slug IS NOT NULL;
+  UPDATE texts SET source_type = 'story' WHERE source_type = 'sample';
+  `,
 ];
 
 export function openDb(file: string): DB {

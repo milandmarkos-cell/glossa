@@ -5,28 +5,19 @@ import { LOCAL_USER_ID } from './db.ts';
 import { getText, insertText, listTexts } from './repo/texts.ts';
 import { getSettings, saveSettings } from './repo/settings.ts';
 import { deleteWord, findByKeys, getWord, listWords, saveWords, updateWord, wordsToAnkiCsv } from './repo/words.ts';
-import type { Translator } from './services/claude.ts';
+import { glossaryFor, type Content } from './content.ts';
 import { CEFR_LEVELS, isSupportedLanguage } from '../shared/languages.ts';
-import type { SavedKey } from '../shared/types.ts';
+import type { LanguageInfo, SavedKey, TextDetail } from '../shared/types.ts';
 
 const language = z.string().refine(isSupportedLanguage, 'Unsupported language');
 const optionalLanguage = (v: unknown) => (typeof v === 'string' && v ? v : undefined);
 
 export interface AppOptions {
-  translator: Translator;
-  model: string;
+  content: Content;
 }
 
 const STATUS = z.enum(['new', 'learning', 'known']);
 const shortText = (max: number) => z.string().max(max).nullish();
-
-const TranslateBody = z.object({
-  language,
-  words: z
-    .array(z.object({ surface: z.string().min(1).max(100), sentence: z.string().max(2000) }))
-    .min(1)
-    .max(300),
-});
 
 const SaveWordsBody = z.object({
   language,
@@ -116,7 +107,7 @@ export function createApp(db: DB, opts: AppOptions) {
   const userId = LOCAL_USER_ID;
 
   app.get('/api/health', (_req, res) => {
-    res.json({ ok: true, ai: opts.translator.enabled, model: opts.translator.enabled ? opts.model : null });
+    res.json({ ok: true });
   });
 
   app.get('/api/texts', (req, res) => {
@@ -124,10 +115,23 @@ export function createApp(db: DB, opts: AppOptions) {
     res.json(listTexts(db, userId, lang));
   });
 
+  const withGlossary = (t: Omit<TextDetail, 'glossary'>): TextDetail => ({
+    ...t,
+    glossary: glossaryFor(opts.content.dictionaries.get(t.language), t.body, t.language),
+  });
+
+  /** Languages that have bundled stories, with counts. */
+  app.get('/api/languages', (_req, res) => {
+    const rows = db
+      .prepare(`SELECT language AS code, COUNT(*) AS stories FROM texts WHERE source_type = 'story' GROUP BY language ORDER BY language`)
+      .all() as LanguageInfo[];
+    res.json(rows);
+  });
+
   app.get('/api/texts/:id', (req, res) => {
     const text = getText(db, userId, idParam(req));
     if (!text) throw new HttpError(404, 'Text not found');
-    res.json(text);
+    res.json(withGlossary(text));
   });
 
   app.post('/api/texts', (req, res) => {
@@ -143,7 +147,7 @@ export function createApp(db: DB, opts: AppOptions) {
       license: 'Personal use — provided by you',
       url: input.url ?? null,
     });
-    res.status(r.created ? 201 : 200).json(getText(db, userId, r.id));
+    res.status(r.created ? 201 : 200).json(withGlossary(getText(db, userId, r.id)!));
   });
 
   app.get('/api/settings', (_req, res) => {
@@ -161,17 +165,6 @@ export function createApp(db: DB, opts: AppOptions) {
       .prepare('SELECT normalized_key AS key, status FROM words WHERE user_id = ? AND language = ?')
       .all(userId, lang) as SavedKey[];
     res.json(rows);
-  });
-
-  // ---- Translation (batched + cached on the server; the key never reaches the browser) ----
-  app.post('/api/translate', async (req, res) => {
-    const body = parse(TranslateBody, req.body);
-    const native = getSettings(db, userId).nativeLanguage;
-    if (native === body.language) {
-      res.json({ ok: false, reason: 'This is your native language, so there is nothing to translate.' });
-      return;
-    }
-    res.json(await opts.translator.translate(body.language, native, body.words));
   });
 
   // ---- Library ----

@@ -9,7 +9,6 @@ import { ReaderView, type MarkedWord } from '../reader/ReaderView.tsx';
 import { ReaderSettings } from '../reader/ReaderSettings.tsx';
 import { Attribution } from '../components/Attribution.tsx';
 import { loadMarks, saveMarks } from '../lib/marks.ts';
-import { translations } from '../lib/translations.ts';
 
 export function ReaderPage() {
   const id = Number(useParams().id);
@@ -38,10 +37,8 @@ export function ReaderPage() {
     (words: MarkedWord[]) => {
       setMarked(words);
       saveMarks(id, words);
-      // Background prefetch: translations are usually ready by the time you finish.
-      if (text) translations.request(text.language, words.map((w) => ({ surface: w.form, sentence: w.sentence })));
     },
-    [id, text],
+    [id],
   );
 
   if (error) return <main className="mx-auto max-w-2xl px-4 py-16 text-center text-[var(--muted)]">{error}</main>;
@@ -76,6 +73,7 @@ export function ReaderPage() {
         textId={text.id}
         language={text.language}
         body={text.body}
+        glossary={text.glossary}
         prefs={prefs}
         savedKeys={savedKeys}
         initialMarked={initialMarked}

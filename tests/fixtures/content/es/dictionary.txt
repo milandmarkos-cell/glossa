@@ -1,0 +1,16 @@
+# form | translation | pos | lemma
+la | the | determiner
+las | the | determiner | la
+casa | house | noun
+casas | houses | noun | casa
+es | is | verb | ser
+ser | to be | verb
+grande | big | adjective
+come | eats | verb | comer
+comer | to eat | verb
+en | in | preposition
+del | of the | preposition
+barrio | neighbourhood | noun
+son | are | verb | ser
+pequeñas | small | adjective | pequeño
+pequeño | small | adjective

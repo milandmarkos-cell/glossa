@@ -1,0 +1,9 @@
+столица | chair | noun
+столици | (on the) chair | noun | столица
+је | is | verb | бити
+бити | to be | verb
+нова | new | adjective | нов
+нов | new | adjective
+седим | I sit | verb | седети
+седети | to sit | verb
+на | on | preposition

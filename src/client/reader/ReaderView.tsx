@@ -5,12 +5,16 @@ import { toScript, type DisplayScript } from '../../shared/script.ts';
 import type { ReaderPrefs } from '../../shared/types.ts';
 import { HighlightSheet, nextScopeClass } from './highlight.ts';
 import { WordPopover } from './WordPopover.tsx';
-import { useTranslation } from '../lib/translations.ts';
+import { lemmaKeyFn, lookupGloss, type Glossary } from '../../shared/gloss.ts';
 
 export interface MarkedWord {
+  /** Match key (the dictionary form's key when the word is in the dictionary). */
   key: string;
-  /** Display/dictionary-ish form (a lowercase occurrence when one exists). */
+  /** What gets saved: the dictionary form when known, else a lowercase occurrence when one exists. */
   surface: string;
+  /** Translation of the dictionary form (or of the clicked form), null when not in the dictionary. */
+  translation: string | null;
+  pos: string | null;
   /** Exact text of the clicked occurrence, as it appears in `sentence`. */
   form: string;
   tokenIndex: number;
@@ -22,6 +26,7 @@ interface Props {
   textId: number;
   language: string;
   body: string;
+  glossary: Glossary;
   prefs: ReaderPrefs;
   /** Normalized keys already in the library (subtle "saved" style). */
   savedKeys: ReadonlySet<string>;
@@ -36,9 +41,9 @@ function bestSurface(tk: TokenizedText, occ: number[], clicked: number): string 
   return lower ?? tk.tokens[clicked].text;
 }
 
-export function ReaderView({ textId, language, body, prefs, savedKeys, initialMarked, onMarkedChange }: Props) {
+export function ReaderView({ textId, language, body, glossary, prefs, savedKeys, initialMarked, onMarkedChange }: Props) {
   const lang = getLanguage(language);
-  const tk = useMemo(() => tokenize(body, language), [body, language]);
+  const tk = useMemo(() => tokenize(body, language, { keyFor: lemmaKeyFn(glossary, language) }), [body, language, glossary]);
   const keyIndex = useMemo(() => new Map(tk.keys.map((k, i) => [k, i])), [tk]);
   const { occ, words, ordinal } = useMemo(() => {
     const occ = new Map<number, number[]>();
@@ -85,10 +90,20 @@ export function ReaderView({ textId, language, body, prefs, savedKeys, initialMa
     const out: MarkedWord[] = [];
     for (const [k, i] of marks.current) {
       const ctx = contextFor(tk, tk.tokens[i]);
-      out.push({ key: tk.keys[k], surface: bestSurface(tk, occ.get(k) ?? [i], i), form: tk.tokens[i].text, tokenIndex: i, ...ctx });
+      const g = lookupGloss(glossary, tk.tokens[i].text, language);
+      const info = g.lemmaEntry ?? g.entry;
+      out.push({
+        key: tk.keys[k],
+        surface: g.lemma ?? bestSurface(tk, occ.get(k) ?? [i], i),
+        translation: info?.translation ?? null,
+        pos: info?.pos ?? null,
+        form: tk.tokens[i].text,
+        tokenIndex: i,
+        ...ctx,
+      });
     }
     onMarkedChange(out);
-  }, [onMarkedChange, tk, occ]);
+  }, [onMarkedChange, tk, occ, glossary, language]);
 
   const setPressed = (k: number, pressed: boolean) => {
     for (const i of occ.get(k) ?? []) spans.current[i]?.setAttribute('aria-pressed', String(pressed));
@@ -255,8 +270,7 @@ export function ReaderView({ textId, language, body, prefs, savedKeys, initialMa
 
   const popTok = popover !== null ? tk.tokens[popover] : null;
   const script: DisplayScript = lang.scripts ? prefs.script : 'original';
-  const popItem = popTok ? { surface: popTok.text, sentence: contextFor(tk, popTok).sentence } : null;
-  const popTranslation = useTranslation(language, popItem);
+  const popGloss = popTok ? lookupGloss(glossary, popTok.text, language) : null;
 
   return (
     <div ref={rootRef} className="relative">
@@ -287,7 +301,8 @@ export function ReaderView({ textId, language, body, prefs, savedKeys, initialMa
           occurrences={occ.get(popTok.k)?.length ?? 1}
           marked={marks.current.has(popTok.k)}
           saved={savedKeys.has(tk.keys[popTok.k])}
-          translation={popTranslation}
+          gloss={popGloss}
+          script={script}
           onToggle={() => {
             const on = !marks.current.has(popTok.k);
             toggleMark(popTok.k, popTok.i, on);

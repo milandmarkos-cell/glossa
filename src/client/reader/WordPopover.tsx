@@ -1,7 +1,8 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { getLanguage } from '../../shared/languages.ts';
 import { speak, ttsSupported } from '../lib/tts.ts';
-import type { TranslationEntry } from '../lib/translations.ts';
+import type { WordGloss } from '../../shared/gloss.ts';
+import { toScript, type DisplayScript } from '../../shared/script.ts';
 
 interface Props {
   anchor: HTMLElement;
@@ -12,7 +13,8 @@ interface Props {
   occurrences: number;
   marked: boolean;
   saved: boolean;
-  translation?: TranslationEntry;
+  gloss: WordGloss | null;
+  script: DisplayScript;
   onToggle: () => void;
   onClose: () => void;
 }
@@ -22,7 +24,7 @@ const WIDTH = 300;
 /**
  * Anchored card on wide screens; bottom sheet on phones (thumb-reachable, never covers the word's line).
  */
-export function WordPopover({ anchor, container, language, surface, sentence, occurrences, marked, saved, translation, onToggle, onClose }: Props) {
+export function WordPopover({ anchor, container, language, surface, sentence, occurrences, marked, saved, gloss, script, onToggle, onClose }: Props) {
   const lang = getLanguage(language);
   const ref = useRef<HTMLDivElement>(null);
   const [pos, setPos] = useState<{ top: number; left: number } | null>(null);
@@ -93,7 +95,7 @@ export function WordPopover({ anchor, container, language, surface, sentence, oc
       </div>
 
       <div className="mt-2 min-h-[1.5rem] text-[15px]" aria-live="polite" data-testid="popover-translation">
-        <TranslationDetails entry={translation} />
+        <GlossDetails gloss={gloss} script={script} locale={lang.locale} />
       </div>
 
       <p lang={lang.locale} dir={lang.dir} className="mt-3 line-clamp-3 text-sm text-[var(--muted)] italic">
@@ -130,18 +132,19 @@ function SpeakerIcon() {
   );
 }
 
-function TranslationDetails({ entry }: { entry?: TranslationEntry }) {
-  if (!entry || entry.state === 'loading') return <span className="animate-pulse text-[var(--muted)]">Translating…</span>;
-  if (entry.state === 'error')
-    return (
-      <span className="text-sm text-[var(--muted)]">
-        {entry.aiDisabled ? 'Automatic translation is off. You can type a translation when you finish reading.' : entry.reason}
-      </span>
-    );
+function GlossDetails({ gloss, script, locale }: { gloss: WordGloss | null; script: DisplayScript; locale: string }) {
+  if (!gloss?.entry) return <span className="text-sm text-[var(--muted)]">Not in the dictionary yet. You can type a translation when you finish reading.</span>;
+  const { entry, lemma, lemmaEntry } = gloss;
+  const showLemma = lemma && lemmaEntry && lemmaEntry !== entry;
   return (
-    <span>
-      <span className="font-medium">{entry.info.translation}</span>
-      {entry.info.pos && <span className="ml-2 text-xs tracking-wide text-[var(--muted)] uppercase">{entry.info.pos}</span>}
-    </span>
+    <div>
+      <span className="font-medium">{entry.translation}</span>
+      {entry.pos && <span className="ml-2 text-xs tracking-wide text-[var(--muted)] uppercase">{entry.pos}</span>}
+      {showLemma && (
+        <div className="mt-1 text-sm text-[var(--muted)]">
+          from <span lang={locale} className="font-[family-name:var(--font-reading)] text-[var(--text)]">{toScript(lemma, script)}</span>: {lemmaEntry.translation}
+        </div>
+      )}
+    </div>
   );
 }

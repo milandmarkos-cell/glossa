@@ -1,0 +1,341 @@
+# Spanish → English learner dictionary for the bundled stories.
+# form | translation | part of speech | dictionary form (if different)
+
+# --- function words ---
+y | and | conjunction
+o | or | conjunction
+pero | but | conjunction
+porque | because | conjunction
+cuando | when | conjunction
+que | that; which; than | conjunction
+el | the | determiner
+la | the; her, it | determiner
+los | the; them | determiner | el
+las | the; them | determiner | la
+lo | it; the (+ adjective) | pronoun
+un | a, an | determiner
+una | a, an; one | determiner | un
+de | of; from | preposition
+del | of the; from the | preposition
+a | to; at | preposition
+al | to the; at the | preposition
+en | in; on; at | preposition
+con | with | preposition
+para | for; in order to | preposition
+por | for; through; by; around | preposition
+debajo | under, underneath | adverb
+mi | my | determiner
+mis | my | determiner | mi
+su | his; her; their; your | determiner
+sus | his; her; their | determiner | su
+me | me; myself | pronoun
+le | (to) him; (to) her | pronoun
+se | himself; herself; itself; (reflexive) | pronoun
+él | he; him | pronoun
+ella | she; her | pronoun
+no | no; not | adverb
+más | more; most | adverb
+muy | very | adverb
+mucho | a lot; much | adverb
+muchos | many | determiner | mucho
+poco | little; a little | adverb
+todo | everything; all | pronoun
+todos | all; every | determiner | todo
+también | also, too | adverb
+después | after; afterwards | adverb
+luego | then; later | adverb
+hoy | today | adverb
+siempre | always | adverb
+todavía | still; yet | adverb
+solo | only; just | adverb
+bien | well; good | adverb
+temprano | early | adverb
+despacio | slowly | adverb
+rápido | fast, quick | adjective
+rápidos | fast, quick | adjective | rápido
+vez | time (occasion) | noun
+otra | another; other | determiner | otro
+otro | another; other | determiner
+esta | this | determiner | este
+este | this | determiner
+cada | each, every | determiner
+mismo | same | adjective
+hay | there is; there are | verb | haber
+haber | to have (auxiliary); there to be | verb
+dos | two | numeral
+seis | six | numeral
+siete | seven | numeral
+ocho | eight | numeral
+once | eleven | numeral
+quince | fifteen | numeral
+veinte | twenty | numeral
+
+# --- names ---
+tomás | Tomás (name) | name
+lucía | Lucía (name) | name
+marta | Marta (name) | name
+luis | Luis (name) | name
+don | Mr. (respectful title) | noun
+ramón | Ramón (name) | name
+sara | Sara (name) | name
+ana | Ana (name) | name
+sevilla | Seville | name
+jorge | Jorge (name) | name
+carmen | Carmen (name) | name
+pablo | Pablo (name) | name
+lola | Lola (name) | name
+rufo | Rufo (dog's name) | name
+
+# --- verbs ---
+es | is | verb | ser
+son | are; it is (time) | verb | ser
+ser | to be | verb
+está | is (state, location) | verb | estar
+están | are (state, location) | verb | estar
+estoy | I am (state, location) | verb | estar
+estar | to be (state, location) | verb
+tiene | has | verb | tener
+tengo | I have | verb | tener
+tenemos | we have | verb | tener
+tener | to have | verb
+hace | makes; does; (weather) it is | verb | hacer
+hacen | make; do; take (photos) | verb | hacer
+hecho | made; done | verb | hacer
+hacer | to do; to make | verb
+dice | says | verb | decir
+decir | to say; to tell | verb
+va | goes | verb | ir
+voy | I go | verb | ir
+vamos | we go; let's go | verb | ir
+ir | to go | verb
+llama | is called; calls | verb | llamar
+llamo | I am called (me llamo = my name is) | verb | llamar
+llamar | to call | verb
+gusta | (it) pleases; me gusta = I like | verb | gustar
+gustan | (they) please; le gustan = he/she likes | verb | gustar
+gustar | to like (lit. to please) | verb
+come | eats | verb | comer
+comemos | we eat | verb | comer
+comer | to eat; lunch | verb
+bebe | drinks | verb | beber
+bebemos | we drink | verb | beber
+beber | to drink | verb
+sale | goes out, leaves | verb | salir
+salen | go out, leave | verb | salir
+salgo | I go out | verb | salir
+salir | to go out, to leave | verb
+prepara | prepares | verb | preparar
+preparar | to prepare | verb
+prefiere | prefers | verb | preferir
+preferir | to prefer | verb
+vive | lives | verb | vivir
+vivo | I live | verb | vivir
+vivir | to live | verb
+duerme | sleeps | verb | dormir
+dormir | to sleep | verb
+trabaja | works | verb | trabajar
+trabajar | to work | verb
+prueba | try, taste (command); tries, tastes | verb | probar
+probar | to try; to taste | verb
+toma | takes | verb | tomar
+tomar | to take; to have (food, drink) | verb
+corta | cuts | verb | cortar
+cortar | to cut | verb
+pone | puts | verb | poner
+poner | to put | verb
+ríen | (they) laugh | verb | reír
+reímos | we laugh | verb | reír
+reír | to laugh | verb
+lavan | (they) wash | verb | lavar
+lavar | to wash | verb
+mira | looks at, watches | verb | mirar
+mirar | to look at, to watch | verb
+vuelven | come back, return | verb | volver
+vuelve | comes back, returns | verb | volver
+volvemos | we come back, we return | verb | volver
+volver | to come back, to return | verb
+corre | runs | verb | correr
+corren | run | verb | correr
+correr | to run | verb
+juegan | play | verb | jugar
+jugar | to play | verb
+dan | give | verb | dar
+dar | to give | verb
+montamos | we ride | verb | montar
+montar | to ride | verb
+descansamos | we rest | verb | descansar
+descansar | to rest | verb
+quiero | I want | verb | querer
+querer | to want; to love | verb
+cocina | cooks; kitchen | verb | cocinar
+cocinar | to cook | verb
+hablamos | we talk | verb | hablar
+hablan | (they) talk | verb | hablar
+hablar | to talk, to speak | verb
+paseamos | we go for a walk | verb | pasear
+pasear | to go for a walk, to stroll | verb
+huele | smells | verb | oler
+oler | to smell | verb
+conoce | knows (a person) | verb | conocer
+conocer | to know (a person, a place) | verb
+vende | sells | verb | vender
+vender | to sell | verb
+regala | gives (as a present) | verb | regalar
+regalar | to give as a present | verb
+sonríe | smiles | verb | sonreír
+sonreír | to smile | verb
+compra | buys; shopping | verb | comprar
+comprar | to buy | verb
+viene | comes | verb | venir
+venir | to come | verb
+esperan | wait (for) | verb | esperar
+esperar | to wait; to hope | verb
+llegar | to arrive | verb
+piensa | thinks | verb | pensar
+pensar | to think | verb
+encontrar | to find; to meet | verb
+
+# --- nouns ---
+casa | house; home | noun
+niños | children | noun | niño
+niño | child, boy | noun
+bicicleta | bicycle | noun
+mercado | market | noun
+mañana | morning; tomorrow | noun
+pan | bread | noun
+hermano | brother | noun
+hermana | sister | noun
+jardín | garden | noun
+pájaros | birds | noun | pájaro
+pájaro | bird | noun
+lugar | place | noun
+parque | park | noun
+años | years | noun | año
+año | year | noun
+queso | cheese | noun
+semana | week | noun
+desayuno | breakfast | noun
+tomate | tomato | noun
+tomates | tomatoes | noun | tomate
+aceite | oil | noun
+naranja | orange | noun
+naranjas | oranges | noun | naranja
+comida | food; meal | noun
+día | day | noun
+gato | cat | noun
+agua | water | noun
+flores | flowers | noun | flor
+flor | flower | noun
+escuela | school | noun
+sol | sun | noun
+familia | family | noun
+barrio | neighbourhood | noun
+sábado | Saturday | noun
+sábados | Saturdays | noun | sábado
+señora | lady; Mrs. | noun
+gente | people | noun
+hambre | hunger (tener hambre = to be hungry) | noun
+oliva | olive | noun
+yogur | yoghurt | noun
+cereales | cereal | noun
+leche | milk | noun
+café | coffee | noun
+té | tea | noun
+cena | dinner | noun
+platos | plates, dishes | noun | plato
+plato | plate, dish | noun
+árboles | trees | noun | árbol
+árbol | tree | noun
+mediodía | midday, noon | noun
+calor | heat (hace calor = it's hot) | noun
+tarde | afternoon, evening; late | noun
+puerta | door | noun
+noche | night | noun
+cama | bed | noun
+cumpleaños | birthday | noun
+padres | parents | noun | padre
+padre | father | noun
+madre | mother | noun
+regalo | present, gift | noun
+calle | street | noun
+calles | streets | noun | calle
+principio | beginning (al principio = at first) | noun
+amiga | (female) friend | noun
+camino | path, way | noun
+lado | side (al lado de = next to) | noun
+río | river | noun
+frío | cold | noun
+hora | hour | noun
+profesor | teacher | noun
+médica | (female) doctor | noun
+hospital | hospital | noun
+fútbol | football, soccer | noun
+libros | books | noun | libro
+libro | book | noun
+animales | animals | noun | animal
+animal | animal | noun
+perro | dog | noun
+perros | dogs | noun | perro
+domingos | Sundays | noun | domingo
+domingo | Sunday | noun
+abuelos | grandparents | noun | abuelo
+abuelo | grandfather | noun
+abuela | grandmother | noun
+aire | air | noun
+frutas | fruit | noun | fruta
+fruta | fruit | noun
+verduras | vegetables | noun | verdura
+verdura | vegetable | noun
+pescado | fish (food) | noun
+vendedores | sellers, vendors | noun | vendedor
+vendedor | seller, vendor | noun
+cebollas | onions | noun | cebolla
+cebolla | onion | noun
+campo | countryside; field | noun
+ciudad | city | noun
+fines | ends (fines de semana = weekends) | noun | fin
+fin | end (fin de semana = weekend) | noun
+tiempo | time; weather | noun
+precios | prices | noun | precio
+precio | price | noun
+nietos | grandchildren | noun | nieto
+nieto | grandson, grandchild | noun
+dueños | owners | noun | dueño
+dueño | owner | noun
+turistas | tourists | noun | turista
+turista | tourist | noun
+fotos | photos | noun | foto
+foto | photo | noun
+colas | queues, lines | noun | cola
+cola | queue, line | noun
+ensalada | salad | noun
+balcón | balcony | noun
+
+# --- adjectives ---
+importante | important | adjective
+pequeño | small, little | adjective
+gris | grey | adjective
+favorito | favourite | adjective
+contento | happy, pleased | adjective
+contenta | happy, pleased | adjective | contento
+cansado | tired | adjective
+cansada | tired | adjective | cansado
+feliz | happy | adjective
+grande | big, large | adjective
+nueva | new | adjective | nuevo
+nuevo | new | adjective
+roja | red | adjective | rojo
+rojo | red | adjective
+negra | black | adjective | negro
+negro | black | adjective
+juntas | together | adjective | junto
+junto | together | adjective
+largo | long | adjective
+verde | green | adjective
+blanco | white | adjective
+tranquilas | quiet, calm | adjective | tranquilo
+tranquilo | quiet, calm | adjective
+recién | just, freshly | adverb
+dulce | sweet | adjective
+lleno | full | adjective
+mejor | best; better | adjective

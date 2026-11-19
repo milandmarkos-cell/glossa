@@ -1,7 +1,6 @@
 import type { CefrLevel } from './languages.ts';
 
-export type SourceType =
-  | 'sample' | 'wikipedia' | 'wikinews' | 'rss' | 'gutenberg' | 'wikisource' | 'ai' | 'user';
+export type SourceType = 'story' | 'user';
 
 export interface TextSummary {
   id: number;
@@ -19,8 +18,22 @@ export interface TextSummary {
   createdAt: string;
 }
 
+/** Dictionary entry for one word form. `lemma` is the dictionary form (may equal the form). */
+export interface GlossEntry {
+  translation: string;
+  pos: string | null;
+  lemma: string;
+}
+
 export interface TextDetail extends TextSummary {
   body: string;
+  /** Entries for every word form in the text (keyed by normalizeKey) plus their lemmas. */
+  glossary: Record<string, GlossEntry>;
+}
+
+export interface LanguageInfo {
+  code: string;
+  stories: number;
 }
 
 export interface NewTextInput {
@@ -67,23 +80,6 @@ export interface SavedKey {
   key: string;
   status: WordStatus;
 }
-
-// ---- Translation (Claude, server-side) ----
-
-export interface TranslateItem {
-  surface: string;
-  sentence: string;
-}
-
-export interface WordInfo {
-  translation: string;
-  pos: string;
-  lemma: string;
-}
-
-export type TranslateResponse =
-  | { ok: true; results: WordInfo[] }
-  | { ok: false; reason: string; aiDisabled?: boolean };
 
 // ---- Library ----
 

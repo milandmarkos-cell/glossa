@@ -99,13 +99,16 @@ export function listTexts(db: DB, userId: number, language?: string): TextSummar
     .prepare(
       `SELECT * FROM texts WHERE (user_id IS NULL OR user_id = @userId)
        AND (@language IS NULL OR language = @language)
-       ORDER BY created_at DESC, id DESC LIMIT 200`,
+       ORDER BY (source_type = 'user') DESC,
+         CASE level WHEN 'A1' THEN 1 WHEN 'A2' THEN 2 WHEN 'B1' THEN 3 WHEN 'B2' THEN 4 WHEN 'C1' THEN 5 WHEN 'C2' THEN 6 ELSE 7 END,
+         title COLLATE NOCASE
+       LIMIT 500`,
     )
     .all({ userId, language: language ?? null }) as TextRow[];
   return rows.map(toSummary);
 }
 
-export function getText(db: DB, userId: number, id: number): TextDetail | null {
+export function getText(db: DB, userId: number, id: number): Omit<TextDetail, 'glossary'> | null {
   const r = db
     .prepare('SELECT * FROM texts WHERE id = ? AND (user_id IS NULL OR user_id = ?)')
     .get(id, userId) as TextRow | undefined;
