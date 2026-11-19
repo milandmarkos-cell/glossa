@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { openText, pressed, textId, word } from './helpers.ts';
+import { MERCADO, openText, pressed, textId, word } from './helpers.ts';
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/');
@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('click again unmarks; other occurrence opens popover; Unmark button', async ({ page, request }) => {
-  await openText(page, await textId(request, 'es'));
+  await openText(page, await textId(request, 'es', MERCADO));
   const queso = word(page, 'queso');
   await queso.first().click();
   await expect(pressed(page)).toHaveCount(3);
@@ -25,21 +25,22 @@ test('click again unmarks; other occurrence opens popover; Unmark button', async
 });
 
 test('double-click does not undo its own mark or select text', async ({ page, request }) => {
-  await openText(page, await textId(request, 'es'));
+  await openText(page, await textId(request, 'es', MERCADO));
   await word(page, 'queso').first().dblclick();
   await expect(pressed(page)).toHaveCount(3);
   expect(await page.evaluate(() => getSelection()?.toString())).toBe('');
 });
 
 test('keyboard: arrows move by word, Enter marks, Escape closes; one tab stop', async ({ page, request }) => {
-  await openText(page, await textId(request, 'es'));
+  await openText(page, await textId(request, 'es', MERCADO));
   await expect(page.locator('[data-testid=passage] [tabindex="0"]')).toHaveCount(1);
   await word(page, 'Todos').focus();
   await page.keyboard.press('ArrowRight');
   await page.keyboard.press('ArrowRight');
   await expect(word(page, 'sábados')).toBeFocused();
   await page.keyboard.press('Enter');
-  await expect(pressed(page)).toHaveText(['sábados']);
+  // sábados and sábado share a dictionary form, so both highlight.
+  await expect.poll(async () => [...new Set(await pressed(page).allTextContents())]).toEqual(['sábados', 'sábado']);
   await expect(page.getByTestId('word-popover')).toBeVisible();
   await page.keyboard.press('Escape');
   await expect(page.getByTestId('word-popover')).toBeHidden();
@@ -48,22 +49,23 @@ test('keyboard: arrows move by word, Enter marks, Escape closes; one tab stop', 
 });
 
 test('marks survive a reload until the text is finished', async ({ page, request }) => {
-  await openText(page, await textId(request, 'es'));
+  await openText(page, await textId(request, 'es', MERCADO));
   await word(page, 'naranja').click();
   await page.reload();
-  await expect(pressed(page)).toHaveText(['naranja']);
+  await expect(pressed(page)).toHaveText(['naranjas', 'naranja']); // all forms of naranja
   await expect(page.getByTestId('marked-count')).toHaveText('1 word marked');
 });
 
-test('Arabic renders right-to-left and highlights all occurrences', async ({ page, request }) => {
-  await openText(page, await textId(request, 'ar'));
+test('right-to-left text (pasted Arabic) renders RTL and highlights all occurrences', async ({ page, request }) => {
+  const res = await request.post('/api/texts', { data: { language: 'ar', title: 'المكتبة', body: 'تذهب سارة إلى المكتبة. المكتبة قريبة من بيتها، والمكتبة جميلة.' } });
+  await openText(page, (await res.json()).id);
   await expect(page.getByTestId('passage')).toHaveAttribute('dir', 'rtl');
   await word(page, 'المكتبة').first().click();
-  await expect(pressed(page)).toHaveCount(5);
+  await expect(pressed(page)).toHaveCount(2); // والمكتبة (with the "and" prefix) is a different token
 });
 
 test('Serbian script toggle changes display, keeps marks', async ({ page, request }) => {
-  await openText(page, await textId(request, 'sr'));
+  await openText(page, await textId(request, 'sr', 'Нова столица'));
   await word(page, 'столицу').first().click();
   await page.keyboard.press('Escape');
   await page.getByRole('button', { name: 'Aa' }).click();
@@ -71,14 +73,14 @@ test('Serbian script toggle changes display, keeps marks', async ({ page, reques
   await page.keyboard.press('Escape');
   await expect(page.locator('h1')).toHaveText('Nova stolica');
   await expect(pressed(page).first()).toHaveText('stolicu');
-  await expect(pressed(page)).toHaveCount(5);
+  await expect(pressed(page)).toHaveCount(11); // every form of столица
   // reset for other tests
   await page.getByRole('button', { name: 'Aa' }).click();
   await page.getByRole('button', { name: 'Original' }).click();
 });
 
 test('reader settings: font size and dark theme apply and persist', async ({ page, request }) => {
-  await openText(page, await textId(request, 'es'));
+  await openText(page, await textId(request, 'es', MERCADO));
   await page.getByRole('button', { name: 'Aa' }).click();
   await page.getByRole('button', { name: 'Increase' }).first().click();
   await page.getByRole('button', { name: 'Dark' }).click();
@@ -92,9 +94,17 @@ test('reader settings: font size and dark theme apply and persist', async ({ pag
   await page.getByRole('button', { name: 'System' }).click();
 });
 
-test('every text shows its source and license', async ({ page }) => {
+test('home lists stories by level and topic; every text shows its source and license', async ({ page }) => {
   await page.goto('/');
-  for (const lang of ['es', 'sr', 'ja', 'ar']) {
+  await expect(page.getByTestId('text-card')).toHaveCount(24);
+  await page.getByRole('group', { name: 'Level' }).getByRole('button', { name: 'C2' }).click();
+  await expect(page.getByTestId('text-card')).toHaveCount(4);
+  await page.getByRole('group', { name: 'Topic' }).getByRole('button', { name: 'Technology' }).click();
+  await expect(page.getByTestId('text-card')).toHaveCount(1);
+  await expect(page).toHaveURL(/level=C2/);
+  await page.goto('/');
+  await page.goto('/');
+  for (const lang of ['es', 'sr', 'ja']) {
     await page.getByLabel('Learning').selectOption(lang);
     await expect(page.getByTestId('attribution').first()).toContainText('License:');
   }

@@ -1,5 +1,20 @@
 # Glossa — Plan
 
+> **Direction change (requested by the user):** no AI. Glossa ships a library of original stories at every CEFR level and topic, each word backed by a bundled dictionary. Learners tap unknown words, save them, and review with flashcards and games. The original brief's AI features (Claude translations, AI-generated texts, AI lemma maps) and external text sources (Wikipedia, RSS, Gutenberg) were dropped. Sections below are updated; superseded parts are marked.
+
+## 0. Current scope
+
+| Feature | How |
+|---|---|
+| Stories | `content/<lang>/stories/*.md`: 24 each for es, sr, ja (4 × A1–C2), 11 topics, original CC0 text |
+| Translations | `content/<lang>/dictionary.txt`: form → translation, part of speech, dictionary form; 100% coverage is enforced by a unit test and `npm run content:check` |
+| Lemma matching | dictionary forms replace the AI lemma map: all forms of a word share a match key, and the library stores the dictionary form |
+| Reader | as below (§1), plus the popover shows "come: eats, from comer: to eat" |
+| Library | search, filters, edit, status, delete, Anki CSV |
+| Review | SM-2 flashcards (both directions, daily new limit, in-session relearning), 5 games weighted toward weak words, streak and mastery stats |
+| Pasted texts | still supported; words the dictionary knows are translated, others are typed by the learner |
+
+
 A reading-first vocabulary app: read real texts, click unknown words, save them with context, study them with spaced repetition and games.
 
 This file is the source of truth for architecture, data model, milestones and **decisions**. Decisions made without asking the user are listed in §7 with a short rationale; revisit them freely.
@@ -50,7 +65,7 @@ glossa/
 4. **Highlighting is CSS-rule injection, not React state per token**: marking a word updates one `<style>` element with `[data-k="17"]{…}` rules. Cost is O(marked words), independent of text length, so marking stays well under 100 ms on 3,000+ words and React never re-renders the token tree. Same mechanism for the "already saved" style.
 5. Translations/POS are fetched lazily in the background (debounced batch to `/api/translate`) and cached server-side in `translation_cache` and client-side in memory.
 
-### Claude integration (server/services/claude.ts)
+### Claude integration (superseded: removed at the user's request)
 
 * `@anthropic-ai/sdk`, model from `CLAUDE_MODEL` (default `claude-opus-5-5`), structured outputs (`output_config.format` via `zodOutputFormat`) so every response is validated JSON.
 * Batched: all words of a "finish reading" go in **one** request; lemma map is one request per text at import.
@@ -102,7 +117,7 @@ Initial set: en, es, fr, de, it, pt, ru, sr, pl, ja, zh, ko, ar. Adding one = ad
 
 ---
 
-## 5. Difficulty / level (M5)
+## 5. Difficulty / level (superseded: stories carry an authored CEFR level)
 
 * Frequency source: Hermit Dave's FrequencyWords (OpenSubtitles 2018, CC BY-SA 4.0), top 50k per language, downloaded on demand to `data/freq/` and cached; wordfreq-style rank lookup. For CJK where tokenization differs, the same Intl.Segmenter tokenization is used on the list side.
 * Score = weighted blend of: share of tokens outside top-1k/2k/5k/10k ranks, median rank, average sentence length (in tokens). Mapped to A1–C2 by thresholds, **with the breakdown stored and shown** ("72% top-1k words, 9% rare, avg sentence 14 words → B1").
@@ -112,6 +127,8 @@ Initial set: en, es, fr, de, it, pt, ru, sr, pl, ja, zh, ko, ar. Adding one = ad
 ---
 
 ## 6. Milestones
+
+> Status lives in CLAUDE.md. Milestone 5 (Wikipedia/RSS/AI texts) was replaced by bundled stories and dictionaries; milestone 6's lemma work by dictionary forms.
 
 | # | Scope | Done when |
 |---|---|---|
@@ -146,3 +163,8 @@ After each milestone: `npm test`, `npm run typecheck`, run the app and click thr
 16. **Japanese token repair**: ICU splits kanji stems from okurigana (飲|み|ます), so a small rule-based merge keeps verbs whole until lemma support lands. Chinese and Korean wait for M6 lemmas.
 17. **Refusal fallbacks**: translation requests use server-side `fallbacks: "default"` on models that support it, so a rare refusal is retried on a fallback model instead of failing.
 18. **`GLOSSA_FAKE_AI=1`**: a deterministic fake translator for e2e and key-less demos; off by default.
+
+19. **No AI, bundled content** (user request): a shared per-language dictionary instead of per-story glossaries, because stories reuse most words, and pasted texts benefit too. One gloss per form (ambiguous forms list senses separated by `;`).
+20. **Dictionary forms as word identity**: saved words use the lemma as surface and key, and contexts keep the exact form seen. This replaces the planned AI lemma map.
+21. **Japanese segmentation** uses Intl.Segmenter plus repair rules, not a morphological analyser (kuromoji's dictionary is ~20 MB). Remaining fragments get dictionary entries.
+22. **Review hub** combines flashcards, games and stats on one page; games only reschedule cards that are new or due.

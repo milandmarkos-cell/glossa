@@ -3,8 +3,8 @@ import { defineConfig, devices } from '@playwright/test';
 const PORT = 3101;
 
 /**
- * E2E: builds the client and runs the production server on an in-memory DB with the fake translator,
- * so tests are deterministic and need no API key. First run on a new machine: `npx playwright install chromium`.
+ * E2E: builds the client and runs the production server on an in-memory DB with the bundled stories.
+ * First run on a new machine: `npx playwright install chromium`.
  */
 export default defineConfig({
   testDir: 'tests/e2e',
@@ -25,6 +25,6 @@ export default defineConfig({
     url: `http://localhost:${PORT}/api/health`,
     reuseExistingServer: false,
     timeout: 120_000,
-    env: { PORT: String(PORT), DB_PATH: ':memory:', GLOSSA_FAKE_AI: '1', ANTHROPIC_API_KEY: '' },
+    env: { PORT: String(PORT), DB_PATH: ':memory:' },
   },
 });

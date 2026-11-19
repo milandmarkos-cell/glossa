@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { openText, pressed, textId, word } from './helpers.ts';
 
 test('phone: tap marks a word, bottom sheet opens, no horizontal scroll', async ({ page, request }) => {
-  await openText(page, await textId(request, 'ja'));
+  await openText(page, await textId(request, 'ja', '日曜日の公園'));
   await word(page, 'ポチ').first().tap();
   await expect(pressed(page)).toHaveCount(4);
   const sheet = page.getByTestId('word-popover');

@@ -64,13 +64,17 @@ export function FlashcardsPage() {
     [card, direction],
   );
 
-  // Keyboard: Space/Enter reveal, 1–4 grade, P pronounce.
+  // Keyboard: Space/Enter reveal, 1–4 grade, P pronounce. One listener reading refs, so a key pressed
+  // right after a new card renders is never handled with the previous card's state.
+  const live = useRef({ card, revealed, grade });
+  live.current = { card, revealed, grade };
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      const { card, revealed, grade } = live.current;
       if (!card || e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
-      if ((e.key === ' ' || e.key === 'Enter') && !revealed) {
-        e.preventDefault();
-        setRevealed(true);
+      if (e.key === ' ' || e.key === 'Enter') {
+        e.preventDefault(); // also stops Space/Enter from "clicking" a focused button
+        if (!revealed) setRevealed(true);
       } else if (revealed && ['1', '2', '3', '4'].includes(e.key)) {
         void grade(Number(e.key) as Grade);
       } else if (e.key.toLowerCase() === 'p') {
@@ -79,7 +83,7 @@ export function FlashcardsPage() {
     };
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
-  }, [card, revealed, grade, lang.ttsLang]);
+  }, [lang.ttsLang]);
 
   if (error) return <main className="mx-auto max-w-xl px-4 py-16 text-center text-[var(--muted)]">{error}</main>;
   if (!cards) return <main className="mx-auto max-w-xl px-4 py-16 text-center text-[var(--muted)]">Loading…</main>;
