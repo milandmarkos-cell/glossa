@@ -129,7 +129,7 @@ preparar | to prepare | verb
 prefiere | prefers | verb | preferir
 preferir | to prefer | verb
 vive | lives | verb | vivir
-vivo | I live | verb | vivir
+vivo | I live; alive, living | verb | vivir
 vivir | to live | verb
 duerme | sleeps | verb | dormir
 dormir | to sleep | verb
@@ -155,7 +155,7 @@ vuelve | comes back, returns | verb | volver
 volvemos | we come back, we return | verb | volver
 volver | to come back, to return | verb
 corre | runs | verb | correr
-corren | run | verb | correr
+corren | run (correr el riesgo = to run the risk) | verb | correr
 correr | to run | verb
 juegan | play | verb | jugar
 jugar | to play | verb
@@ -339,3 +339,2371 @@ recién | just, freshly | adverb
 dulce | sweet | adjective
 lleno | full | adjective
 mejor | best; better | adjective
+
+# --- A2 stories ---
+daniel | Daniel (name) | name
+javier | Javier (name) | name
+elena | Elena (name) | name
+rosa | Rosa (name); pink | name
+barcelona | Barcelona | name
+madrid | Madrid | name
+yo | I | pronoun
+tu | your | determiner
+ellos | they; them | pronoun
+nos | us; ourselves | pronoun
+qué | what | pronoun
+cómo | how | adverb
+eso | that | pronoun
+algo | something | pronoun
+si | if | conjunction
+sino | but rather | conjunction
+como | like, as; how | conjunction
+tan | so; as | adverb
+casi | almost | adverb
+ahora | now | adverb
+primero | first | adverb
+cerca | near, close | adverb
+durante | during; for | preposition
+contra | against | preposition
+mucha | a lot of, much | determiner | mucho
+juntos | together | adjective | junto
+tres | three | numeral
+cinco | five | numeral
+diez | ten | numeral
+setenta | seventy | numeral
+gracias | thank you, thanks | interjection
+# verbs
+era | was; (noun) era, age | verb | ser
+fue | was; went | verb | ser
+fueron | went; were | verb | ir
+fui | I went | verb | ir
+iban | were going (to) | verb | ir
+estaba | was (state, location) | verb | estar
+había | there was; there were | verb | haber
+pensó | thought | verb | pensar
+salió | left, went out; came out | verb | salir
+habló | spoke, talked | verb | hablar
+hablaron | (they) talked | verb | hablar
+ganar | to win; to earn | verb
+ganó | won | verb | ganar
+ganaron | (they) won | verb | ganar
+dijo | said | verb | decir
+juega | plays | verb | jugar
+jugaban | (they) were playing | verb | jugar
+jugó | played | verb | jugar
+trabajan | (they) work | verb | trabajar
+quieren | (they) want | verb | querer
+llovió | it rained | verb | llover
+llover | to rain | verb
+perdían | (they) were losing | verb | perder
+perder | to lose | verb
+tenéis | you (all) have (tener que = to have to) | verb | tener
+pasar | to pass; to spend (time) | verb
+podéis | you (all) can | verb | poder
+poder | can, to be able to | verb
+marcó | scored | verb | marcar
+marcar | to score; to mark | verb
+aplaudió | applauded | verb | aplaudir
+aplaudir | to applaud | verb
+comieron | (they) ate | verb | comer
+compartir | to share | verb
+regalaron | (they) gave as a present | verb | regalar
+ayudarla | to help her | verb | ayudar
+ayudar | to help | verb
+enseñé | I taught, I showed | verb | enseñar
+enseñar | to teach; to show | verb
+expliqué | I explained | verb | explicar
+explicar | to explain | verb
+mandar | to send | verb
+manda | sends | verb | mandar
+escribía | wrote, was writing | verb | escribir
+escribió | wrote | verb | escribir
+escribir | to write | verb
+aprendía | was learning | verb | aprender
+aprender | to learn | verb
+llamó | called | verb | llamar
+reconocí | I recognised | verb | reconocer
+reconocer | to recognise | verb
+veía | saw, could see | verb | ver
+vio | saw | verb | ver
+ver | to see | verb
+usa | uses | verb | usar
+usar | to use | verb
+lee | reads | verb | leer
+leer | to read | verb
+escucha | listens to | verb | escuchar
+escuchar | to listen to | verb
+sé | I know | verb | saber
+saber | to know | verb
+creo | I think, I believe | verb | creer
+creer | to believe, to think | verb
+compró | bought | verb | comprar
+buscó | looked for | verb | buscar
+buscar | to look for | verb
+gustó | (he/she) liked (lit. pleased) | verb | gustar
+sentó | sat down | verb | sentar
+sentar | to sit (sentarse = to sit down) | verb
+llamaba | was called | verb | llamar
+viajaba | was travelling | verb | viajar
+viajar | to travel | verb
+visitar | to visit | verb
+contó | told | verb | contar
+contar | to tell; to count | verb
+duró | lasted | verb | durar
+durar | to last | verb
+pareció | seemed | verb | parecer
+parecer | to seem | verb
+llegaron | (they) arrived | verb | llegar
+dio | gave | verb | dar
+necesitas | you need | verb | necesitar
+necesitar | to need | verb
+llámame | call me | verb | llamar
+# nouns
+equipo | team | noun
+equipos | teams | noun | equipo
+teléfono | telephone, phone | noun
+viaje | trip, journey | noun
+amigos | friends | noun | amigo
+amigo | friend | noun
+amigas | (female) friends | noun | amiga
+deporte | sport | noun
+partido | match, game | noun
+polideportivo | sports centre | noun
+puntos | points | noun | punto
+punto | point | noun
+tren | train | noun
+estación | station | noun
+ventana | window | noun
+baloncesto | basketball | noun
+descanso | break; half-time | noun
+entrenador | coach, trainer | noun
+balón | ball | noun
+canastas | baskets (points) | noun | canasta
+canasta | basket | noun
+público | audience, crowd | noun
+final | end | noun
+bar | bar, café | noun
+tíos | aunt and uncle; uncles | noun | tío
+tío | uncle | noun
+móvil | mobile phone | noun
+llamadas | calls | noun | llamada
+llamada | call | noun
+mensajes | messages | noun | mensaje
+mensaje | message | noun
+dedo | finger | noun
+videollamada | video call | noun
+autobús | bus | noun
+nariz | nose | noun
+parte | part | noun
+gafas | glasses | noun
+días | days | noun | día
+plantas | plants | noun | planta
+planta | plant | noun
+noticias | news | noun | noticia
+noticia | piece of news | noun
+radio | radio | noun
+grupo | group | noun
+ayuda | help | noun
+razón | reason (tener razón = to be right) | noun
+viernes | Friday | noun
+periódico | newspaper | noun
+asiento | seat | noun
+campos | fields | noun | campo
+pueblos | villages | noun | pueblo
+pueblo | village | noun
+montañas | mountains | noun | montaña
+montaña | mountain | noun
+hija | daughter | noun
+historias | stories | noun | historia
+historia | story; history | noun
+juventud | youth | noun
+trabajo | work; job | noun
+planes | plans | noun | plan
+plan | plan | noun
+horas | hours | noun | hora
+número | number | noun
+sonrisa | smile | noun
+veces | times (a veces = sometimes) | noun | vez
+destino | destination; destiny | noun
+# adjectives
+pasado | last; past | adjective
+profesional | professional | adjective
+vecino | neighbouring; neighbour | adjective
+primer | first | adjective | primero
+difícil | difficult | adjective
+alto | tall, high | adjective
+segundo | second | adjective
+seguidas | in a row | adjective | seguido
+seguido | in a row; continuous | adjective
+siguiente | next, following | adjective
+cómodo | comfortable | adjective
+amarillos | yellow | adjective | amarillo
+amarillo | yellow | adjective
+pequeños | small | adjective | pequeño
+lejanas | distant, far-off | adjective | lejano
+lejano | distant, far-off | adjective
+mayor | older, elderly | adjective
+corto | short | adjective
+interesante | interesting | adjective
+
+# --- B1 stories ---
+irene | Irene (name) | name
+clara | Clara (name); clear | name
+óscar | Óscar (name) | name
+pilar | Pilar (name) | name
+españa | Spain | name
+portugal | Portugal | name
+pirineos | the Pyrenees | name
+vía | way, road (Vía Láctea = Milky Way) | noun
+láctea | milky (Vía Láctea = Milky Way) | adjective
+muchas | many, a lot of | determiner | mucho
+sobre | on; about; over | preposition
+antes | before | adverb
+sin | without | preposition
+otras | other; others | determiner | otro
+otros | other; others | determiner | otro
+algunas | some | determiner | alguno
+alguno | some; any | determiner
+unas | some; a few | determiner | uno
+unos | some; a few; about | determiner | uno
+uno | one | numeral
+dentro | inside | adverb
+nunca | never | adverb
+entonces | then; so | adverb
+así | like this, so | adverb
+embargo | sin embargo = however | noun
+ese | that | determiner
+aquella | that (over there) | determiner | aquel
+aquel | that (over there) | determiner
+hasta | until; as far as; even | preposition
+ya | already; now | adverb
+además | besides, also | adverb
+les | (to) them | pronoun
+mientras | while (mientras tanto = meanwhile) | conjunction
+tanto | so much (mientras tanto = meanwhile) | adverb
+encima | on top | adverb
+desde | since; from | preposition
+donde | where | adverb
+aquí | here | adverb
+arriba | up, above | adverb
+justo | just, exactly; fair | adverb
+fuera | outside; (that it) were (subjunctive of ser) | adverb
+menos | less; fewer | adverb
+completamente | completely | adverb
+perfectamente | perfectly | adverb
+cuatro | four | numeral
+cincuenta | fifty | numeral
+mil | thousand | numeral
+tantas | so many | determiner | tanto
+varios | several | determiner | vario
+vario | various, several | determiner
+# verbs
+funciona | works (machines) | verb | funcionar
+funcionar | to work, to function | verb
+quedó | stayed; remained (se quedó = he/she stayed) | verb | quedar
+quedar | to stay; to remain | verb
+dejaba | stopped (no dejaba de = didn't stop); left | verb | dejar
+dejar | to leave; to let; to stop | verb
+dejó | left; quit | verb | dejar
+abrir | to open | verb
+vendía | sold, was selling | verb | vender
+sabía | knew | verb | saber
+competir | to compete | verb
+quería | wanted | verb | querer
+querían | (they) wanted | verb | querer
+tenía | had | verb | tener
+he | I have (auxiliary) | verb | haber
+cortó | cut | verb | cortar
+tienen | (they) have | verb | tener
+encuentra | finds | verb | encontrar
+propone | proposes, suggests | verb | proponer
+proponer | to propose, to suggest | verb
+responde | answers | verb | responder
+responder | to answer, to reply | verb
+arranca | starts (engine) | verb | arrancar
+arrancar | to start (an engine); to pull out | verb
+pedir | to ask for | verb
+pedí | I asked for | verb | pedir
+empujarlo | to push it | verb | empujar
+empujar | to push | verb
+viajamos | we travel; we travelled | verb | viajar
+llegamos | we arrive; we arrived | verb | llegar
+aprendí | I learned | verb | aprender
+conducir | to drive | verb
+fuimos | we went | verb | ir
+rompió | broke (se rompió = broke down) | verb | romper
+romper | to break | verb
+rompen | (they) break | verb | romper
+llevó | took, carried | verb | llevar
+llevar | to take, to carry | verb
+lleva | takes, carries | verb | llevar
+dormimos | we slept | verb | dormir
+iba | was going (to) | verb | ir
+costar | to cost | verb
+sonrió | smiled | verb | sonreír
+arreglaremos | we will fix | verb | arreglar
+arreglar | to fix, to repair | verb
+levantó | raised, lifted | verb | levantar
+levantar | to raise, to lift | verb
+entendí | I understood | verb | entender
+entender | to understand | verb
+pensaban | (they) thought | verb | pensar
+eran | were | verb | ser
+podía | could | verb | poder
+puede | can | verb | poder
+podían | (they) could | verb | poder
+decidió | decided | verb | decidir
+decidieron | (they) decided | verb | decidir
+decidir | to decide | verb
+usaba | used | verb | usar
+fermentar | to ferment, to prove (dough) | verb
+horneaba | baked | verb | hornear
+hornear | to bake | verb
+tirar | to throw away | verb
+cerrar | to close | verb
+cerré | I closed | verb | cerrar
+empezaron | (they) began | verb | empezar
+empezaba | began, started | verb | empezar
+empezar | to begin, to start | verb
+contaron | (they) told | verb | contar
+tuvo | had (tuvo que = had to) | verb | tener
+contratar | to hire | verb
+gana | earns; wins | verb | ganar
+trabajaba | worked, was working | verb | trabajar
+explica | explains | verb | explicar
+explicó | explained | verb | explicar
+veo | I see | verb | ver
+prefieren | (they) prefer | verb | preferir
+hecha | done, cooked (muy hecha = well done) | adjective | hecho
+probado | tried, tasted | verb | probar
+rio | laughed | verb | reír
+aceptó | agreed, accepted | verb | aceptar
+aceptar | to accept, to agree | verb
+enseñarme | to teach me | verb | enseñar
+pasamos | we spent (time); we pass | verb | pasar
+peló | peeled | verb | pelar
+pelar | to peel | verb
+calentó | heated | verb | calentar
+calentar | to heat | verb
+frió | fried | verb | freír
+freír | to fry | verb
+batió | beat, whisked | verb | batir
+batir | to beat, to whisk | verb
+estuvieron | were (finished state) | verb | estar
+sacó | took out | verb | sacar
+sacar | to take out | verb
+mezcló | mixed | verb | mezclar
+mezclar | to mix | verb
+esperó | waited | verb | esperar
+uniera | (it) came together, combined | verb | unir
+unir | to join, to combine | verb
+llegó | arrived, came | verb | llegar
+puso | put | verb | poner
+giró | turned, flipped | verb | girar
+girar | to turn | verb
+abrí | I opened | verb | abrir
+queman | (they) burn | verb | quemar
+quemar | to burn | verb
+subir | to go up, to climb | verb
+subieron | (they) climbed, went up | verb | subir
+salieron | (they) left | verb | salir
+olía | smelled | verb | oler
+desaparecieron | disappeared | verb | desaparecer
+desaparecer | to disappear | verb
+volvió | became (se volvió); returned | verb | volver
+miró | looked at | verb | mirar
+venían | were coming | verb | venir
+seguir | to continue, to follow | verb
+llueve | it rains | verb | llover
+hablaban | were talking | verb | hablar
+sonaban | sounded | verb | sonar
+sonar | to sound, to ring | verb
+temblaban | shook, trembled | verb | temblar
+temblar | to shake, to tremble | verb
+pasó | passed; happened; spent | verb | pasar
+visto | seen | verb | ver
+sido | been | verb | ser
+# nouns
+coche | car | noun
+panadería | bakery | noun
+tortilla | Spanish omelette; tortilla | noun
+tortillas | omelettes; tortillas | noun | tortilla
+patatas | potatoes | noun | patata
+patata | potato | noun
+cielo | sky; heaven | noun
+tía | aunt | noun
+vecinos | neighbours | noun | vecino
+verano | summer | noun
+ventanas | windows | noun | ventana
+ojos | eyes | noun | ojo
+ojo | eye | noun
+oficina | office | noun
+supermercado | supermarket | noun
+clientes | customers | noun | cliente
+cliente | customer | noun
+personas | people | noun | persona
+persona | person | noun
+receta | recipe | noun
+paciencia | patience | noun
+sartén | frying pan | noun
+minutos | minutes | noun | minuto
+minuto | minute | noun
+huevos | eggs | noun | huevo
+huevo | egg | noun
+lago | lake | noun
+refugio | mountain hut; shelter | noun
+tormenta | storm | noun
+emisoras | radio stations | noun | emisora
+emisora | radio station | noun
+verdad | truth (la verdad es que = the truth is) | noun
+invierno | winter | noun
+acondicionado | conditioned (aire acondicionado = air conditioning) | adjective
+partes | parts; places (a todas partes = everywhere) | noun | parte
+aparcamiento | car park, parking lot | noun
+vacaciones | holidays, vacation | noun
+medio | middle (en medio de = in the middle of) | noun
+carretera | road | noun
+kilómetros | kilometres | noun | kilómetro
+kilómetro | kilometre | noun
+agricultor | farmer | noun
+tractor | tractor | noun
+taller | garage, workshop | noun
+mes | month | noun
+meses | months | noun | mes
+mecánico | mechanic | noun
+reparación | repair | noun
+motor | engine | noun
+valor | value | noun
+silencio | silence | noun
+rato | while, short time | noun
+locura | madness, crazy idea | noun
+alquileres | rents | noun | alquiler
+alquiler | rent | noun
+calidad | quality | noun
+harina | flour | noun
+masa | dough | noun
+par | pair, couple | noun
+mesas | tables | noun | mesa
+mesa | table | noun
+música | music | noun
+barras | loaves (of bread); bars | noun | barra
+barra | loaf (baguette); bar | noun
+resto | rest | noun
+periodista | journalist | noun
+artículo | article | noun
+galletas | biscuits, cookies | noun | galleta
+galleta | biscuit, cookie | noun
+empanadas | pasties, empanadas | noun | empanada
+empanada | pasty, empanada | noun
+pasteles | cakes, pastries | noun | pastel
+pastel | cake, pastry | noun
+dinero | money | noun
+mundo | world (todo el mundo = everyone) | noun
+opinión | opinion | noun
+tema | topic, subject | noun
+conversación | conversation | noun
+trozos | pieces | noun | trozo
+trozo | piece | noun
+fuego | fire; heat (a fuego lento = on low heat) | noun
+bol | bowl | noun
+sal | salt | noun
+momento | moment | noun
+vuelta | turn (dar la vuelta = to turn over) | noun
+movimiento | movement | noun
+metros | metres | noun | metro
+metro | metre; underground | noun
+altura | height, altitude | noun
+mochilas | backpacks | noun | mochila
+mochila | backpack | noun
+botas | boots | noun | bota
+bota | boot | noun
+energía | energy | noun
+bosque | forest | noun
+pinos | pine trees | noun | pino
+pino | pine tree | noun
+tierra | earth, soil, land | noun
+paisaje | landscape | noun
+rocas | rocks | noun | roca
+roca | rock | noun
+hierba | grass | noun
+ríos | rivers; streams | noun | río
+bocadillos | sandwiches | noun | bocadillo
+bocadillo | sandwich (in a baguette) | noun
+cascada | waterfall | noun
+nubes | clouds | noun | nube
+nube | cloud | noun
+oeste | west | noun
+estufa | stove, heater | noun
+excursionistas | hikers | noun | excursionista
+excursionista | hiker | noun
+idiomas | languages | noun | idioma
+idioma | language | noun
+truenos | thunder | noun | trueno
+trueno | thunderclap | noun
+palabras | words | noun | palabra
+palabra | word | noun
+estrellas | stars | noun | estrella
+estrella | star | noun
+piedras | stones | noun | piedra
+piedra | stone | noun
+fondo | bottom | noun
+humor | mood; humour (de mal humor = in a bad mood) | noun
+vida | life | noun
+# adjectives
+viejo | old | adjective
+azules | blue | adjective | azul
+azul | blue | adjective
+abiertas | open | adjective | abierto
+abierto | open | adjective
+todas | all | determiner | todo
+despeinados | with messy hair | adjective | despeinado
+despeinado | with messy hair | adjective
+vacío | empty | adjective
+nervioso | nervous | adjective
+cercano | nearby, nearest | adjective
+misma | same | adjective | mismo
+barato | cheap | adjective
+caros | expensive | adjective | caro
+caro | expensive | adjective
+ecológica | organic | adjective | ecológico
+ecológico | organic; ecological | adjective
+agradable | pleasant | adjective
+buena | good | adjective | bueno
+bueno | good | adjective
+primeros | first | adjective | primero
+difíciles | difficult | adjective | difícil
+local | local | adjective
+fieles | loyal | adjective | fiel
+fiel | loyal, faithful | adjective
+jugosa | juicy; moist | adjective | jugoso
+jugoso | juicy; moist | adjective
+entera | whole, entire | adjective | entero
+entero | whole, entire | adjective
+grandes | big | adjective | grande
+finos | thin, fine | adjective | fino
+fino | thin, fine | adjective
+lento | slow | adjective
+crujientes | crispy, crunchy | adjective | crujiente
+crujiente | crispy, crunchy | adjective
+blandas | soft | adjective | blando
+blando | soft | adjective
+listas | ready | adjective | listo
+listo | ready; clever | adjective
+perfecta | perfect | adjective | perfecto
+perfecto | perfect | adjective
+pesadas | heavy | adjective | pesado
+pesado | heavy | adjective
+nuevas | new | adjective | nuevo
+mojada | wet | adjective | mojado
+mojado | wet | adjective
+duro | hard; harsh | adjective
+baja | low | adjective | bajo
+bajo | low; short; under | adjective
+helada | icy, freezing | adjective | helado
+helado | icy, frozen; ice cream | adjective
+oscuras | dark | adjective | oscuro
+oscuro | dark | adjective
+peligroso | dangerous | adjective
+encendida | lit, on (switched on) | adjective | encendido
+encendido | lit, switched on | adjective
+larga | long | adjective | largo
+fuertes | loud; strong | adjective | fuerte
+fuerte | strong; loud | adjective
+limpio | clean; clear | adjective
+anterior | previous | adjective
+mal | bad; badly | adjective
+asientos | seats | noun | asiento
+
+# --- B2 stories ---
+manuel | Manuel (name) | name
+von | von (part of a name) | name
+frisch | Frisch (surname) | name
+karl | Karl (name) | name
+pontevedra | Pontevedra (city in Galicia) | name
+galicia | Galicia (region in north-west Spain) | name
+rem | REM (rapid eye movement) | noun
+nobel | Nobel | name
+# function words, adverbs, numbers
+han | (they) have (auxiliary) | verb | haber
+ha | has (auxiliary) | verb | haber
+habían | had (auxiliary) | verb | haber
+tras | after; behind | preposition
+estos | these | determiner | este
+pocos | few | determiner | poco
+poca | little | determiner | poco
+nadie | nobody | pronoun
+nuestra | our | determiner | nuestro
+nuestro | our | determiner
+cuál | which | pronoun
+entre | between; among | preposition
+aunque | although, even though | conjunction
+cuyo | whose | determiner
+cuyas | whose | determiner | cuyo
+allí | there | adverb
+ni | nor; not even | conjunction
+algún | some; any | determiner | alguno
+hacia | towards | preposition
+mediante | by means of | preposition
+esa | that | determiner | ese
+cuanto | the more (cuanto más… = the more…) | adverb
+lejos | far | adverb
+demás | the other; the rest | determiner
+través | a través de = through | noun
+ellas | they; them (feminine) | pronoun
+dónde | where | adverb
+apenas | hardly, barely | adverb
+incluso | even | adverb
+prácticamente | practically | adverb
+realmente | really | adverb
+finalmente | finally | adverb
+aproximadamente | approximately | adverb
+simplemente | simply | adverb
+intensamente | intensely | adverb
+exactamente | exactly | adverb
+noventa | ninety | numeral
+nueve | nine | numeral
+treinta | thirty | numeral
+ochenta | eighty | numeral
+ciento | hundred | numeral
+cientos | hundreds | numeral | ciento
+miles | thousands | numeral | mil
+cuánto | how much | adverb
+# verbs
+cuenta | tells; counts (tener en cuenta = to take into account) | verb | contar
+saben | (they) know | verb | saber
+sabemos | we know | verb | saber
+sabrían | (they) would know | verb | saber
+mantener | to keep, to maintain | verb
+sea | be (sea como sea = be that as it may) | verb | ser
+durmiendo | sleeping | verb | dormir
+duermen | (they) sleep | verb | dormir
+consideró | (it) was considered (se consideró) | verb | considerar
+considerar | to consider | verb
+atravesamos | we go through | verb | atravesar
+atravesar | to go through, to cross | verb
+repara | repairs | verb | reparar
+reparar | to repair | verb
+refuerza | strengthens | verb | reforzar
+reforzar | to strengthen | verb
+soñamos | we dream | verb | soñar
+soñar | to dream | verb
+organiza | organises | verb | organizar
+organizar | to organise | verb
+decide | decides | verb | decidir
+conviene | is worth; it's advisable | verb | convenir
+convenir | to be advisable; to suit | verb
+guardar | to keep, to store | verb
+olvidarse | to be forgotten; to forget | verb | olvidar
+olvidar | to forget | verb
+estudiar | to study | verb
+suelen | (they) usually (do) | verb | soler
+soler | to usually do | verb
+recordar | to remember | verb
+aprendido | learned | verb | aprender
+pasan | (they) spend; pass | verb | pasar
+provoca | causes | verb | provocar
+provocar | to cause | verb
+demostrado | shown, proved | verb | demostrar
+demostrar | to show, to prove | verb
+hacerlo | to do it | verb | hacer
+relaciona | is linked (se relaciona con) | verb | relacionar
+relacionar | to relate, to link | verb
+recomiendan | (they) recommend | verb | recomendar
+recomendar | to recommend | verb
+varían | vary | verb | variar
+variar | to vary | verb
+tiende | tends | verb | tender
+tender | to tend | verb
+retrasarse | to be delayed, to run late | verb | retrasar
+retrasar | to delay | verb
+necesitan | (they) need | verb | necesitar
+necesitaban | needed | verb | necesitar
+debería | should | verb | deber
+deber | must, should; to owe | verb
+debía | should, had to | verb | deber
+tenerse | to be taken (into account) | verb | tener
+fijar | to set, to fix | verb
+mejorar | to improve | verb
+aconsejan | (they) advise | verb | aconsejar
+aconsejar | to advise | verb
+acostarse | to go to bed | verb | acostar
+acostar | to put to bed (acostarse = to go to bed) | verb
+levantarse | to get up | verb | levantar
+evitar | to avoid | verb
+marcan | (they) make (a difference); mark | verb | marcar
+golpea | hits, beats against | verb | golpear
+golpear | to hit | verb
+levanta | stands; rises (se levanta) | verb | levantar
+encargó | took charge (se encargó de) | verb | encargar
+encargar | to put in charge (encargarse de = to be in charge of) | verb
+llegaban | arrived, used to arrive | verb | llegar
+permitiera | allowed (subjunctive) | verb | permitir
+permitir | to allow | verb
+funcionaba | worked, ran | verb | funcionar
+funcionando | working | verb | funcionar
+encenderla | to light it | verb | encender
+encender | to light; to switch on | verb
+limpiar | to clean | verb
+hacía | made; did (hacía girar = made turn) | verb | hacer
+hizo | did; made (se hizo = was done) | verb | hacer
+decía | said, used to say | verb | decir
+turnaba | took turns (se turnaba) | verb | turnar
+turnar | to take turns (turnarse) | verb
+vigilar | to keep watch, to guard | verb
+rescataron | (they) rescued | verb | rescatar
+rescatar | to rescue | verb
+estrellado | crashed | verb | estrellar
+estrellar | to crash, to smash | verb
+convertía | became (se convertía en) | verb | convertir
+convertir | to turn into (convertirse en = to become) | verb
+requería | required | verb | requerir
+requerir | to require | verb
+marcharse | to leave, to go away | verb | marchar
+marchar | to go, to march (marcharse = to leave) | verb
+suben | (they) go up, climb | verb | subir
+recorría | went along, walked | verb | recorrer
+recorrer | to go along, to travel through | verb
+asoman | lean out, look out (se asoman) | verb | asomar
+asomar | to lean out (asomarse = to look out) | verb
+sigue | continues, is still | verb | seguir
+quedado | stayed; become | verb | quedar
+observado | observed | verb | observar
+observar | to observe | verb
+observan | (they) observe | verb | observar
+descubre | discovers | verb | descubrir
+descubrir | to discover | verb
+descubrió | discovered | verb | descubrir
+volando | flying | verb | volar
+volar | to fly | verb
+dibujado | drawn | verb | dibujar
+dibujar | to draw | verb
+encontró | found | verb | encontrar
+comunican | communicate (se comunican) | verb | comunicar
+comunicar | to communicate | verb
+camina | walks | verb | caminar
+caminar | to walk | verb
+formando | forming | verb | formar
+formar | to form | verb
+mueve | moves | verb | mover
+mover | to move | verb
+contiene | contains | verb | contener
+contener | to contain | verb
+indica | indicates | verb | indicar
+indicar | to indicate | verb
+señala | points out; indicates | verb | señalar
+señalan | (they) point out | verb | señalar
+señalar | to point out, to indicate | verb
+perciben | (they) perceive | verb | percibir
+percibir | to perceive | verb
+recibió | received | verb | recibir
+recibir | to receive | verb
+recibe | receives | verb | recibir
+mostraron | showed (se mostraron = were) | verb | mostrar
+mostrar | to show | verb
+parecía | seemed | verb | parecer
+transmitir | to transmit, to convey | verb
+pensaba | thought | verb | pensar
+utilizan | (they) use | verb | utilizar
+utilizar | to use | verb
+coordinarse | to coordinate (with each other) | verb | coordinar
+coordinar | to coordinate | verb
+enfrentan | face (se enfrentan a) | verb | enfrentar
+enfrentar | to face | verb
+reducido | reduced | verb | reducir
+reducir | to reduce | verb
+redujo | reduced | verb | reducir
+proteger | to protect | verb
+depende | depends | verb | depender
+depender | to depend | verb
+anunció | announced | verb | anunciar
+anunciar | to announce | verb
+pensaron | (they) thought | verb | pensar
+temían | (they) feared | verb | temer
+temía | (it) was feared | verb | temer
+temer | to fear | verb
+protestaban | (they) protested | verb | protestar
+protestar | to protest | verb
+aparcar | to park | verb
+pasaban | passed, went through | verb | pasar
+resultaba | was, turned out to be | verb | resultar
+resultar | to turn out, to be | verb
+pertenecer | to belong | verb
+peatonalizaron | were pedestrianised (se peatonalizaron) | verb | peatonalizar
+peatonalizar | to pedestrianise | verb
+eliminaron | removed, got rid of | verb | eliminar
+eliminar | to remove, to eliminate | verb
+construyeron | (they) built | verb | construir
+construir | to build | verb
+sorprendieron | surprised | verb | sorprender
+sorprender | to surprise | verb
+disminuyó | decreased | verb | disminuir
+disminuir | to decrease | verb
+cerraron | closed | verb | cerrar
+aumentó | increased | verb | aumentar
+aumentar | to increase | verb
+paseaban | walked around, strolled | verb | pasear
+compraban | bought, shopped | verb | comprar
+mudarse | to move (house) | verb | mudar
+mudar | to change (mudarse = to move house) | verb
+ido | gone (había ido perdiendo = had been losing) | verb | ir
+perdiendo | losing | verb | perder
+insisten | insist | verb | insistir
+insistir | to insist | verb
+trata | is about (se trata de = it's a matter of) | verb | tratar
+tratar | to treat; to try (tratarse de = to be about) | verb
+prohibir | to forbid, to ban | verb
+usarlo | to use it | verb | usar
+copiar | to copy | verb
+basta | it's enough | verb | bastar
+bastar | to be enough | verb
+charlando | chatting | verb | charlar
+charlar | to chat | verb
+comprender | to understand | verb
+cambiado | changed | verb | cambiar
+cambiar | to change | verb
+# nouns
+faro | lighthouse | noun
+centro | centre; town centre | noun
+abejas | bees | noun | abeja
+abeja | bee | noun
+baile | dance | noun
+sueño | sleep; dream | noun
+cerebro | brain | noun
+luz | light | noun
+farero | lighthouse keeper | noun
+científicos | scientists | noun | científico
+científico | scientist; scientific | noun
+información | information | noun
+plazo | term, period (a corto/largo plazo = in the short/long term) | noun
+cambios | changes | noun | cambio
+cambio | change (cambio climático = climate change) | noun
+mar | sea | noun
+siglo | century | noun
+siglos | centuries | noun | siglo
+electricidad | electricity | noun
+colmena | hive | noun
+tráfico | traffic | noun
+habitantes | inhabitants | noun | habitante
+habitante | inhabitant | noun
+tercio | third | noun
+periodo | period | noun
+inactividad | inactivity | noun
+ciclos | cycles | noun | ciclo
+ciclo | cycle | noun
+fases | phases, stages | noun | fase
+fase | phase, stage | noun
+cuerpo | body | noun
+tejidos | tissues | noun | tejido
+tejido | tissue; fabric | noun
+sistema | system | noun
+sistemas | systems | noun | sistema
+intensidad | intensity | noun
+recuerdos | memories | noun | recuerdo
+recuerdo | memory | noun
+estudiantes | students | noun | estudiante
+estudiante | student | noun
+vela | candle (pasar la noche en vela = to stay up all night) | noun
+consecuencias | consequences | noun | consecuencia
+consecuencia | consequence | noun
+cansancio | tiredness | noun
+irritabilidad | irritability | noun
+dificultades | difficulties | noun | dificultad
+dificultad | difficulty | noun
+concentración | concentration | noun
+estudios | studies | noun | estudio
+estudio | study | noun
+efectos | effects | noun | efecto
+efecto | effect | noun
+alcohol | alcohol | noun
+falta | lack | noun
+riesgo | risk | noun
+obesidad | obesity | noun
+diabetes | diabetes | noun
+enfermedades | illnesses, diseases | noun | enfermedad
+enfermedad | illness, disease | noun
+corazón | heart | noun
+expertos | experts | noun | experto
+experto | expert | noun
+adultos | adults | noun | adulto
+adulto | adult | noun
+necesidades | needs | noun | necesidad
+necesidad | need | noun
+adolescentes | teenagers | noun | adolescente
+adolescente | teenager | noun
+reloj | clock, watch | noun
+horario | timetable, schedule | noun
+institutos | secondary schools | noun | instituto
+instituto | secondary school | noun
+especialistas | specialists | noun | especialista
+especialista | specialist | noun
+hábitos | habits | noun | hábito
+hábito | habit | noun
+pantallas | screens | noun | pantalla
+pantalla | screen | noun
+dormitorio | bedroom | noun
+cosa | thing | noun
+diferencia | difference | noun
+costa | coast | noun
+provisiones | supplies | noun | provisión
+provisión | supply, provision | noun
+barca | small boat | noun
+barcas | small boats | noun | barca
+lámpara | lamp | noun
+escalones | steps | noun | escalón
+escalón | step | noun
+torre | tower | noun
+cristales | panes of glass | noun | cristal
+cristal | glass; pane | noun
+cuerda | rope; (dar cuerda = to wind up) | noun
+mecanismo | mechanism | noun
+oído | ear; hearing | noun
+viento | wind | noun
+noches | nights | noun | noche
+temporal | storm | noun
+pescadores | fishermen | noun | pescador
+pescador | fisherman | noun
+paso | step; passing (con el paso de = with the passing of) | noun
+autoridades | authorities | noun | autoridad
+autoridad | authority | noun
+museo | museum | noun
+escalera | staircase, stairs | noun
+visitante | visitor | noun
+naufragios | shipwrecks | noun | naufragio
+naufragio | shipwreck | noun
+tormentas | storms | noun | tormenta
+apicultores | beekeepers | noun | apicultor
+apicultor | beekeeper | noun
+fenómeno | phenomenon | noun
+néctar | nectar | noun
+compañeras | companions | noun | compañera
+compañera | (female) companion, colleague | noun
+mapa | map | noun
+respuesta | answer | noun
+biólogo | biologist | noun
+experimentos | experiments | noun | experimento
+experimento | experiment | noun
+especie | species; kind (una especie de = a kind of) | noun
+exploradora | explorer, scout | noun
+panal | honeycomb | noun
+figura | figure, shape | noun
+recorrido | route, path | noun
+abdomen | abdomen | noun
+detalle | detail | noun
+ángulo | angle | noun
+línea | line | noun
+respecto | respecto a = with respect to | noun
+dirección | direction; address | noun
+relación | relation (en relación con = in relation to) | noun
+posición | position | noun
+duración | duration, length | noun
+distancia | distance | noun
+alimento | food | noun
+alimentos | food, foods | noun | alimento
+oscuridad | darkness | noun
+tacto | touch | noun
+vibraciones | vibrations | noun | vibración
+vibración | vibration | noun
+descubrimiento | discovery | noun
+premio | prize | noun
+insecto | insect | noun
+lenguaje | language (system of communication) | noun
+danza | dance | noun
+olores | smells | noun | olor
+olor | smell | noun
+sonidos | sounds | noun | sonido
+sonido | sound | noun
+desgracia | misfortune (por desgracia = unfortunately) | noun
+amenazas | threats | noun | amenaza
+amenaza | threat | noun
+pesticidas | pesticides | noun | pesticida
+pesticida | pesticide | noun
+pérdida | loss | noun
+hábitats | habitats | noun | hábitat
+hábitat | habitat | noun
+poblaciones | populations | noun | población
+población | population | noun
+regiones | regions | noun | región
+región | region | noun
+cuestión | question, matter | noun
+curiosidad | curiosity | noun
+ayuntamiento | town council; town hall | noun
+finales | the end (a finales de = at the end of) | noun | final
+error | mistake | noun
+comerciantes | shopkeepers | noun | comerciante
+comerciante | shopkeeper, trader | noun
+conductores | drivers | noun | conductor
+conductor | driver | noun
+época | time, period | noun
+coches | cars | noun | coche
+aceras | pavements, sidewalks | noun | acera
+acera | pavement, sidewalk | noun
+ruido | noise | noun
+alcalde | mayor | noun
+vehículos | vehicles | noun | vehículo
+vehículo | vehicle | noun
+casco | casco antiguo = old town | noun
+límite | limit | noun
+velocidad | speed | noun
+semáforos | traffic lights | noun | semáforo
+semáforo | traffic light | noun
+aparcamientos | car parks | noun | aparcamiento
+afueras | outskirts | noun
+pie | foot (a pie = on foot) | noun
+resultados | results | noun | resultado
+resultado | result | noun
+muertes | deaths | noun | muerte
+muerte | death | noun
+accidentes | accidents | noun | accidente
+accidente | accident | noun
+contaminación | pollution | noun
+forma | way; shape (de forma notable = notably) | noun
+comercios | shops | noun | comercio
+comercio | shop; trade | noun
+contrario | al contrario = on the contrary | noun
+familias | families | noun | familia
+visitas | visits; visitors | noun | visita
+visita | visit | noun
+urbanistas | town planners | noun | urbanista
+urbanista | town planner | noun
+políticos | politicians | noun | político
+político | politician; political | noun
+modelo | model | noun
+defensores | supporters | noun | defensor
+defensor | supporter, defender | noun
+críticos | critics | noun | crítico
+crítico | critic; critical | noun
+capital | capital (city) | noun
+plazas | squares | noun | plaza
+plaza | square (in a town) | noun
+mayores | older people; elders | noun | mayor
+bancos | benches; banks | noun | banco
+banco | bench; bank | noun
+# adjectives
+curioso | curious | adjective
+central | central | adjective
+profundo | deep | adjective
+inmunitario | immune | adjective
+suficiente | enough (lo suficiente = enough) | adjective
+serias | serious | adjective | serio
+serio | serious | adjective
+biológico | biological | adjective
+sencillos | simple | adjective | sencillo
+sencillo | simple | adjective
+fresco | cool; fresh | adjective
+último | last | adjective
+atento | attentive, alert | adjective
+improvisado | improvised, makeshift | adjective
+automáticos | automatic | adjective | automático
+automático | automatic | adjective
+permanente | permanent | adjective
+salvaje | wild | adjective
+austriaco | Austrian | adjective
+pacientes | patient | adjective | paciente
+paciente | patient | adjective
+sorprendente | surprising | adjective
+precisa | precise | adjective | preciso
+preciso | precise | adjective
+vertical | vertical | adjective
+escépticos | sceptical | adjective | escéptico
+escéptico | sceptical | adjective
+imposible | impossible | adjective
+capaz | able, capable | adjective
+complejo | complex | adjective
+rico | rich | adjective
+inteligentes | intelligent | adjective | inteligente
+inteligente | intelligent | adjective
+graves | serious, grave | adjective | grave
+grave | serious, grave | adjective
+climático | climate (adj.) | adjective
+científica | scientific | adjective | científico
+pequeña | small, little | adjective | pequeño
+gallega | Galician | adjective | gallego
+gallego | Galician | adjective
+histórico | historic | adjective
+estrechas | narrow | adjective | estrecho
+estrecho | narrow | adjective
+insoportable | unbearable | adjective
+convencido | convinced | adjective
+antiguo | old, ancient | adjective
+gratuitos | free (of charge) | adjective | gratuito
+gratuito | free (of charge) | adjective
+optimistas | optimistic; optimists | adjective | optimista
+optimista | optimistic; optimist | adjective
+notable | notable, remarkable | adjective
+jóvenes | young | adjective | joven
+joven | young | adjective
+necesario | necessary | adjective
+gran | great, big | adjective | grande
+llenas | full | adjective | lleno
+
+# --- C1 stories ---
+marina | Marina (name) | name
+teresa | Teresa (name) | name
+lucas | Lucas (name) | name
+valencia | Valencia (city) | name
+china | China | name
+europa | Europe | name
+india | India | name
+roma | Rome | name
+asia | Asia | name
+occidente | the West | name
+samarcanda | Samarkand | name
+bujará | Bukhara | name
+seda | silk | noun
+ruta | route | noun
+rutas | routes | noun | ruta
+# function words / adverbs / numbers
+único | only; unique | adjective
+nosotros | we; us | pronoun
+estas | these | determiner | este
+esto | this | pronoun
+aquello | that | pronoun
+nada | nothing; anything | pronoun
+según | according to | preposition
+ningún | no, not any | determiner | ninguno
+ninguna | no, not any | determiner | ninguno
+ninguno | none; no | determiner
+salvo | except | preposition
+quienes | who; those who | pronoun
+sí | itself; themselves (entre sí = among themselves) | pronoun
+pocas | few | determiner | poco
+e | and (before i-/hi-) | conjunction
+pues | since, because; well | conjunction
+detrás | behind | adverb
+alrededor | around (alrededor de = about) | adverb
+pronto | soon | adverb
+deprisa | quickly, in a hurry | adverb
+siquiera | ni siquiera = not even | adverb
+obstante | no obstante = nevertheless | adverb
+probablemente | probably | adverb
+curiosamente | curiously | adverb
+paradójicamente | paradoxically | adverb
+directamente | directly | adverb
+profundamente | deeply | adverb
+bastante | quite, rather | adverb
+menudo | a menudo = often | adverb
+cuarenta | forty | numeral
+quinientos | five hundred | numeral
+millones | millions | numeral | millón
+millón | million | numeral
+diecinueve | nineteen | numeral
+catorce | fourteen | numeral
+# verbs
+sorprendió | surprised | verb | sorprender
+estuvo | was (for a time) | verb | estar
+ve | sees | verb | ver
+convirtieron | became (se convirtieron en) | verb | convertir
+convirtió | became (se convirtió en) | verb | convertir
+recorrían | (they) went round | verb | recorrer
+crecer | to grow | verb
+volvieron | went back; returned | verb | volver
+corrido | run | verb | correr
+practicaba | practised, did (a sport) | verb | practicar
+practicar | to practise; to do (a sport) | verb
+sintió | felt | verb | sentir
+sentir | to feel | verb
+apuntó | signed up (se apuntó a) | verb | apuntar
+apuntar | to note down (apuntarse a = to sign up for) | verb
+quedaba | was left (se quedaba sin aliento = ran out of breath) | verb | quedar
+dolían | hurt, ached | verb | doler
+doler | to hurt | verb
+existían | existed | verb | existir
+existir | to exist | verb
+abandonar | to give up; to abandon | verb
+repetía | repeated | verb | repetir
+repetir | to repeat | verb
+detenerte | to stop (yourself) | verb | detener
+detener | to stop | verb
+adaptándose | adapting (itself) | verb | adaptar
+adaptar | to adapt | verb
+aprendió | learned | verb | aprender
+regular | to regulate, to control | verb
+distinguir | to distinguish | verb
+distingue | distinguishes | verb | distinguir
+ignorar | to ignore | verb
+avisa | warns | verb | avisar
+avisar | to warn | verb
+revisaron | examined, checked | verb | revisar
+revisar | to check, to examine | verb
+advirtieron | warned | verb | advertir
+advertir | to warn | verb
+dormía | was sleeping | verb | dormir
+pertenecía | belonged | verb | pertenecer
+ordenaba | put in order | verb | ordenar
+ordenar | to put in order, to tidy | verb
+preparaba | prepared | verb | preparar
+cruzó | crossed | verb | cruzar
+cruzar | to cross | verb
+reciben | (they) receive | verb | recibir
+recibieron | (they) received | verb | recibir
+abrazaron | hugged | verb | abrazar
+abrazar | to hug | verb
+logrado | achieved | verb | lograr
+lograr | to achieve, to manage | verb
+fundaron | (they) founded | verb | fundar
+fundar | to found | verb
+tenían | (they) had | verb | tener
+restauraban | (they) restored | verb | restaurar
+restaurar | to restore | verb
+vendían | (they) sold | verb | vender
+consiguieron | (they) managed | verb | conseguir
+conseguir | to get, to manage | verb
+consigue | manages | verb | conseguir
+cubrir | to cover | verb
+estaban | were (state) | verb | estar
+respondía | responded, met (a need) | verb | responder
+compartió | shared | verb | compartir
+atender | to attend to, to deal with | verb
+daban | gave (no daban abasto = couldn't keep up) | verb | dar
+alargaban | got longer (se alargaban) | verb | alargar
+alargar | to lengthen | verb
+tuvieron | (they) had (tuvieron que = had to) | verb | tener
+planteado | considered, raised | verb | plantear
+plantear | to raise, to pose | verb
+plantea | raises, poses | verb | plantear
+contrataron | (they) hired | verb | contratar
+alquilaron | (they) rented | verb | alquilar
+alquilar | to rent | verb
+financiar | to finance | verb
+aceptaron | (they) accepted | verb | aceptar
+lijar | to sand | verb
+dedicar | to devote | verb
+propusieron | (they) proposed | verb | proponer
+fabricar | to manufacture | verb
+producir | to produce | verb
+negó | refused (se negó) | verb | negar
+negar | to deny (negarse = to refuse) | verb
+traicionaba | betrayed | verb | traicionar
+traicionar | to betray | verb
+recompraron | bought back | verb | recomprar
+recomprar | to buy back | verb
+renunciaron | gave up, renounced | verb | renunciar
+renunciar | to give up, to renounce | verb
+centrarse | to focus | verb | centrar
+centrar | to centre (centrarse = to focus) | verb
+sabían | (they) knew | verb | saber
+facturan | (they) turn over, invoice | verb | facturar
+facturar | to invoice; to turn over | verb
+prometían | promised | verb | prometer
+prometer | to promise | verb
+valoran | value | verb | valorar
+valorar | to value | verb
+aprendimos | we learned | verb | aprender
+significa | means | verb | significar
+significar | to mean | verb
+avanzar | to move forward | verb
+resume | sums up | verb | resumir
+resumir | to sum up | verb
+consiste | consists | verb | consistir
+consistir | to consist | verb
+tuviéramos | we had to (subjunctive) | verb | tener
+imaginar | to imagine | verb
+tendríamos | we would have | verb | tener
+buscarla | to look for it | verb | buscar
+bastaría | it would be enough | verb | bastar
+sumergirnos | to dive in; to immerse ourselves | verb | sumergir
+sumergir | to submerge | verb
+separados | separated | verb | separar
+separar | to separate | verb
+desarrollado | developed | verb | desarrollar
+desarrollar | to develop | verb
+siguen | (they) continue, still (do) | verb | seguir
+siguió | followed | verb | seguir
+desconcertando | baffling | verb | desconcertar
+desconcertar | to baffle | verb
+abundan | abound | verb | abundar
+abundar | to abound | verb
+aprenden | learn | verb | aprender
+desenroscar | to unscrew | verb
+alcanzar | to reach | verb
+reconocen | recognise | verb | reconocer
+tratan | treat | verb | tratar
+cuentan | (they) tell | verb | contar
+lanzan | throw, shoot | verb | lanzar
+lanzar | to throw | verb
+resultan | turn out to be, seem | verb | resultar
+documentado | documented | verb | documentar
+documentar | to document | verb
+escapaban | escaped | verb | escapar
+escapar | to escape | verb
+deslizaban | slipped (se deslizaban) | verb | deslizar
+deslizar | to slide | verb
+comerse | to eat up | verb | comer
+regresaban | returned | verb | regresar
+regresar | to return | verb
+hubiera | had (subjunctive auxiliary) | verb | haber
+ocurrido | happened | verb | ocurrir
+ocurrir | to happen | verb
+encuentran | are found (se encuentran) | verb | encontrar
+repartidas | spread out, distributed | verb | repartir
+repartir | to distribute | verb
+explorar | to explore | verb
+tocar | to touch | verb
+saborear | to taste | verb
+describen | describe | verb | describir
+describir | to describe | verb
+colaboran | collaborate | verb | colaborar
+colaborar | to collaborate | verb
+suma | is added (se suma) | verb | sumar
+sumar | to add | verb
+imitando | imitating | verb | imitar
+imitar | to imitate | verb
+reproducir | to reproduce | verb
+obliga | forces | verb | obligar
+obligar | to force | verb
+replantearse | to rethink | verb | replantear
+replantear | to rethink | verb
+entendemos | we understand | verb | entender
+hemos | we have (auxiliary) | verb | haber
+medido | measured | verb | medir
+medir | to measure | verb
+recuerdan | remind; remember | verb | recordar
+encontrado | found | verb | encontrar
+resolver | to solve | verb
+evoca | evokes | verb | evocar
+evocar | to evoke | verb
+unía | joined | verb | unir
+conectó | connected | verb | conectar
+conectar | to connect | verb
+acuñó | coined | verb | acuñar
+acuñar | to coin | verb
+pasaran | passed (subjunctive) | verb | pasar
+atravesando | crossing | verb | atravesar
+añadían | added | verb | añadir
+añadir | to add | verb
+llegaba | arrived | verb | llegar
+debatir | to debate | verb
+consideraba | considered | verb | considerar
+vaciando | emptying | verb | vaciar
+vaciar | to empty | verb
+circulaban | circulated | verb | circular
+circular | to circulate | verb
+viajaban | travelled | verb | viajar
+utilizamos | we use | verb | utilizar
+difundieron | spread (se difundieron) | verb | difundir
+difundir | to spread | verb
+asoló | devastated | verb | asolar
+asolar | to devastate | verb
+convivían | lived side by side | verb | convivir
+convivir | to live together | verb
+atraían | attracted | verb | atraer
+atraer | to attract | verb
+debió | was due (se debió a) | verb | deber
+permitió | allowed | verb | permitir
+comerciar | to trade | verb
+olvidamos | we forget | verb | olvidar
+# nouns
+empresa | company, business | noun
+mano | hand (de segunda mano = second-hand) | noun
+pulpo | octopus | noun
+pulpos | octopuses | noun | pulpo
+caminos | paths, ways | noun | camino
+hijos | children; sons | noun | hijo
+hijo | son; child | noun
+corredores | runners | noun | corredor
+corredor | runner | noun
+entrenamiento | training | noun
+amanecer | dawn | noun
+completo | por completo = completely | adjective
+muebles | furniture | noun | mueble
+mueble | piece of furniture | noun
+internet | internet | noun
+inversores | investors | noun | inversor
+inversor | investor | noun
+inteligencia | intelligence | noun
+evolución | evolution | noun
+tanque | tank | noun
+abogada | (female) lawyer | noun
+agenda | diary, schedule | noun
+escaleras | stairs | noun | escalera
+prisa | hurry, rush | noun
+octubre | October | noun
+maratón | marathon | noun
+mezcla | mixture | noun
+admiración | admiration | noun
+envidia | envy | noun
+semanas | weeks | noun | semana
+aliento | breath | noun
+cabo | al cabo de = after | noun
+músculos | muscles | noun | músculo
+músculo | muscle | noun
+atleta | athlete | noun
+respiración | breathing | noun
+señales | signs, signals | noun | señal
+señal | sign, signal | noun
+fatiga | fatigue | noun
+dolor | pain | noun
+lesión | injury | noun
+lesiones | injuries | noun | lesión
+importancia | importance | noun
+cabeza | head (con cabeza = sensibly) | noun
+médicos | doctors | noun | médico
+médico | doctor | noun
+exceso | excess | noun
+entusiasmo | enthusiasm | noun
+causa | cause | noun
+aficionados | amateurs; fans | noun | aficionado
+aficionado | amateur; fan | noun
+mente | mind | noun
+salidas | outings, runs | noun | salida
+salida | exit; outing; start | noun
+pensamientos | thoughts | noun | pensamiento
+pensamiento | thought | noun
+juicios | trials | noun | juicio
+juicio | trial; judgement | noun
+meta | finish line; goal | noun
+récord | record | noun
+medalla | medal | noun
+participantes | participants | noun | participante
+participante | participant | noun
+valla | fence, barrier | noun
+certeza | certainty | noun
+marca | time, mark; brand | noun
+garaje | garage | noun
+ahorros | savings | noun | ahorro
+ahorro | saving | noun
+furgoneta | van | noun
+mercadillos | flea markets | noun | mercadillo
+mercadillo | flea market | noun
+busca | en busca de = in search of | noun
+sillas | chairs | noun | silla
+silla | chair | noun
+esmero | great care | noun
+gastos | expenses | noun | gasto
+gasto | expense | noun
+idea | idea | noun
+ideas | ideas | noun | idea
+demanda | demand | noun
+inflexión | punto de inflexión = turning point | noun
+influencer | influencer | noun
+decoración | interior design, decoration | noun
+redes | networks; social media | noun | red
+red | network; net | noun
+cómoda | chest of drawers | noun
+pedidos | orders | noun | pedido
+pedido | order | noun
+golpe | blow, stroke (golpe de suerte = stroke of luck) | noun
+suerte | luck | noun
+problema | problem | noun
+problemas | problems | noun | problema
+abasto | no dar abasto = to be unable to cope | noun
+plazos | deadlines | noun | plazo
+entrega | delivery | noun
+quejas | complaints | noun | queja
+queja | complaint | noun
+decisiones | decisions | noun | decisión
+decisión | decision | noun
+empleados | employees | noun | empleado
+empleado | employee | noun
+nave | warehouse (nave industrial) | noun
+crecimiento | growth | noun
+entrada | entry; entrance | noun
+inversión | investment | noun
+madera | wood | noun
+reuniones | meetings | noun | reunión
+reunión | meeting | noun
+hojas | sheets; leaves (hoja de cálculo = spreadsheet) | noun | hoja
+hoja | sheet; leaf | noun
+cálculo | calculation | noun
+entrevistas | interviews | noun | entrevista
+entrevista | interview | noun
+socios | partners | noun | socio
+socio | partner, member | noun
+exigencias | demands | noun | exigencia
+exigencia | demand | noun
+aspecto | appearance | noun
+escala | scale | noun
+redondo | negarse en redondo = to flatly refuse | adjective
+proyecto | project | noun
+discusiones | arguments | noun | discusión
+discusión | argument, discussion | noun
+borde | edge (al borde de = on the verge of) | noun
+ruptura | break-up | noun
+fundadores | founders | noun | fundador
+fundador | founder | noun
+participaciones | shares, stakes | noun | participación
+participación | share, stake | noun
+préstamo | loan | noun
+expansión | expansion | noun
+plantilla | staff, workforce | noun
+éxito | success | noun
+planetas | planets | noun | planeta
+planeta | planet | noun
+moluscos | molluscs | noun | molusco
+molusco | mollusc | noun
+capacidades | abilities | noun | capacidad
+capacidad | ability, capacity | noun
+investigadores | researchers | noun | investigador
+investigador | researcher | noun
+ejemplos | examples | noun | ejemplo
+ejemplo | example | noun
+acuarios | aquariums | noun | acuario
+acuario | aquarium | noun
+tapas | lids | noun | tapa
+tapa | lid | noun
+frascos | jars | noun | frasco
+frasco | jar | noun
+cangrejo | crab | noun
+cuidadores | keepers, carers | noun | cuidador
+cuidador | keeper, carer | noun
+testimonios | accounts, testimonies | noun | testimonio
+testimonio | account, testimony | noun
+chorros | jets, squirts | noun | chorro
+chorro | jet, squirt | noun
+casos | cases | noun | caso
+caso | case | noun
+ejemplares | specimens | noun | ejemplar
+ejemplar | specimen; copy | noun
+peces | fish (live) | noun | pez
+pez | fish (live) | noun
+sitio | place, spot | noun
+arquitectura | architecture | noun
+neuronas | neurons | noun | neurona
+neurona | neuron | noun
+cifra | figure, number | noun
+tercios | thirds | noun | tercio
+brazos | arms | noun | brazo
+brazo | arm | noun
+instrucciones | instructions | noun | instrucción
+instrucción | instruction | noun
+cerebros | brains | noun | cerebro
+metáfora | metaphor | noun
+camuflaje | camouflage | noun
+células | cells | noun | célula
+célula | cell | noun
+piel | skin | noun
+color | colour | noun
+colores | colours | noun | color
+textura | texture | noun
+fracciones | fractions | noun | fracción
+fracción | fraction | noun
+algas | seaweed | noun | alga
+alga | seaweed, alga | noun
+arena | sand | noun
+pregunta | question | noun
+precisión | precision | noun
+teoría | theory | noun
+criterios | criteria | noun | criterio
+criterio | criterion | noun
+nombre | name | noun
+imagen | image | noun
+realidad | reality | noun
+culturas | cultures | noun | cultura
+cultura | culture | noun
+término | term | noun
+geógrafo | geographer | noun
+trayecto | journey, route | noun
+mercancías | goods | noun | mercancía
+mercancía | goods, merchandise | noun
+desiertos | deserts | noun | desierto
+desierto | desert | noun
+cordilleras | mountain ranges | noun | cordillera
+cordillera | mountain range | noun
+estepas | steppes | noun | estepa
+estepa | steppe | noun
+etapa | stage | noun
+intermediarios | middlemen | noun | intermediario
+intermediario | middleman | noun
+margen | margin | noun
+beneficio | profit; benefit | noun
+modo | way (de modo que = so that) | noun
+senado | senate | noun
+prohibición | ban | noun
+tela | cloth, fabric | noun
+gusto | taste, liking | noun
+lujo | luxury | noun
+arcas | coffers | noun | arca
+arca | chest; coffer | noun
+imperio | empire | noun
+productos | products | noun | producto
+producto | product | noun
+especias | spices | noun | especia
+especia | spice | noun
+papel | paper; role | noun
+porcelana | porcelain | noun
+religiones | religions | noun | religión
+religión | religion | noun
+técnicas | techniques | noun | técnica
+técnica | technique | noun
+budismo | Buddhism | noun
+números | numbers; numerals | noun | número
+intercambios | exchanges | noun | intercambio
+intercambio | exchange | noun
+peste | plague (peste negra = Black Death) | noun
+vías | routes, ways | noun | vía
+ciudades | cities | noun | ciudad
+cruces | crossroads | noun | cruce
+cruce | crossroads, junction | noun
+centros | centres | noun | centro
+mercaderes | merchants | noun | mercader
+mercader | merchant | noun
+sabios | scholars, wise men | noun | sabio
+sabio | wise man, scholar; wise | noun
+viajeros | travellers | noun | viajero
+viajero | traveller | noun
+procedencias | origins | noun | procedencia
+procedencia | origin | noun
+mercados | markets | noun | mercado
+mosaicos | mosaics | noun | mosaico
+mosaico | mosaic | noun
+lenguas | languages; tongues | noun | lengua
+lengua | language; tongue | noun
+costumbres | customs | noun | costumbre
+costumbre | custom, habit | noun
+bibliotecas | libraries | noun | biblioteca
+biblioteca | library | noun
+estudiosos | scholars | noun | estudioso
+estudioso | scholar | noun
+declive | decline | noun
+factores | factors | noun | factor
+factor | factor | noun
+inestabilidad | instability | noun
+desarrollo | development | noun
+navegación | navigation, sailing | noun
+europeos | Europeans | noun | europeo
+europeo | European | noun
+legado | legacy | noun
+globalización | globalisation | noun
+aviones | aeroplanes | noun | avión
+avión | aeroplane | noun
+# adjectives
+primeras | first | adjective | primero
+nuevos | new | adjective | nuevo
+seguidos | in a row | adjective | seguido
+apretada | tight, packed | adjective | apretado
+apretado | tight, packed | adjective
+humillantes | humiliating | adjective | humillante
+humillante | humiliating | adjective
+frecuente | frequent | adjective
+valioso | valuable | adjective
+reciclados | recycled | adjective | reciclado
+reciclado | recycled | adjective
+segunda | second | adjective | segundo
+abandonadas | abandoned | adjective | abandonado
+abandonado | abandoned | adjective
+convencidos | convinced | adjective | convencido
+real | real | adjective
+inesperada | unexpected | adjective | inesperado
+inesperado | unexpected | adjective
+conocida | well-known | adjective | conocido
+conocido | well-known | adjective
+restaurada | restored | adjective | restaurado
+restaurado | restored | adjective
+industrial | industrial | adjective
+envejecido | aged, distressed | adjective
+baratos | cheap | adjective | barato
+fáciles | easy | adjective | fácil
+fácil | easy | adjective
+tensas | tense | adjective | tenso
+tenso | tense | adjective
+estable | stable | adjective
+ajena | alien, foreign | adjective | ajeno
+ajeno | alien; someone else's | adjective
+cognitivas | cognitive | adjective | cognitivo
+cognitivo | cognitive | adjective
+numerosos | numerous | adjective | numeroso
+numeroso | numerous | adjective
+antipáticos | unpleasant, unfriendly | adjective | antipático
+antipático | unpleasant, unfriendly | adjective
+llamativo | striking | adjective
+comparable | comparable | adjective
+cierto | certain (hasta cierto punto = to some extent); true | adjective
+centrales | central | adjective | central
+discutible | debatable | adjective
+extraordinaria | extraordinary | adjective | extraordinario
+extraordinario | extraordinary | adjective
+especializadas | specialised | adjective | especializado
+especializado | specialised | adjective
+cubierta | covered | adjective | cubierto
+cubierto | covered | adjective
+fascinante | fascinating | adjective
+tanta | so much | determiner | tanto
+humanos | human | adjective | humano
+humano | human | adjective
+posible | possible | adjective
+breve | brief, short | adjective
+solitaria | solitary | adjective | solitario
+solitario | solitary | adjective
+distintos | different | adjective | distinto
+distinto | different | adjective
+distintas | different | adjective | distinto
+parecidos | similar | adjective | parecido
+parecido | similar | adjective
+extensa | extensive, vast | adjective | extenso
+extenso | extensive, vast | adjective
+comerciales | trade (adj.), commercial | adjective | comercial
+comercial | commercial | adjective
+terrestres | land (adj.), overland | adjective | terrestre
+terrestre | land, terrestrial | adjective
+marítimas | maritime, sea | adjective | marítimo
+marítimo | maritime | adjective
+diversas | diverse, various | adjective | diverso
+diverso | diverse | adjective
+reciente | recent | adjective
+alemán | German | adjective
+habitual | usual | adjective
+desorbitados | exorbitant | adjective | desorbitado
+desorbitado | exorbitant | adjective
+romano | Roman | adjective
+mismas | same | adjective | mismo
+situadas | located | adjective | situado
+situado | located | adjective
+cosmopolitas | cosmopolitan | adjective | cosmopolita
+cosmopolita | cosmopolitan | adjective
+auténticos | authentic, real | adjective | auténtico
+auténtico | authentic, real | adjective
+política | political; politics | adjective | político
+oceánica | ocean (adj.), oceanic | adjective | oceánico
+oceánico | oceanic | adjective
+presente | present | adjective
+interconectado | interconnected | adjective
+originarios | originating | adjective | originario
+originario | originating, native | adjective
+árabe | Arab, Arabic | adjective
+algunos | some | determiner | alguno
+
+# --- C2 stories ---
+alba | Alba (name); dawn | name
+zaragoza | Zaragoza (city) | name
+islandia | Iceland | name
+suiza | Switzerland | name
+alpes | the Alps | name
+andes | the Andes | name
+himalaya | the Himalayas | name
+pirineo | the Pyrenees | name
+# function words / adverbs
+alguien | someone; anyone | pronoun
+quizá | perhaps, maybe | adverb
+precisamente | precisely | adverb
+ante | before, in the face of | preposition
+nuestras | our | determiner | nuestro
+nuestros | our | determiner | nuestro
+mismos | -selves; same | adjective | mismo
+alguna | some; any | determiner | alguno
+cualquier | any | determiner
+propias | own | adjective | propio
+propio | own | adjective
+ahí | there | adverb
+ello | it, that | pronoun
+cuya | whose | determiner | cuyo
+aquellos | those | determiner | aquel
+toda | all; whole (de toda la vida = traditional) | determiner | todo
+tampoco | neither, not either | adverb
+quien | who; whoever | pronoun
+quiénes | who | pronoun
+sola | alone; by itself | adjective | solo
+allá | beyond (más allá de = beyond) | adverb
+jamás | never | adverb
+cien | a hundred | numeral
+casualmente | by chance, coincidentally | adverb
+deliberadamente | deliberately | adverb
+propiamente | properly, strictly | adverb
+gradualmente | gradually | adverb
+cuidadosamente | carefully | adverb
+estrepitosamente | spectacularly, resoundingly | adverb
+# verbs
+pierde | loses | verb | perder
+parece | seems | verb | parecer
+parecen | seem | verb | parecer
+parezca | seems (subjunctive) | verb | parecer
+parezcan | seem (subjunctive); resemble | verb | parecer
+parecerán | will seem | verb | parecer
+recuperar | to recover, to get back | verb
+vemos | we see | verb | ver
+merecen | deserve | verb | merecer
+merece | deserves | verb | merecer
+merecer | to deserve | verb
+funcionan | work, function | verb | funcionar
+dependen | depend | verb | depender
+siendo | being | verb | ser
+conservar | to keep, to preserve | verb
+conserva | keeps, preserves | verb | conservar
+conservó | kept | verb | conservar
+levantarnos | to get up | verb | levantar
+decidido | decided | verb | decidir
+leeremos | we will read | verb | leer
+sonarán | will sound, will play | verb | sonar
+detenemos | we stop | verb | detener
+reside | lies, resides | verb | residir
+residir | to reside, to lie | verb
+argumentan | argue | verb | argumentar
+argumentar | to argue | verb
+ahorran | save | verb | ahorrar
+ahorrar | to save | verb
+caracteriza | characterises | verb | caracterizar
+caracterizar | to characterise | verb
+filtrar | to filter | verb
+jerarquizar | to rank | verb
+sería | would be | verb | ser
+dicen | (they) say | verb | decir
+anticipar | to anticipate | verb
+estarían | would be | verb | estar
+recorriendo | going through | verb | recorrer
+surge | arises | verb | surgir
+surgir | to arise | verb
+transforma | turns (se transforma en) | verb | transformar
+transformar | to transform | verb
+transformándose | changing, transforming | verb | transformar
+predecir | to predict | verb
+haremos | we will do | verb | hacer
+mostramos | we show | verb | mostrar
+ofrecerán | will be offered (se ofrecerán) | verb | ofrecer
+ofrecer | to offer | verb
+darnos | to give us | verb | dar
+dejamos | we stop (dejar de); we leave | verb | dejar
+encontrarnos | to come across; to find ourselves | verb | encontrar
+incomoda | makes uncomfortable | verb | incomodar
+incomodar | to make uncomfortable | verb
+podría | could | verb | poder
+podemos | we can | verb | poder
+pueden | (they) can | verb | poder
+puedan | can (subjunctive) | verb | poder
+hacernos | to make us | verb | hacer
+añade | is added (se añade) | verb | añadir
+toman | (they) take | verb | tomar
+conceder | to grant | verb
+evaluar | to assess | verb
+adquiere | acquires, takes on | verb | adquirir
+adquirir | to acquire | verb
+soslayarse | to be sidestepped | verb | soslayar
+soslayar | to sidestep, to avoid | verb
+demonizar | to demonise | verb
+añorar | to long for | verb
+existió | existed | verb | existir
+atrofiarse | to waste away, to atrophy | verb | atrofiar
+atrofiar | to atrophy | verb
+dudar | to doubt | verb
+preguntarse | to wonder, to ask oneself | verb | preguntar
+preguntar | to ask | verb
+preguntará | will wonder (se preguntará) | verb | preguntar
+contradice | contradicts | verb | contradecir
+contradecir | to contradict | verb
+exigir | to demand | verb
+revisadas | reviewed | verb | revisar
+consista | consists (subjunctive) | verb | consistir
+asegurarnos | to make sure | verb | asegurar
+asegurar | to ensure | verb
+sustituya | replaces (subjunctive) | verb | sustituir
+sustituir | to replace | verb
+acompañe | accompanies (subjunctive) | verb | acompañar
+acompañar | to accompany | verb
+acompañado | accompanied | verb | acompañar
+albergaban | were home to | verb | albergar
+albergar | to house, to be home to | verb
+quedan | remain, are left | verb | quedar
+estudian | study | verb | estudiar
+coinciden | agree | verb | coincidir
+coincidir | to agree; to coincide | verb
+habrá | will have (auxiliary) | verb | haber
+habría | would have (auxiliary) | verb | haber
+desaparecido | disappeared | verb | desaparecer
+desplazarse | to move | verb | desplazar
+desplazar | to move, to displace | verb
+define | defines | verb | definir
+definir | to define | verb
+dicho | said (propiamente dicho = strictly speaking) | verb | decir
+fundirse | to melt | verb | fundir
+fundir | to melt | verb
+funde | melts (se funde) | verb | fundir
+sube | goes up | verb | subir
+subía | rose (dough) | verb | subir
+colocar | to place | verb
+confirman | confirm | verb | confirmar
+confirmar | to confirm | verb
+sorprendido | surprised | verb | sorprender
+estudiaba | was studying | verb | estudiar
+reconoce | admits, acknowledges | verb | reconocer
+documentando | documenting | verb | documentar
+acumulan | accumulate | verb | acumular
+acumular | to accumulate | verb
+liberan | release | verb | liberar
+liberar | to release | verb
+alimentando | feeding | verb | alimentar
+alimentar | to feed | verb
+altera | alters | verb | alterar
+alterar | to alter | verb
+actúa | acts | verb | actuar
+actuar | to act | verb
+permiten | allow | verb | permitir
+reconstruir | to reconstruct | verb
+cuantificar | to quantify | verb
+forman | form | verb | formar
+orientarse | to find one's way | verb | orientar
+orientar | to orient | verb
+empezado | started | verb | empezar
+celebrar | to hold, to celebrate | verb
+organizaron | were organised (se organizaron) | verb | organizar
+sostienen | maintain, argue | verb | sostener
+sostener | to hold; to maintain | verb
+ponerle | to give it (a name) | verb | poner
+considera | considers | verb | considerar
+insiste | insists | verb | insistir
+evitado | avoided | verb | evitar
+salvará | will save | verb | salvar
+salvar | to save | verb
+admite | admits | verb | admitir
+admitir | to admit | verb
+recoge | packs up, collects | verb | recoger
+recoger | to pick up, to collect | verb
+contaremos | we will tell | verb | contar
+anotando | writing down | verb | anotar
+anotar | to note down | verb
+especifican | are specified (se especifican) | verb | especificar
+especificar | to specify | verb
+indican | are indicated (se indican) | verb | indicar
+huela | smells (subjunctive) | verb | oler
+aparecen | appear | verb | aparecer
+aparecer | to appear | verb
+aparecerá | will appear | verb | aparecer
+intenté | I tried | verb | intentar
+intentar | to try | verb
+fracasé | I failed | verb | fracasar
+fracasar | to fail | verb
+cortaba | split, curdled (se cortaba) | verb | cortar
+tardé | it took me (time) | verb | tardar
+tardar | to take (time) | verb
+faltaba | was missing | verb | faltar
+faltar | to be missing, to lack | verb
+puesto | put | verb | poner
+transmitía | was passed on (se transmitía) | verb | transmitir
+observando | observing | verb | observar
+probando | tasting, trying | verb | probar
+equivocándose | making mistakes | verb | equivocar
+equivocar | to get wrong (equivocarse = to make a mistake) | verb
+llaman | call | verb | llamar
+aprende | is learned (se aprende); learns | verb | aprender
+calibran | gauge | verb | calibrar
+calibrar | to gauge, to calibrate | verb
+detecta | detects | verb | detectar
+detectar | to detect | verb
+interrumpe | is interrupted (se interrumpe) | verb | interrumpir
+interrumpir | to interrupt | verb
+alcanzan | manage (to), reach | verb | alcanzar
+sientan | feel (subjunctive) | verb | sentir
+cocinaban | used to cook | verb | cocinar
+establecer | to establish | verb
+inscribirnos | to place ourselves, to inscribe ourselves | verb | inscribir
+inscribir | to inscribe, to register | verb
+precede | comes before | verb | preceder
+preceder | to precede | verb
+conseguido | managed | verb | conseguir
+propusiera | intended (subjunctive) | verb | proponer
+utilizado | used | verb | utilizar
+vivía | experienced, lived | verb | vivir
+custodia | is guarded (se custodia) | verb | custodiar
+custodiar | to guard, to keep | verb
+reinterpreta | is reinterpreted (se reinterpreta) | verb | reinterpretar
+reinterpretar | to reinterpret | verb
+encontrará | will find | verb | encontrar
+recorren | go around, walk through (se recorren) | verb | recorrer
+hojea | leafs through | verb | hojear
+hojear | to leaf through | verb
+guarda | keeps | verb | guardar
+habitaron | lived in | verb | habitar
+habitar | to inhabit | verb
+escribe | writes | verb | escribir
+dejaron | left | verb | dejar
+borrando | erasing | verb | borrar
+borrar | to erase | verb
+subrayando | underlining | verb | subrayar
+subrayar | to underline | verb
+detenerse | to stop, to pause | verb | detener
+comprobarlo | to check it | verb | comprobar
+comprobar | to check | verb
+constituyen | constitute | verb | constituir
+constituir | to constitute | verb
+recordados | remembered | verb | recordar
+honrar | to honour | verb
+reparen | notice (subjunctive) | verb | reparar
+ocurre | happens | verb | ocurrir
+arrasó | razed, flattened | verb | arrasar
+arrasar | to raze | verb
+figuraban | appeared, were listed | verb | figurar
+figurar | to appear, to be listed | verb
+nació | was born | verb | nacer
+nacer | to be born | verb
+convertirse | to become | verb | convertir
+vaciados | emptied | verb | vaciar
+disparan | shoot up (se disparan) | verb | disparar
+disparar | to shoot; to soar | verb
+ceden | give up, yield | verb | ceder
+ceder | to give up, to yield | verb
+preserva | is preserved (se preserva) | verb | preservar
+preservar | to preserve | verb
+desaloja | evicts | verb | desalojar
+desalojar | to evict | verb
+cobran | gain (cobran importancia) | verb | cobrar
+cobrar | to charge; to gain | verb
+resisten | hold out, resist | verb | resistir
+resistir | to resist | verb
+contribuyen | contribute | verb | contribuir
+contribuir | to contribute | verb
+siga | continues (subjunctive) | verb | seguir
+recuerda | remembers | verb | recordar
+nombrar | to name | verb
+derribar | to demolish | verb
+reivindicar | to reclaim, to champion | verb
+deciden | decide | verb | decidir
+perdurar | to endure, to last | verb
+caer | to fall | verb
+# nouns
+glaciares | glaciers | noun | glaciar
+glaciar | glacier | noun
+hielo | ice | noun
+manera | way, manner | noun
+recetas | recipes | noun | receta
+rara | rare (rara vez = rarely) | adjective | raro
+raro | rare; strange | adjective
+cuaderno | notebook | noun
+generación | generation | noun
+algoritmos | algorithms | noun | algoritmo
+algoritmo | algorithm | noun
+desaparición | disappearance | noun
+régimen | regime; pattern | noun
+archivo | archive | noun
+archivos | archives | noun | archivo
+conciencia | awareness, conscience | noun
+memoria | memory | noun
+generales | generals | noun | general
+general | general | noun
+formas | forms, ways | noun | forma
+serie | series | noun
+canciones | songs | noun | canción
+canción | song | noun
+eficacia | efficiency | noun
+discreción | discretion | noun
+esfuerzo | effort | noun
+sobreabundancia | overabundance | noun
+herramientas | tools | noun | herramienta
+herramienta | tool | noun
+preferencias | preferences | noun | preferencia
+preferencia | preference | noun
+estanterías | shelves | noun | estantería
+estantería | shelf, bookcase | noun
+discos | records | noun | disco
+disco | record, disc | noun
+comodidad | convenience, comfort | noun
+dependencia | dependence | noun
+recomendación | recommendation | noun
+encierro | confinement | noun
+opiniones | opinions | noun | opinión
+interés | interest | noun
+postura | position, stance | noun
+contenidos | content | noun | contenido
+contenido | content | noun
+manipulación | manipulation | noun
+empobrecimiento | impoverishment | noun
+opacidad | opacity | noun
+diseñadores | designers | noun | diseñador
+diseñador | designer | noun
+exactitud | accuracy | noun
+juego | game; play (en juego = at stake) | noun
+lista | list (lista de reproducción = playlist) | noun
+reproducción | playback; reproduction | noun
+crédito | loan, credit | noun
+candidatos | candidates | noun | candidato
+candidato | candidate | noun
+empleo | job, employment | noun
+reincidencia | reoffending | noun
+acusado | defendant | noun
+transparencia | transparency | noun
+gravedad | seriousness | noun
+tecnología | technology | noun
+certezas | certainties | noun | certeza
+desafío | challenge | noun
+máquinas | machines | noun | máquina
+máquina | machine | noun
+veintena | about twenty | noun
+mayoría | majority, most | noun
+mediados | a mediados de = in the middle of | noun
+bloques | blocks | noun | bloque
+bloque | block | noun
+glacióloga | glaciologist | noun
+universidad | university | noun
+ritual | ritual | noun
+septiembre | September | noun
+espesor | thickness | noun
+balizas | markers, stakes | noun | baliza
+baliza | marker, beacon | noun
+muestras | samples | noun | muestra
+muestra | sample | noun
+datos | data | noun | dato
+dato | piece of data | noun
+tendencia | trend | noun
+aceleración | acceleration | noun
+pesimistas | pessimists | noun | pesimista
+pesimista | pessimist; pessimistic | noun
+carrera | career; race | noun
+proceso | process | noun
+sensación | feeling | noun
+directo | en directo = live | adjective
+masas | masses | noun | masa
+embalses | reservoirs | noun | embalse
+embalse | reservoir | noun
+nieve | snow | noun
+acuíferos | aquifers | noun | acuífero
+acuífero | aquifer | noun
+valles | valleys | noun | valle
+valle | valley | noun
+agricultura | agriculture | noun
+producción | production | noun
+ecosistemas | ecosystems | noun | ecosistema
+ecosistema | ecosystem | noun
+aporte | supply, contribution | noun
+burbujas | bubbles | noun | burbuja
+burbuja | bubble | noun
+interior | inside, interior | noun
+composición | composition | noun
+atmósfera | atmosphere | noun
+épocas | periods, ages | noun | época
+registro | record | noun
+dimensión | dimension | noun
+imaginario | imagination, collective imagery | noun
+leyendas | legends | noun | leyenda
+leyenda | legend | noun
+municipios | municipalities | noun | municipio
+municipio | municipality, town | noun
+ceremonias | ceremonies | noun | ceremonia
+ceremonia | ceremony | noun
+despedida | farewell | noun
+funerales | funerals | noun | funeral
+funeral | funeral | noun
+gesto | gesture | noun
+promotores | organisers, promoters | noun | promotor
+promotor | promoter | noun
+duelo | mourning, grief | noun
+emisiones | emissions | noun | emisión
+emisión | emission | noun
+décima | tenth | noun
+grado | degree | noun
+material | equipment, material | noun
+atardecer | dusk, sunset | noun
+objetos | objects | noun | objeto
+objeto | object | noun
+esquinas | corners | noun | esquina
+esquina | corner | noun
+manchas | stains | noun | mancha
+mancha | stain | noun
+páginas | pages | noun | página
+página | page | noun
+recetario | recipe book | noun
+uso | use (al uso = conventional) | noun
+cantidades | quantities | noun | cantidad
+cantidad | quantity | noun
+tiempos | times | noun | tiempo
+cocción | cooking | noun
+expresiones | expressions | noun | expresión
+expresión | expression | noun
+apuntes | notes | noun | apunte
+apunte | note | noun
+fecha | date | noun
+bautizo | christening | noun
+escasez | shortage | noun
+reliquia | relic | noun
+guiso | stew | noun
+salsa | sauce | noun
+ingredientes | ingredients | noun | ingrediente
+ingrediente | ingredient | noun
+escrito | por escrito = in writing | noun
+antropólogos | anthropologists | noun | antropólogo
+antropólogo | anthropologist | noun
+tipo | type, kind | noun
+conocimiento | knowledge | noun
+manos | hands | noun | mano
+chisporroteo | sizzling | noun
+sofrito | sofrito (fried onion and tomato base) | noun
+cadena | chain | noun
+transmisión | transmission, passing on | noun
+comidas | meals | noun | comida
+entregas | deliveries | noun | entrega
+domicilio | home (a domicilio = home delivery) | noun
+infancia | childhood | noun
+nostalgia | nostalgia | noun
+vínculo | bond, link | noun
+originales | originals | noun | original
+original | original | noun
+manteca | lard | noun
+traición | betrayal | noun
+naturaleza | nature | noun
+herencia | inheritance, heritage | noun
+notas | notes | noun | nota
+nota | note | noun
+márgenes | margins | noun | margen
+demonios | devils (qué demonios = what on earth) | noun | demonio
+demonio | devil, demon | noun
+comino | cumin | noun
+fachada | façade | noun
+huella | trace, footprint | noun
+palimpsesto | palimpsest | noun
+líneas | lines | noun | línea
+urgencias | urgent needs | noun | urgencia
+urgencia | urgency | noun
+callejero | street map; street names | noun
+nombres | names | noun | nombre
+vista | sight (a simple vista = at first glance) | noun
+referencias | references | noun | referencia
+referencia | reference | noun
+relato | narrative, story | noun
+oleada | wave | noun
+rebautizos | renamings | noun | rebautizo
+rebautizo | renaming | noun
+avenidas | avenues | noun | avenida
+avenida | avenue | noun
+décadas | decades | noun | década
+década | decade | noun
+poetas | poets | noun | poeta
+poeta | poet | noun
+víctimas | victims | noun | víctima
+víctima | victim | noun
+placa | plaque; street sign | noun
+disputa | dispute | noun
+transeúntes | passers-by | noun | transeúnte
+transeúnte | passer-by | noun
+edificios | buildings | noun | edificio
+edificio | building | noun
+desarrollismo | developmentalism (unchecked development) | noun
+barrios | neighbourhoods | noun | barrio
+progreso | progress | noun
+construcciones | buildings, constructions | noun | construcción
+construcción | building, construction | noun
+oficios | trades, crafts | noun | oficio
+oficio | trade, craft | noun
+vecindad | neighbourliness, neighbourhood | noun
+catálogo | catalogue | noun
+hierro | iron | noun
+fábrica | factory | noun
+medida | measure (en gran medida = to a great extent) | noun
+reacción | reaction | noun
+destrucción | destruction | noun
+protección | protection | noun
+contradicciones | contradictions | noun | contradicción
+contradicción | contradiction | noun
+decorados | stage sets | noun | decorado
+decorado | stage set | noun
+visitantes | visitors | noun | visitante
+tiendas | shops | noun | tienda
+tienda | shop | noun
+establecimientos | businesses, establishments | noun | establecimiento
+establecimiento | establishment | noun
+rincón | corner | noun
+voz | voice | noun
+escenario | stage, setting | noun
+actores | actors | noun | actor
+actor | actor | noun
+fotografías | photographs | noun | fotografía
+fotografía | photograph | noun
+ancianos | old people | noun | anciano
+anciano | old man; elderly | noun
+autopista | motorway, highway | noun
+guías | guidebooks; guides | noun | guía
+guía | guidebook; guide | noun
+olvido | oblivion | noun
+# adjectives
+enteros | entire, whole | adjective | entero
+familiares | family (adj.) | adjective | familiar
+familiar | family (adj.); familiar | adjective
+imprescindibles | essential | adjective | imprescindible
+imprescindible | essential | adjective
+asombrosa | astonishing | adjective | asombroso
+asombroso | astonishing | adjective
+considerable | considerable | adjective
+absurdo | absurd | adjective
+capaces | able, capable | adjective | capaz
+dispuestos | willing | adjective | dispuesto
+dispuesto | willing | adjective
+previas | previous | adjective | previo
+previo | previous | adjective
+determinada | particular, specific | adjective | determinado
+determinado | particular, specific | adjective
+afines | similar, related | adjective | afín
+afín | related, similar | adjective
+deliberada | deliberate | adjective | deliberado
+deliberado | deliberate | adjective
+paulatino | gradual | adjective
+complejos | complex | adjective | complejo
+concreta | specific | adjective | concreto
+concreto | specific | adjective
+menor | minor; smaller | adjective
+idealizado | idealised | adjective
+automatizadas | automated | adjective | automatizado
+automatizado | automated | adjective
+inmóviles | motionless | adjective | inmóvil
+inmóvil | motionless | adjective
+condenados | doomed | adjective | condenado
+condenado | doomed, condemned | adjective
+funerario | funeral (adj.) | adjective
+estética | aesthetic | adjective | estético
+estético | aesthetic | adjective
+naturales | natural | adjective | natural
+natural | natural | adjective
+secos | dry | adjective | seco
+seco | dry | adjective
+hídrico | water (adj.) | adjective
+constante | constant | adjective
+fría | cold | adjective | frío
+atrapadas | trapped | adjective | atrapado
+atrapado | trapped | adjective
+pasadas | past | adjective | pasado
+simbólica | symbolic | adjective | simbólico
+simbólico | symbolic | adjective
+desaparecidos | vanished | adjective | desaparecido
+exagerado | exaggerated | adjective
+fatalista | fatalistic | adjective
+decisivo | decisive | adjective
+gastadas | worn | adjective | gastado
+gastado | worn | adjective
+dobladas | folded, bent | adjective | doblado
+doblado | folded | adjective
+entrañable | endearing | adjective
+inútil | useless | adjective
+tácito | tacit | adjective
+doméstica | home (adj.), domestic | adjective | doméstico
+doméstico | domestic | adjective
+claros | clear | adjective | claro
+claro | clear | adjective
+exacto | exact | adjective
+casual | coincidental | adjective
+preparadas | ready-made | adjective | preparado
+preparado | prepared, ready-made | adjective
+genealógico | genealogical (árbol genealógico = family tree) | adjective
+comestible | edible | adjective
+viva | living, alive | adjective | vivo
+intacta | intact | adjective | intacto
+intacto | intact | adjective
+desconchada | peeling | adjective | desconchado
+desconchado | peeling | adjective
+urbana | urban | adjective | urbano
+urbano | urban | adjective
+neutral | neutral | adjective
+inmutable | unchanging | adjective
+anteriores | previous | adjective | anterior
+simple | simple, mere | adjective
+meras | mere | adjective | mero
+mero | mere | adjective
+prácticas | practical | adjective | práctico
+práctico | practical | adjective
+oficial | official | adjective
+dedicadas | dedicated, named after | adjective | dedicado
+dedicado | dedicated | adjective
+científicas | (female) scientists | noun | científico
+arquitectónico | architectural | adjective
+patrimonial | heritage (adj.) | adjective
+abandonada | abandoned | adjective | abandonado
+exenta | free (of), exempt | adjective | exento
+exento | exempt | adjective
+históricos | historic | adjective | histórico
+restaurados | restored | adjective | restaurado
+idénticos | identical | adjective | idéntico
+idéntico | identical | adjective
+monumentales | monumental | adjective | monumental
+monumental | monumental | adjective
+frágiles | fragile | adjective | frágil
+frágil | fragile | adjective
+orales | oral | adjective | oral
+oral | oral | adjective
+turísticas | tourist (adj.) | adjective | turístico
+turístico | tourist (adj.) | adjective
+habitado | inhabited | adjective
+libre | free (al aire libre = in the open air) | adjective
+inocente | innocent | adjective
+sentido | sense; meaning (en ese sentido = in that sense) | noun
