@@ -4,6 +4,8 @@ import { HomePage } from './pages/HomePage.tsx';
 import { ReaderPage } from './pages/ReaderPage.tsx';
 import { FinishPage } from './pages/FinishPage.tsx';
 import { LibraryPage } from './pages/LibraryPage.tsx';
+import { StudyPage } from './pages/StudyPage.tsx';
+import { FlashcardsPage } from './pages/FlashcardsPage.tsx';
 
 export function App() {
   return (
@@ -16,6 +18,8 @@ export function App() {
             <Route path="/read/:id" element={<ReaderPage />} />
             <Route path="/read/:id/finish" element={<FinishPage />} />
             <Route path="/library" element={<LibraryPage />} />
+            <Route path="/study" element={<StudyPage />} />
+            <Route path="/study/flashcards" element={<FlashcardsPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
@@ -38,6 +42,9 @@ function Header() {
         </NavLink>
         <NavLink to="/library" className={link}>
           Library
+        </NavLink>
+        <NavLink to="/study" className={link}>
+          Review
         </NavLink>
       </nav>
     </header>

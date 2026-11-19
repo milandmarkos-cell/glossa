@@ -139,6 +139,48 @@ export interface WordPatch {
   status?: WordStatus;
 }
 
+// ---- Study ----
+
+export type CardType = 'recognition' | 'production';
+
+export interface SrsStateDTO {
+  ease: number;
+  intervalDays: number;
+  reps: number;
+  lapses: number;
+  due: string; // ISO
+  lastReviewed: string | null; // ISO
+}
+
+export interface StudyCard {
+  word: Word;
+  cardType: CardType;
+  state: SrsStateDTO;
+  isNew: boolean;
+}
+
+export interface StudyQueue {
+  cards: StudyCard[];
+  due: number;
+  newAvailable: number;
+  newToday: number;
+  newLimit: number;
+}
+
+export interface StudyStats {
+  streak: number;
+  reviewedToday: number;
+  dueNow: number;
+  total: number;
+  byStatus: Record<WordStatus, number>;
+}
+
+export interface ReviewResult {
+  state: SrsStateDTO;
+  status: WordStatus;
+  rescheduled: boolean;
+}
+
 export interface ApiError {
   error: string;
 }

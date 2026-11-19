@@ -1,6 +1,6 @@
 import type {
   NewTextInput, SavedKey, SaveWordsRequest, SaveWordsResult, Settings, SettingsPatch, TextDetail, TextSummary,
-  LanguageInfo, Word, WordPatch, WordStatus,
+  LanguageInfo, Word, WordPatch, WordStatus, CardType, StudyQueue, StudyStats, ReviewResult,
 } from '../../shared/types.ts';
 
 export class ApiError extends Error {
@@ -41,5 +41,13 @@ export const api = {
   },
   updateWord: (id: number, patch: WordPatch) => request<Word>(`/api/words/${id}`, { method: 'PATCH', body: JSON.stringify(patch) }),
   deleteWord: (id: number) => request<void>(`/api/words/${id}`, { method: 'DELETE' }),
+  wordLanguages: () => request<{ code: string; words: number }[]>('/api/words/languages'),
+  queue: (language: string, direction: CardType) =>
+    request<StudyQueue>(`/api/study/queue?language=${encodeURIComponent(language)}&direction=${direction}&tz=${new Date().getTimezoneOffset()}`),
+  review: (body: { wordId: number; cardType: CardType; grade: 1 | 2 | 3 | 4; mode: string }) =>
+    request<ReviewResult>('/api/study/review', { method: 'POST', body: JSON.stringify(body) }),
+  pool: (language: string, n: number) => request<Word[]>(`/api/study/pool?language=${encodeURIComponent(language)}&n=${n}`),
+  stats: (language?: string) =>
+    request<StudyStats>(`/api/stats?tz=${new Date().getTimezoneOffset()}${language ? `&language=${encodeURIComponent(language)}` : ''}`),
   exportUrl: (language?: string) => `/api/words/export.csv${language ? `?language=${encodeURIComponent(language)}` : ''}`,
 };

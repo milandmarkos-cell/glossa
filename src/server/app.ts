@@ -6,6 +6,7 @@ import { getText, insertText, listTexts } from './repo/texts.ts';
 import { getSettings, saveSettings } from './repo/settings.ts';
 import { deleteWord, findByKeys, getWord, listWords, saveWords, updateWord, wordsToAnkiCsv } from './repo/words.ts';
 import { glossaryFor, type Content } from './content.ts';
+import { gamePool, getQueue, review, stats } from './repo/study.ts';
 import { CEFR_LEVELS, isSupportedLanguage } from '../shared/languages.ts';
 import type { LanguageInfo, SavedKey, TextDetail } from '../shared/types.ts';
 
@@ -198,6 +199,11 @@ export function createApp(db: DB, opts: AppOptions) {
     res.json(saveWords(db, userId, body.language, body.textId, body.words));
   });
 
+  /** Languages the learner has saved words in (study page picker). */
+  app.get('/api/words/languages', (_req, res) => {
+    res.json(db.prepare('SELECT language AS code, COUNT(*) AS words FROM words WHERE user_id = ? GROUP BY language ORDER BY COUNT(*) DESC').all(userId));
+  });
+
   app.get('/api/words/:id', (req, res) => {
     const word = getWord(db, userId, idParam(req));
     if (!word) throw new HttpError(404, 'Word not found');
@@ -214,6 +220,47 @@ export function createApp(db: DB, opts: AppOptions) {
   app.delete('/api/words/:id', (req, res) => {
     if (!deleteWord(db, userId, idParam(req))) throw new HttpError(404, 'Word not found');
     res.status(204).end();
+  });
+
+  // ---- Study (flashcards, games, stats) ----
+  const tz = (v: unknown) => {
+    const n = Number(v ?? 0);
+    return Number.isFinite(n) && Math.abs(n) <= 14 * 60 ? n : 0;
+  };
+  const cardType = z.enum(['recognition', 'production']);
+
+  app.get('/api/study/queue', (req, res) => {
+    const lang = parse(language, req.query.language);
+    const type = req.query.direction ? parse(cardType, req.query.direction) : 'recognition';
+    const s = getSettings(db, userId);
+    res.json(getQueue(db, userId, { language: lang, cardType: type, newLimit: s.newCardsPerDay, now: new Date(), tzOffset: tz(req.query.tz) }));
+  });
+
+  app.post('/api/study/review', (req, res) => {
+    const body = parse(
+      z.object({
+        wordId: z.number().int().positive(),
+        cardType: cardType.default('recognition'),
+        grade: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]),
+        mode: z.enum(['flashcard', 'match', 'choice', 'cloze', 'spelling', 'scramble']).default('flashcard'),
+      }),
+      req.body,
+    );
+    const r = review(db, userId, { ...body, now: new Date() });
+    if (!r) throw new HttpError(404, 'Word not found');
+    res.json(r);
+  });
+
+  app.get('/api/study/pool', (req, res) => {
+    const lang = parse(language, req.query.language);
+    const n = Math.min(50, Math.max(1, Number(req.query.n ?? 12) || 12));
+    res.json(gamePool(db, userId, lang, n, new Date()));
+  });
+
+  app.get('/api/stats', (req, res) => {
+    const lang = optionalLanguage(req.query.language);
+    if (lang) parse(language, lang);
+    res.json(stats(db, userId, lang, new Date(), tz(req.query.tz)));
   });
 
   app.use('/api', (_req, _res, next) => next(new HttpError(404, 'Not found')));
