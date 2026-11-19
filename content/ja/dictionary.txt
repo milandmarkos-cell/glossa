@@ -1318,3 +1318,925 @@
 涼しい | cool | adjective
 違い | difference | noun
 古い | old | adjective
+
+# --- C1 stories ---
+由美 | Yumi (name) | name
+健一 | Ken'ichi (name) | name
+中村 | Nakamura (surname) | name
+箱根 | Hakone | name
+大手町 | Ōtemachi (district in Tokyo) | name
+芦ノ湖 | Lake Ashi | name
+阪神 | Hanshin (Osaka–Kobe area) | name
+淡路 | Awaji (island) | name
+スカイ | (part of スカイツリー: Tokyo Skytree) | name | スカイツリー
+ツリー | (part of スカイツリー: Tokyo Skytree) | name | スカイツリー
+スカイツリー | Tokyo Skytree | name
+IT | IT (information technology) | noun
+# grammar
+もの | thing; (emphasis) | noun
+れる | (passive/potential ending) | verb | られる
+られた | was done (passive) | verb | られる
+えられた | (part of 与えられた: given) | verb | 与える
+えられ | (part of 書き加えられ: be added) | verb | 加える
+されて | being done | verb | する
+れば | if | particle
+きた | has come to; came | verb | 来る
+してき | (part of してきた: has done) | verb | する
+化 | -isation (高齢化 = ageing) | suffix
+観 | view (価値観 = values) | suffix
+こそ | precisely, indeed | particle
+われる | (part of 言われる: is said) | verb | 言う
+言 | (part of 言われる: is said) | verb | 言う
+おら | (part of されておらず: not having been done) | verb | おる
+ず | without; not | particle
+おる | to be (humble/formal) | verb
+り | (part of a verb) | verb
+く | (part of a verb) | verb
+け | (part of けが: injury) | noun | けが
+けが | injury | noun
+れ | (part of 避けられない: unavoidable) | verb | られる
+にかけ | (part of 肩にかけた: worn over the shoulder) | verb | かける
+小 | small (小旗 = small flag) | prefix
+大 | big, great (大地震 = big earthquake) | prefix
+免 | (part of 免震: seismic isolation) | noun | 免震
+免震 | seismic isolation | noun
+震 | (part of 免震/制震) | noun
+制 | (part of 制震: vibration control) | noun | 制震
+制震 | vibration control | noun
+増 | (part of 増やさない: not increase) | verb | 増やす
+増やす | to increase | verb
+残 | (part of 残されている: remain) | verb | 残す
+加 | (part of 書き加えられ: be added) | verb | 加える
+加える | to add | verb
+進 | (part of 進められた: was advanced) | verb | 進める
+進める | to advance | verb
+直 | (part of 見直されて: re-evaluated) | verb | 見直す
+使 | (part of 使われる: be used) | verb | 使う
+亡く | (part of 亡くなった: died) | verb | 亡くなる
+亡くなる | to die, to pass away | verb
+強 | upper (震度六強 = upper 6) | noun
+ぶつ | (part of ぶつかり合う: collide) | verb | ぶつかる
+ぶつかる | to collide | verb
+合う | to (do to) each other; to fit | verb
+くく | (part of 伝えにくくする: make hard to convey) | adjective | にくい
+にくい | hard to (…) | adjective
+さくする | (part of 小さくする: make smaller) | verb | する
+いえ | (とはいえ = even so) | particle
+つつ | (in the process of; 〜つつある) | particle
+がち | tend to | suffix
+どれほど | however much | adverb
+少なくない | not a few, many | adjective | 少ない
+これまでに | until now | adverb
+たった今 | just now; (五年がたった今 = now that five years have passed) | adverb
+一度に | at once | adverb
+逆に | conversely | adverb
+後に | after, later | adverb
+一般に | generally | adverb
+もし | if | adverb
+常に | always | adverb
+はず | should, expected to | noun
+どう | how | adverb
+それとも | or | conjunction
+はっきりと | clearly | adverb
+しばしば | often | adverb
+どちら | which (of two) | pronoun
+あらかじめ | in advance | adverb
+誰 | who | pronoun
+どんな | what kind of | determiner
+まったく | completely (not) | adverb
+すべて | all | noun
+かつて | once, formerly | adverb
+特に | especially | adverb
+たとえば | for example | adverb
+互いに | mutually | adverb
+くらい | about; as much as | particle
+そのもの | itself | noun
+といった | such as | particle
+# numbers / time
+毎年 | every year | noun
+一月 | January | noun
+二日 | the 2nd; two days | noun
+十七 | seventeen | numeral
+百年 | a hundred years | noun
+十年 | ten years | noun
+五年 | five years | noun
+一年 | one year | noun
+半年 | half a year | noun
+週間 | weeks (何週間 = several weeks) | noun
+千 | thousand | numeral
+六千 | six thousand | numeral
+件 | (counter for cases, orders) | noun
+数件 | a few (orders) | noun
+翌日 | the next day | noun
+五つ | five (things) | noun
+四つ | four (things) | noun
+割 | ten percent (二割 = 20%) | noun
+# verbs
+続け | continuing (stem of 続ける) | verb | 続ける
+続き | continuing (stem of 続く) | verb | 続く
+作った | made | verb | 作る
+使った | used | verb | 使う
+指摘 | pointing out | noun
+果たす | to fulfil | verb
+果たして | fulfilling | verb | 果たす
+求め | demanding (stem of 求める) | verb | 求める
+求める | to demand, to seek | verb
+営む | to run (a business) | verb
+売り | selling (stem of 売る) | verb | 売る
+始め | beginning (stem of 始める) | verb | 始める
+立ち | standing (stem of 立つ) | verb | 立つ
+こなし | handling (stem of こなす) | verb | こなす
+こなす | to handle, to manage | verb
+止まった | stopped | verb | 止まる
+止まる | to stop | verb
+届く | to arrive, to be delivered | verb
+持ち | (part of 持ちかけられた: was proposed) | verb | 持ちかける
+持ちかける | to propose | verb
+稼いだ | earned | verb | 稼ぐ
+稼ぐ | to earn | verb
+上回る | to exceed | verb
+雇い | hiring (stem of 雇う) | verb | 雇う
+雇う | to hire | verb
+選んだ | chose | verb | 選ぶ
+選ぶ | to choose | verb
+断り | refusing (stem of 断る) | verb | 断る
+断る | to refuse | verb
+含めて | including | verb | 含める
+含める | to include | verb
+楽しんで | enjoying | verb | 楽しむ
+楽しむ | to enjoy | verb
+迎え入れ | taking in (stem of 迎え入れる) | verb | 迎え入れる
+迎え入れる | to take in, to welcome | verb
+広げていった | gradually expanded | verb | 広げる
+広げる | to expand | verb
+振り返る | to look back | verb
+失わない | not lose | verb | 失う
+つなぎ | linking (stem of つなぐ) | verb | つなぐ
+つなぐ | to connect, to link | verb
+走り抜ける | to run through | verb
+走って | running | verb | 走る
+立たない | not stand out (目立たない) | verb | 立つ
+目 | eye (目の前 = in front of one's eyes) | noun
+粘り | tenacity (粘り強く = tenaciously) | noun
+救う | to save | verb
+受け | (part of 受け渡す: hand over) | verb | 受け渡す
+渡す | (part of 受け渡す: hand over) | verb | 受け渡す
+受け渡す | to hand over | verb
+途切れる | to be interrupted | verb
+つかむ | to grab, to win (hearts) | verb
+重んじ | valuing (stem of 重んじる) | verb | 重んじる
+重んじる | to value | verb
+与 | (part of 与えられた: given) | verb | 与える
+食いしばる | to grit (one's teeth) | verb
+重ねる | to overlap; to pile up | verb
+重ねて | piling up | verb | 重ねる
+視する | (part of 疑問視する: to question) | verb | する
+燃え | (part of 燃え尽き: burnout) | verb | 燃える
+尽き | (part of 燃え尽き: burnout) | verb | 尽きる
+尽きる | to run out | verb
+つながる | to lead to | verb
+偏り | leaning towards (偏りがち = tend to focus on) | verb | 偏る
+偏る | to lean, to be biased | verb
+しまう | to end up doing | verb
+振る | to wave | verb
+超えて | crossing, beyond | verb | 超える
+超える | to cross, to exceed | verb
+握ら | (part of 握らなくても: without holding) | verb | 握る
+握る | to grip | verb
+投じて | investing | verb | 投じる
+投じる | to invest, to throw | verb
+繰り | (part of 繰り広げている: is waging) | verb | 繰り広げる
+広げている | (part of 繰り広げている: is waging) | verb | 繰り広げる
+繰り広げる | to wage, to unfold | verb
+行う | to carry out | verb
+行われて | being carried out | verb | 行う
+関わらない | not involved | verb | 関わる
+関わる | to be involved | verb
+起きている | happen | verb | 起きる
+起きた | happened | verb | 起きる
+負う | to bear (responsibility) | verb
+持っていない | doesn't have | verb | 持つ
+避けら | (part of 避けられない: unavoidable) | verb | 避ける
+避ける | to avoid | verb
+乗っている | riding | verb | 乗る
+組み込む | to build in | verb
+切り | (part of 切り離せない: inseparable) | verb | 切り離す
+離せない | (part of 切り離せない: inseparable) | verb | 切り離す
+切り離す | to separate | verb
+望む | to wish for | verb
+造る | to build | verb
+耐え | enduring (stem of 耐える) | verb | 耐える
+耐える | to withstand | verb
+貫く | to pierce, to run through | verb
+抑える | to restrain, to suppress | verb
+建て | building (stem of 建てる) | verb | 建てる
+建てる | to build | verb
+しない | doesn't do | verb | する
+防げる | can prevent | verb | 防ぐ
+防ぐ | to prevent | verb
+倒れ | falling (stem of 倒れる) | verb | 倒れる
+倒れる | to fall over | verb
+訴え | appealing (stem of 訴える) | verb | 訴える
+訴える | to appeal, to call for | verb
+繰り返し | repeatedly | adverb
+# nouns
+選手 | athlete, player | noun
+駅伝 | ekiden (long-distance relay race) | noun
+自動 | automatic | noun
+器 | (ceramic) dish, vessel | noun
+工房 | workshop, studio | noun
+注文 | order | noun
+全国 | the whole country | noun
+たすき | sash (passed between relay runners) | noun
+競技 | competition, sport | noun
+柱 | pillar | noun
+窯 | kiln | noun
+テレビ | television | noun
+提携 | partnership | noun
+生産 | production | noun
+資金 | funds | noun
+強く | strongly | adjective | 強い
+仕組み | mechanism, system | noun
+予想 | expectation | noun
+固定 | fixed (固定客 = regular customers) | noun
+大学 | university | noun
+区間 | section, leg (of a relay) | noun
+大会 | tournament, race | noun
+瞬間 | moment | noun
+メーカー | manufacturer | noun
+状況 | situation | noun
+人間 | human being | noun
+機能 | function | noun
+判断 | judgement | noun
+大幅 | substantially | adjective
+高齢 | old age | noun
+道路 | road | noun
+問い | question | noun
+建築 | architecture, building | noun
+倒壊 | collapse | noun
+耐震 | earthquake-resistant | noun
+陶器 | pottery | noun
+夫妻 | husband and wife | noun
+手作り | handmade | noun
+食器 | tableware | noun
+インターネット | the internet | noun
+夫 | husband | noun
+遅く | late | adjective | 遅い
+遅い | late; slow | adjective
+妻 | wife | noun
+昼間 | daytime | noun
+撮影 | photography | noun
+梱包 | packing | noun
+転機 | turning point | noun
+有名 | famous | adjective
+番組 | programme | noun
+放送 | broadcast | noun
+サイト | website | noun
+殺到 | rush, flood | noun
+サーバー | server | noun
+在庫 | stock | noun
+状態 | state, condition | noun
+悲鳴 | scream (うれしい悲鳴 = a happy problem) | noun
+経験 | experience | noun
+大手 | major (company) | noun
+雑貨 | household goods | noun
+チェーン | chain (of shops) | noun
+デザイン | design | noun
+海外 | overseas | noun
+大量 | large quantity | noun
+店舗 | store | noun
+販売 | sale | noun
+提示 | offer, presentation | noun
+契約 | contract | noun
+金 | money | noun
+総額 | total amount | noun
+乗り気 | keen, eager | noun
+主張 | assertion | noun
+話し合い | discussion | noun
+最終 | final (最終的に = in the end) | noun
+量 | amount | noun
+代わり | instead | noun
+受け付け | accepting (orders) | noun
+限定 | limitation | noun
+陶芸 | ceramics (陶芸家 = potter) | noun
+規模 | scale | noun
+売り上げ | sales | noun
+楽しみ | something to look forward to | noun
+経営 | management, business | noun
+安定 | stability | noun
+成長 | growth | noun
+家庭 | household, home | noun
+正月 | New Year | noun
+往復 | round trip | noun
+歴史 | history | noun
+国民 | the nation, citizens | noun
+行事 | event | noun
+魅力 | appeal, charm | noun
+速く | fast (adverbial) | adjective | 速い
+上位 | top places | noun
+全体 | the whole | noun
+肩 | shoulder | noun
+努力 | effort | noun
+走者 | runner | noun
+象徴 | symbol | noun
+つらい | painful, hard | adjective
+出来事 | event | noun
+背景 | background | noun
+研究者 | researcher | noun
+集団 | group | noun
+貢献 | contribution | noun
+苦しい | painful | adjective
+坂道 | slope | noun
+歯 | tooth | noun
+姿 | figure, appearance | noun
+視聴 | viewing (視聴者 = viewer) | noun
+あり方 | the way something should be | noun
+疑問 | doubt, question | noun
+過度 | excessive | adjective
+宣伝 | advertising | noun
+育成 | training, development | noun
+批判 | criticism | noun
+実際 | in fact | noun
+活躍 | being active, success | noun
+卒業 | graduation | noun
+沿道 | roadside | noun
+旗 | flag | noun
+ゴール | finish line, goal | noun
+涙 | tears | noun
+単なる | mere | determiner
+スポーツ | sport | noun
+世代 | generation | noun
+共有 | sharing | noun
+物語 | story | noun
+章 | chapter | noun
+文化 | culture | noun
+ハンドル | steering wheel | noun
+映画 | film, movie | noun
+現実 | reality | noun
+世界中 | all over the world | noun
+自動車 | car, automobile | noun
+企業 | company | noun
+巨額 | huge sum | noun
+競争 | competition | noun
+補助 | assistance | noun
+特定 | specific | noun
+条件 | condition | noun
+操作 | operation | noun
+完全 | complete | adjective
+市販 | commercially available | noun
+搭載 | being equipped with | noun
+車線 | lane | noun
+維持 | maintaining | noun
+車間 | (車間距離 = distance between cars) | noun
+手助け | help | noun
+期待 | expectation | noun
+交通事故 | traffic accident | noun
+居眠り | dozing off | noun
+わき見 | looking away | noun
+不注意 | carelessness | noun
+周囲 | surroundings | noun
+監視 | monitoring | noun
+手段 | means | noun
+無人 | unmanned, driverless | noun
+タクシー | taxi | noun
+実用 | practical use (実用化 = commercialisation) | noun
+課題 | issue, challenge | noun
+雪 | snow | noun
+大雨 | heavy rain | noun
+白線 | white line | noun
+工事 | construction work | noun
+対応 | response, dealing with | noun
+難しい | difficult | adjective
+責任 | responsibility | noun
+法律 | law | noun
+ソフトウェア | software | noun
+倫理 | ethics | noun
+議論 | debate | noun
+歩行 | walking (歩行者 = pedestrian) | noun
+プログラム | program | noun
+抵抗 | resistance | noun
+未来 | future | noun
+進歩 | progress | noun
+列島 | archipelago | noun
+プレート | (tectonic) plate | noun
+有数 | one of the leading | noun
+地震国 | earthquake-prone country | noun
+マグニチュード | magnitude | noun
+周辺 | surrounding area | noun
+発生 | occurrence | noun
+環境 | environment | noun
+工夫 | ingenuity, device | noun
+知恵 | wisdom | noun
+五重塔 | five-storey pagoda | noun
+数多く | many | adverb
+秘密 | secret | noun
+塔 | tower | noun
+中心 | centre | noun
+太い | thick | adjective
+各階 | each floor | noun
+蛇 | snake | noun
+現代 | modern times | noun
+設計 | design | noun
+応用 | application | noun
+近代 | modern era | noun
+大震災 | great earthquake disaster | noun
+教訓 | lesson | noun
+急速 | rapid | adjective
+震度 | seismic intensity | noun
+程度 | degree, extent | noun
+エネルギー | energy | noun
+吸収 | absorption | noun
+広く | widely | adjective | 広い
+広い | wide | adjective
+構造 | structure | noun
+地面 | the ground | noun
+ゴム | rubber | noun
+装置 | device | noun
+役所 | government office | noun
+災害 | disaster | noun
+重要 | important | adjective
+被害 | damage | noun
+住宅 | house, housing | noun
+補強 | reinforcement | noun
+負担 | burden | noun
+壁 | wall; obstacle | noun
+丈夫 | sturdy | adjective
+家具 | furniture | noun
+強さ | strength | noun
+日ごろ | everyday | noun
+備え | preparation | noun
+められた | (part of 進められた / 求められた: was advanced / required) | verb | られる
+
+# --- C2 stories ---
+中国 | China | name
+中国語 | Chinese (language) | noun
+平安 | Heian (平安時代 = Heian period) | name
+源氏物語 | The Tale of Genji | name
+ユネスコ | UNESCO | name
+日本人 | Japanese person | noun
+日本語 | Japanese (language) | noun
+# grammar & function words
+かも | maybe (かもしれない = might) | particle
+しれ | (part of かもしれない: might) | verb | しれる
+しれる | (かもしれない = might) | verb
+ろう | (part of だろう: probably) | particle | だろう
+だろう | probably | particle
+すでに | already | adverb
+やがて | eventually | adverb
+さえ | even | particle
+なぜ | why | adverb
+むしろ | rather | adverb
+をめぐって | concerning | particle
+しかも | moreover | conjunction
+めったに | rarely | adverb
+大いに | greatly | adverb
+において | in, at | particle
+あるいは | or | conjunction
+確か | certain(ly) | adjective
+たった | only, just | adverb
+ばかり | only, nothing but | particle
+いるか | (part of 〜ているかのように: as if) | particle
+ゆっくりと | slowly | adverb
+あまりに | too | adverb
+大した | serious, much | determiner
+さらには | and even | adverb
+つまり | in other words | adverb
+あえて | deliberately | adverb
+ごく | very, extremely | adverb
+決して | never (with negative) | adverb
+にわたる | spanning | particle
+にわたって | over, spanning | particle
+わたって | (part of にわたって: over) | particle | にわたって
+もともと | originally | adverb
+ごろ | around (time) | noun
+そこで | so, then | conjunction
+主に | mainly | adverb
+たびたび | repeatedly | adverb
+結局 | in the end | adverb
+なお | still | adverb
+うえ | in addition | noun
+からだ | it's because | particle
+実は | actually | adverb
+いわば | so to speak | adverb
+もっとも | however | conjunction
+そのまま | as it is | adverb
+に関する | concerning | particle
+今や | now | adverb
+そもそも | in the first place | adverb
+絶えず | constantly | adverb
+そうした | such | determiner
+いちばん | best, most | adverb
+それら | those | pronoun
+いくつ | how many (いくつもの = numerous) | noun
+期 | period (成長期 = growth period) | suffix
+感 | sense (季節感 = sense of season) | suffix
+派 | faction (少数派 = minority) | suffix
+法 | method (調理法 = cooking method) | suffix
+字 | character | noun
+五 | five | numeral
+数百 | several hundred | numeral
+二千 | two thousand | numeral
+一字 | one character | noun
+一曲 | one song | noun
+一枚 | one (flat thing) | noun
+一例 | one example | noun
+三つ | three (things) | noun
+# fragments
+ひら | (part of ひらがな) | noun | ひらがな
+ひらがな | hiragana | noun
+行 | (part of 行われる: be carried out) | verb | 行う
+立た | (part of 目立たない: inconspicuous) | verb | 立つ
+かげ | (part of ばかげている: is silly) | verb | ばかげる
+ばかげる | to be silly | verb
+出会 | (part of 出会わなく: no longer encounter) | verb | 出会う
+わ | (part of a verb ending) | verb
+出会う | to encounter | verb
+見過 | (part of 見過ごせない: can't overlook) | verb | 見過ごす
+ごせ | (part of 見過ごせない) | verb | 見過ごす
+見過ごす | to overlook | verb
+懐 | (part of 懐かしんだり: feeling nostalgic) | verb | 懐かしむ
+懐かしむ | to feel nostalgic | verb
+起 | (part of 起こった: happened) | verb | 起こる
+こった | (part of 起こった: happened) | verb | 起こる
+起こる | to happen | verb
+込 | (part of 込められた: contained) | verb | 込める
+込める | to put into | verb
+組んだ | (part of 入り組んだ: intricate) | verb | 入り組む
+入り組む | to be intricate | verb
+形づく | (part of 形づくられた: shaped) | verb | 形づくる
+形づくる | to shape | verb
+え | (part of えさ: feed) | noun | えさ
+さや | (part of えさや: feed and…) | noun | えさ
+えさ | feed (for animals) | noun
+欠 | (part of 欠かせない: indispensable) | verb | 欠かす
+せ | (part of 欠かせない) | verb | 欠かす
+欠かす | to do without | verb
+置き | (part of 置き換えられ: replaced) | verb | 置き換える
+換え | (part of 置き換えられ: replaced) | verb | 置き換える
+置き換える | to replace | verb
+がい | (part of いなくなった: disappeared) | verb | いる
+引 | (part of 手を引いた: withdrew) | verb | 引く
+いたこ | (part of 引いたことで: by withdrawing) | verb | 引く
+引く | to pull (手を引く = to withdraw) | verb
+とど | (part of とどまらない: not limited to) | verb | とどまる
+まら | (part of とどまらない) | verb | とどまる
+とどまる | to stay, to be limited to | verb
+里 | village (人里 = human settlements) | noun
+化している | is becoming (深刻化している = is getting serious) | verb | する
+がった | (part of 広がった: spread) | verb | 広がる
+桜の | (part of 桜の花びら: cherry blossom petals) | noun | 桜
+桜 | cherry blossom | noun
+たどった | (part of かたどった: shaped like) | verb | かたどる
+かたどる | to model on | verb
+継がれて | (part of 受け継がれて: handed down) | verb | 受け継ぐ
+きて | (part of 〜てきている: has been) | verb | 来る
+守 | (part of 守ろうと: try to protect) | verb | 守る
+ろうと | (part of 守ろうと: try to protect) | verb | 守る
+きもの | (part of べきもの: something to …) | noun | もの
+かち合う | (part of 分かち合う: share) | verb | 分かち合う
+分かち合う | to share | verb
+くべき | (part of 〜ていくべき: should go on) | particle | べき
+取っ | (part of 取った: took) | verb | 取る
+盛り | (part of 盛り付け: arranging food) | verb | 盛り付け
+付け | (part of 盛り付け: arranging food) | noun | 盛り付け
+盛り付け | food presentation | noun
+床 | floor (林床 = forest floor) | noun
+材 | material (間伐材 = thinned timber) | noun
+# verbs
+取り戻す | to regain | verb
+映し | reflecting (stem of 映す) | verb | 映す
+映す | to reflect | verb
+結び | (part of 結びついて: linked) | verb | 結びつく
+つい | (part of 結びついて: linked) | verb | 結びつく
+結びつく | to be linked | verb
+失われ | (part of 失われつつある: being lost) | verb | 失う
+失われている | is being lost | verb | 失う
+起き上がる | to get up | verb
+読み | reading (stem of 読む) | verb | 読む
+聴き | listening (stem of 聴く) | verb | 聴く
+聴く | to listen | verb
+止まって | stopping (立ち止まって = pausing) | verb | 止まる
+省いて | saving, cutting out | verb | 省く
+省く | to save, to omit | verb
+あふれる | to overflow | verb
+選び | choosing (stem of 選ぶ) | verb | 選ぶ
+並べ | (part of 並べ替え: rearrange) | verb | 並べる
+替え | (part of 並べ替え: rearrange) | verb | 替える
+並べる | to line up | verb
+替える | to change | verb
+つけ | attaching (順位をつける = to rank) | verb | つける
+つける | to attach | verb
+手放す | to let go of | verb
+探す | to look for | verb
+探し | looking for | verb | 探す
+調べる | to look into | verb
+戻り | returning (stem of 戻る) | verb | 戻る
+たい | want to | adjective
+変わる | to change | verb
+生じる | to arise | verb
+強める | to strengthen | verb
+示せば | if one shows | verb | 示す
+裏づける | to support, to back up | verb
+反する | to go against | verb
+見直せる | can review | verb | 見直す
+取って | (part of 取って代わる: replace) | verb | 取る
+代わる | to replace | verb
+補う | to complement | verb
+学び | learning (stem of 学ぶ) | verb | 学ぶ
+伝わる | to be transmitted | verb
+伝わった | was transmitted | verb | 伝わる
+伝わら | (part of 伝わらなくなって: no longer passed on) | verb | 伝わる
+表そう | try to express | verb | 表す
+異なる | to differ | verb
+異なり | differing | verb | 異なる
+出 | (part of 考え出された: devised) | verb | 出す
+借り | borrowing (stem of 借りる) | verb | 借りる
+借りる | to borrow | verb
+崩した | simplified, broken down | verb | 崩す
+崩す | to break down | verb
+取り出し | extracting | verb | 取り出す
+取り出す | to take out | verb
+優れた | excellent | verb | 優れる
+優れる | to excel | verb
+みな | (part of みなされて: regarded as) | verb | みなす
+みなす | to regard as | verb
+多すぎて | too many | adjective | 多い
+定める | to set, to determine | verb
+読める | can read | verb | 読む
+書けない | can't write | verb | 書く
+担っている | bears | verb | 担う
+担う | to bear | verb
+見分ける | to distinguish | verb
+与えている | gives | verb | 与える
+暮らす | to live | verb
+指す | to refer to | verb
+集め | gathering (stem of 集める) | verb | 集める
+集める | to collect | verb
+使われた | was used | verb | 使う
+使われ | (part of 使われなくなった: no longer used) | verb | 使う
+差し込み | shining in | verb | 差し込む
+差し込む | to shine in | verb
+好む | to like | verb
+保たれていた | was maintained | verb | 保つ
+保つ | to maintain | verb
+いった | went on (…-ing) | verb | 行く
+進み | progressing | verb | 進む
+進んだ | progressed | verb | 進む
+覆われて | covered | verb | 覆う
+覆う | to cover | verb
+消し | erasing (姿を消す = to disappear) | verb | 消す
+消す | to erase | verb
+下り | coming down | verb | 下りる
+下りる | to come down | verb
+起こし | causing | verb | 起こす
+起こす | to cause | verb
+変え | changing (stem of 変える) | verb | 変える
+変えて | changing | verb | 変える
+投げ | (part of 投げかけている: is posing) | verb | 投げる
+投げる | to throw | verb
+生かし | making the most of | verb | 生かす
+生かす | to make the most of | verb
+配り | (心を配る = to pay attention) | verb | 配る
+配る | to distribute | verb
+受け継ぐ | to inherit | verb
+味わう | to taste, to savour | verb
+添え | adding (stem of 添える) | verb | 添える
+添える | to add (as garnish) | verb
+用いる | to use | verb
+おろせる | can fillet | verb | おろす
+おろす | to fillet | verb
+経て | through, via | verb | 経る
+経る | to pass through | verb
+行われている | is being carried out | verb | 行う
+取り入れ | incorporating | verb | 取り入れる
+取り入れる | to incorporate | verb
+させず | without making | verb | する
+取り込み | taking in | verb | 取り込む
+取り込む | to take in | verb
+手渡し | handing over | verb | 手渡す
+手渡す | to hand over | verb
+# nouns
+漢字 | kanji (Chinese character) | noun
+常用漢字 | jōyō kanji (everyday kanji list) | noun
+文字 | writing, script, character | noun
+里山 | satoyama (managed rural landscape) | noun
+自然 | nature; natural | noun
+表記 | writing, notation | noun
+和食 | Japanese cuisine | noun
+林 | woods | noun
+食 | food, eating | noun
+季節 | season | noun
+アルゴリズム | algorithm | noun
+意味 | meaning | noun
+利用 | use | noun
+肥料 | fertiliser | noun
+食材 | ingredients | noun
+調理 | cooking | noun
+曲 | song, tune | noun
+偶然 | chance, coincidence | noun
+推薦 | recommendation | noun
+予測 | prediction | noun
+過去 | the past | noun
+評価 | evaluation | noun
+知性 | intelligence | noun
+カタカナ | katakana | noun
+ローマ字 | romaji (Latin letters) | noun
+体系 | system | noun
+試み | attempt | noun
+方法 | method | noun
+公的 | official, public | adjective
+文書 | document | noun
+深く | deeply | adjective | 深い
+以降 | since, after | noun
+表現 | expression | noun
+雑木林 | coppice woodland | noun
+田畑 | fields | noun
+ため池 | irrigation pond | noun
+草地 | grassland | noun
+農村 | farming village | noun
+皮肉 | irony | noun
+取り組み | initiative, effort | noun
+遺産 | heritage | noun
+登録 | registration | noun
+天ぷら | tempura | noun
+食卓 | dining table | noun
+朝食 | breakfast | noun
+商品 | product | noun
+欲しい | want | adjective
+効率 | efficiency | noun
+源 | source | noun
+支持 | support | noun
+手間 | trouble, effort | noun
+好み | taste, preference | noun
+道具 | tool | noun
+レコード | record | noun
+棚 | shelf | noun
+依存 | dependence | noun
+囲い込み | enclosure | noun
+考え方 | way of thinking | noun
+傾向 | tendency | noun
+興味 | interest | noun
+表示 | display | noun
+賛成 | agreement | noun
+意図 | intention | noun
+貧しさ | poverty | noun
+居心地 | comfort (居心地の悪い = uncomfortable) | noun
+きっかけ | trigger, opportunity | noun
+不透明 | opaque | adjective
+本人 | the person himself | noun
+リスト | list | noun
+融資 | loan | noun
+審査 | screening | noun
+採用 | hiring | noun
+選考 | selection | noun
+再犯 | reoffending | noun
+可能性 | possibility | noun
+透明 | transparent (透明性 = transparency) | adjective
+欠如 | lack | noun
+重大 | serious | adjective
+悪者 | villain | noun
+扱い | treatment | noun
+存在 | existence | noun
+理想 | ideal | noun
+信念 | belief | noun
+決定 | decision | noun
+最大 | biggest | noun
+機械 | machine | noun
+文 | sentence | noun
+種類 | kind, type | noun
+混在 | coexistence, mixing | noun
+言語 | language | noun
+固有 | inherent, native | noun
+文法 | grammar | noun
+容易 | easy | adjective
+無視 | ignoring | noun
+一部 | a part | noun
+女性 | woman | noun
+文学 | literature | noun
+作品 | work (of art) | noun
+学問 | learning, scholarship | noun
+漢文 | classical Chinese | noun
+正式 | formal, official | adjective
+使い分け | using appropriately | noun
+性別 | gender | noun
+身分 | social status | noun
+場面 | scene, situation | noun
+教育 | education | noun
+廃止 | abolition | noun
+仮名 | kana | noun
+折り合い | compromise | noun
+目安 | guideline | noun
+デジタル | digital | noun
+機会 | opportunity | noun
+減り | decrease | noun
+記号 | symbol | noun
+手がかり | clue | noun
+連想 | association | noun
+奥行き | depth | noun
+共存 | coexistence | noun
+不便 | inconvenient | adjective
+柔軟 | flexible | adjective
+集落 | settlement | noun
+奥深い | deep (in the mountains) | adjective
+手つかず | untouched | noun
+原生 | primeval (原生林 = virgin forest) | noun
+共同 | joint | noun
+作業 | work | noun
+風景 | landscape | noun
+一定 | fixed | noun
+伐採 | logging | noun
+薪 | firewood | noun
+炭 | charcoal | noun
+落ち葉 | fallen leaves | noun
+家畜 | livestock | noun
+屋根 | roof | noun
+材料 | material | noun
+日光 | sunlight | noun
+明るい | bright | adjective
+植物 | plant | noun
+生息 | inhabiting | noun
+水田 | rice paddy | noun
+カエル | frog | noun
+メダカ | killifish | noun
+トンボ | dragonfly | noun
+水辺 | waterside | noun
+高度 | high (高度経済成長 = rapid economic growth) | noun
+経済 | economy | noun
+燃料 | fuel | noun
+ガス | gas | noun
+石油 | oil | noun
+化学 | chemistry | noun
+資源 | resources | noun
+過疎 | depopulation | noun
+放置 | neglect | noun
+竹 | bamboo | noun
+ササ | bamboo grass | noun
+身近 | familiar, close | adjective
+多様 | diverse (多様性 = diversity) | adjective
+山林 | forest | noun
+イノシシ | wild boar | noun
+シカ | deer | noun
+農作物 | crops | noun
+根 | root | noun
+浅い | shallow | adjective
+竹林 | bamboo grove | noun
+斜面 | slope | noun
+際 | when, on the occasion | noun
+土砂崩れ | landslide | noun
+近年 | in recent years | noun
+各地 | various places | noun
+ボランティア | volunteer | noun
+草刈り | mowing | noun
+炭焼き | charcoal making | noun
+参加 | participation | noun
+間伐 | thinning (of trees) | noun
+製品 | product | noun
+国際 | international | noun
+不可能 | impossible | adjective
+両立 | compatibility | noun
+関わり | involvement | noun
+無形 | intangible | noun
+対象 | subject, target | noun
+すし | sushi | noun
+個々 | individual | noun
+尊重 | respect | noun
+精神 | spirit | noun
+体現 | embodiment | noun
+習わし | custom | noun
+見た目 | appearance | noun
+美しさ | beauty | noun
+財産 | property, asset | noun
+素材 | ingredient, material | noun
+昆布 | kombu (kelp) | noun
+かつお節 | dried bonito | noun
+うま味 | umami | noun
+土台 | foundation | noun
+調味料 | seasoning | noun
+控えめ | moderate | adjective
+旬 | in season | noun
+春 | spring | noun
+花びら | petal | noun
+秋 | autumn | noun
+紅葉 | autumn leaves | noun
+共働き | dual income | noun
+世帯 | household | noun
+手軽 | easy, convenient | adjective
+洋食 | Western food | noun
+加工 | processing | noun
+食品 | food | noun
+少数 | minority | noun
+祖父母 | grandparents | noun
+親 | parent | noun
+継承 | succession, passing on | noun
+給食 | school lunch | noun
+教室 | classroom; class | noun
+変化 | change | noun
+カレーライス | curry and rice | noun
+ラーメン | ramen | noun
+定着 | taking root | noun
+レシピ | recipe | noun
+形式 | form, format | noun
+命 | life | noun
+感謝 | gratitude | noun
+移ろい | change, transition | noun
+順位 | ranking, order | noun
