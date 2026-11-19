@@ -1,0 +1,843 @@
+# Japanese → English learner dictionary for the bundled stories.
+# Entries are keyed by the tokens the reader produces (Intl.Segmenter + Glossa's merge rules),
+# so a few entries are fragments of longer words; their gloss says which word they belong to.
+# form | translation | part of speech | dictionary form (if different)
+
+# --- particles & grammar ---
+は | (topic marker) | particle
+の | (possessive: 's, of) | particle
+を | (object marker) | particle
+に | to; at; in | particle
+が | (subject marker); but | particle
+で | at, in; by, with | particle
+と | and; with; (quotation) | particle
+も | also, too; even | particle
+か | (question marker); or | particle
+へ | to, towards | particle
+や | and (among others) | particle
+から | from; because | particle
+まで | until; as far as | particle
+より | than | particle
+ね | right?, isn't it (sentence ending) | particle
+よ | (emphasis, sentence ending) | particle
+な | (attaches na-adjectives) | particle
+て | (connective -te form) | particle
+た | (past tense ending) | particle
+たり | (do things like…, -tari) | particle
+だり | (do things like…, -dari) | particle | たり
+ので | because, so | particle
+でも | but; even | conjunction
+ですが | is, but… | conjunction
+では | in that case; (in negatives: ではありません) | particle
+しか | only (with negative) | particle
+です | is, am, are (polite) | verb
+でした | was (polite) | verb | です
+だ | is (plain) | verb | です
+だった | was (plain) | verb | です
+ました | did (polite past ending) | verb | ます
+ます | (polite verb ending) | verb
+した | did | verb | する
+して | doing (te-form of する) | verb | する
+しました | did | verb | する
+する | to do | verb
+し | doing; and | verb | する
+さん | Mr., Ms. (polite suffix) | noun
+たち | (plural suffix for people) | noun
+お | (polite prefix) | prefix
+ある | to be, exist (things); a certain | verb
+あります | there is, there are (things) | verb | ある
+ありました | there was; was | verb | ある
+ありません | there isn't; is not | verb | ある
+います | there is (people, animals); is (…-ing) | verb | いる
+いました | was there; was (…-ing) | verb | いる
+ています | is …-ing | verb | いる
+いる | to be, exist (people, animals) | verb
+い | (part of an adjective or いる) | verb | いる
+いて | being (te-form of いる) | verb | いる
+てい | (part of ている: is …-ing) | verb | いる
+てく | (part of てくれる: do for me) | verb | くれる
+なり | become (stem of なる) | verb | なる
+なる | to become | verb
+たら | if, when (conditional) | particle
+なかっ | (part of なかった: didn't) | verb | ない
+ない | not; there isn't | adjective
+なく | not (adverbial form of ない) | adjective | ない
+かった | (past ending of い-adjectives: was) | adjective
+しかった | (end of うれしかった: was happy) | adjective | うれしい
+ら | (part of a verb ending) | particle
+つ | (counter for things; part of 一つ) | noun
+ど | (part of a word) | particle
+ども | (part of のども: the throat too) | particle
+
+# --- question words, pronouns, adverbs ---
+何 | what | pronoun
+何人 | how many people; several people | pronoun
+どこ | where | pronoun
+いつ | when | pronoun
+だれ | who | pronoun
+どうして | why | adverb
+私 | I, me | pronoun
+自分 | oneself | pronoun
+みんな | everyone, all | pronoun
+そこ | there | pronoun
+こと | thing, matter | noun
+とても | very | adverb
+たくさん | many, a lot | adverb
+それから | then, after that | conjunction
+また | again; also | adverb
+もう | already; another; anymore | adverb
+いつも | always | adverb
+ゆっくり | slowly | adverb
+ずっと | all the time, the whole time | adverb
+少し | a little | adverb
+あまり | not very (with negative) | adverb
+まず | first of all | adverb
+すぐ | soon, right away | adverb
+次に | next | adverb
+しっかり | firmly, tightly | adverb
+たぶん | probably | adverb
+これから | from now on | adverb
+はじめ | at first, the beginning | noun
+近く | nearby; near | noun
+今 | now | noun
+今日 | today | noun
+明日 | tomorrow | noun
+毎日 | every day | noun
+けさ | this morning | noun
+先週 | last week | noun
+来週 | next week | noun
+この間 | the other day | noun
+あと | after | noun
+後 | after | noun
+中 | inside, in | noun
+上 | on, on top of | noun
+下 | under, below; down | noun
+間 | between; during | noun
+となり | next to | noun
+そば | beside, near | noun
+ころ | time, days (when…) | noun
+時 | time, when | noun
+時に | at (time) | noun | 時
+ところで | (be about to: 行くところでした = was on the way to) | noun | ところ
+ところ | place; (be about to) | noun
+について | about, concerning | particle
+ぐらい | about, approximately | particle
+同じ | same | adjective
+
+# --- numbers & counters ---
+一 | one | numeral
+二 | two | numeral
+三 | three | numeral
+七 | seven | numeral
+八 | eight | numeral
+十五 | fifteen | numeral
+三十 | thirty | numeral
+一人 | one person; alone | noun
+二人 | two people | noun
+一つ | one (thing) | noun
+二つ | two (things) | noun
+一本 | one (long thing) | noun
+一番 | number one; most | adverb
+十分 | ten minutes; enough | noun
+三日 | three days | noun
+半 | half | noun
+歳 | years old | noun
+二十歳 | twenty years old | noun
+七時 | seven o'clock | noun
+時間 | hour; time | noun
+八度 | eight degrees (三十八度 = 38 °C) | noun
+日 | day | noun
+週 | week | noun
+分 | minute; (分かる: understand) | noun
+
+# --- names & places ---
+タマ | Tama (cat's name) | name
+ポチ | Pochi (dog's name) | name
+コロ | Koro (dog's name) | name
+ゆい | Yui (name) | name
+たかし | Takashi (name) | name
+けん | Ken (name) | name
+ひろし | Hiroshi (name) | name
+ふみこ | Fumiko (name) | name
+さくら | Sakura (name); cherry blossom | name
+ゆう | Yū (part of Yūta, a name) | name
+大阪 | Osaka | name
+東京 | Tokyo | name
+富士山 | Mount Fuji | name
+
+# --- verbs ---
+行きます | go | verb | 行く
+行き | going (stem of 行く) | verb | 行く
+行く | to go | verb
+言いました | said | verb | 言う
+言います | says | verb | 言う
+言う | to say | verb
+飲みます | drink | verb | 飲む
+飲んで | drink (te-form) | verb | 飲む
+飲む | to drink | verb
+座って | sitting (te-form) | verb | 座る
+座る | to sit | verb
+すわって | sitting down | verb | すわる
+すわる | to sit | verb
+作ります | make | verb | 作る
+作る | to make | verb
+食べます | eat | verb | 食べる
+食べて | eating, eat and (te-form) | verb | 食べる
+食べる | to eat | verb
+寝ます | sleep | verb | 寝る
+寝ました | slept | verb | 寝る
+寝る | to sleep; to go to bed | verb
+住んでいます | lives | verb | 住む
+住む | to live | verb
+持っています | has, is holding | verb | 持つ
+持つ | to hold, to have | verb
+教え | teaching (stem of 教える) | verb | 教える
+教える | to teach | verb
+聞きました | asked; listened | verb | 聞く
+聞い | listening (stem of 聞く) | verb | 聞く
+聞く | to listen; to ask | verb
+出ました | left, went out | verb | 出る
+出ます | goes out | verb | 出る
+出る | to go out, to leave | verb
+見え | could be seen (stem of 見える) | verb | 見える
+見える | to be visible | verb
+話しました | talked | verb | 話す
+話しています | is talking | verb | 話す
+話す | to talk, to speak | verb
+焼きます | fry, grill | verb | 焼く
+焼く | to grill, to bake, to fry | verb
+ぬって | spreading (te-form) | verb | ぬる
+ぬる | to spread, to paint | verb
+ちがう | that's wrong; to differ | verb
+笑います | laugh | verb | 笑う
+笑いました | laughed | verb | 笑う
+笑う | to laugh | verb
+洗って | wash (te-form) | verb | 洗う
+洗う | to wash | verb
+見ます | see, look at | verb | 見る
+見て | look at (te-form) | verb | 見る
+見る | to see, to look | verb
+帰って | going home (te-form) | verb | 帰る
+帰ります | goes home | verb | 帰る
+帰り | returning (stem of 帰る) | verb | 帰る
+帰る | to go home, to return | verb
+きます | comes | verb | 来る
+きました | came | verb | 来る
+来ました | came | verb | 来る
+来て | come (te-form) | verb | 来る
+来る | to come | verb
+走ります | runs | verb | 走る
+走り | running (stem of 走る) | verb | 走る
+走る | to run | verb
+遊びます | plays | verb | 遊ぶ
+遊んでいます | are playing | verb | 遊ぶ
+遊ぶ | to play | verb
+乗る | to ride, to get on | verb
+負け | losing (stem of 負ける) | verb | 負ける
+負ける | to lose | verb
+買います | buys | verb | 買う
+買って | bought, buy (te-form) | verb | 買う
+買い | buying (stem of 買う) | verb | 買う
+買う | to buy | verb
+かく | to draw | verb
+起きました | got up, woke up | verb | 起きる
+起きる | to get up | verb
+測る | to measure | verb
+休む | to rest; to take a day off | verb
+休んで | rest (te-form) | verb | 休む
+待ち | waiting (stem of 待つ) | verb | 待つ
+待つ | to wait | verb
+入って | entering (te-form) | verb | 入る
+入る | to enter | verb
+見つけ | finding (stem of 見つける) | verb | 見つける
+見つける | to find | verb
+会い | meeting (stem of 会う) | verb | 会う
+会う | to meet | verb
+感じ | feeling (stem of 感じる) | verb | 感じる
+感じる | to feel | verb
+着い | arrived (stem of 着く) | verb | 着く
+着く | to arrive | verb
+くれました | gave (to me) | verb | くれる
+くれます | gives (to me) | verb | くれる
+くれて | giving (to me), for me | verb | くれる
+くれる | to give (to me) | verb
+れました | (end of くれました: gave) | verb | くれる
+困っ | (stem of 困る: to be in trouble) | verb | 困る
+困る | to be in trouble | verb
+思い | thinking (stem of 思う) | verb | 思う
+思います | think | verb | 思う
+思う | to think | verb
+歩いて | walking | verb | 歩く
+歩く | to walk | verb
+がります | (want to…: 走りたがります = wants to run) | verb | がる
+がる | (show signs of wanting) | verb
+知って | knowing (te-form) | verb | 知る
+知る | to know | verb
+流れます | flows | verb | 流れる
+流れる | to flow | verb
+しそう | seeming (to be…) | adjective | そう
+そう | so; seeming | adverb
+手伝い | help | noun
+伝って | (part of 手伝って: help) | verb | 手伝う
+手伝う | to help | verb
+かけ | making (a call), stem of かける | verb | かける
+かける | to make (a call); to hang | verb
+送り | sending | verb | 送る
+送っ | (stem of 送る: send) | verb | 送る
+送る | to send | verb
+打ち | typing (stem of 打つ) | verb | 打つ
+打つ | to type; to hit | verb
+覚え | learning (stem of 覚える) | verb | 覚える
+覚える | to learn, to remember | verb
+かって | (part of かかってくる: (a call) comes in) | verb | かかる
+かかる | to come in (a call); to take (time) | verb
+りません | (part of 分かりません: didn't understand) | verb | 分かる
+分かる | to understand | verb
+使っています | uses | verb | 使う
+使う | to use | verb
+読ん | reading (stem of 読む) | verb | 読む
+読む | to read | verb
+たって | (part of 三日たっても: even after three days) | verb | たつ
+たつ | to pass (time) | verb
+すい | (part of すいている: hungry) | verb | すく
+すく | to become empty (おなかがすく = to be hungry) | verb
+くだ | (part of ください: please) | verb | ください
+さい | (part of ください: please) | verb | ください
+ください | please (do) | verb
+あっ | (part of あって: there being) | verb | ある
+
+# --- nouns ---
+公園 | park | noun
+祖母 | grandmother (my) | noun
+子ども | child, children | noun
+朝 | morning; breakfast time | noun
+ごはん | meal; cooked rice | noun
+朝ごはん | breakfast | noun
+昼ごはん | lunch | noun
+晩 | evening (晩ごはん = dinner) | noun
+家 | house, home | noun
+電話 | telephone; phone call | noun
+鳥 | bird | noun
+水 | water | noun
+日曜日 | Sunday | noun
+土曜日 | Saturday | noun
+金曜日 | Friday | noun
+妹 | younger sister | noun
+兄 | older brother | noun
+父 | father | noun
+母 | mother | noun
+娘 | daughter | noun
+家族 | family | noun
+庭 | garden | noun
+名前 | name | noun
+犬 | dog | noun
+ねこ | cat | noun
+駅 | station | noun
+席 | seat | noun
+旅 | trip, journey | noun
+池 | pond | noun
+パン | bread | noun
+大切 | important | adjective
+昼 | noon, daytime | noun
+学校 | school | noun
+小学校 | elementary school | noun
+花 | flower | noun
+夜 | night | noun
+ベッド | bed | noun
+友だち | friend | noun
+ボール | ball | noun
+サッカー | football, soccer | noun
+バスケットボール | basketball | noun
+チーム | team | noun
+ゴールキーパー | goalkeeper | noun
+電車 | train | noun
+新幹線 | Shinkansen, bullet train | noun
+会社 | company, office | noun
+会 | (part of 会社員: company employee) | noun | 会社員
+社員 | employee (会社員 = office worker) | noun | 会社員
+会社員 | office worker | noun
+先生 | teacher | noun
+英語 | English (language) | noun
+大学生 | university student | noun
+絵 | picture, drawing | noun
+うち | home, our house | noun
+熱 | fever | noun
+医者 | doctor | noun
+午後 | afternoon | noun
+コーヒー | coffee | noun
+窓 | window | noun
+おばあさん | old woman; grandmother | noun
+おじいさん | old man; grandfather | noun
+おじいちゃん | grandpa | noun
+散歩 | walk, stroll | noun
+カフェ | café | noun
+方 | way of (doing) | noun
+メッセージ | message | noun
+おなか | stomach, belly | noun
+台所 | kitchen | noun
+みそ汁 | miso soup | noun
+魚 | fish | noun
+卵 | egg | noun
+バター | butter | noun
+牛乳 | milk | noun
+りんご | apple | noun
+皿 | plate, dish | noun
+木 | tree | noun
+木の下 | under the tree | noun
+場所 | place | noun
+夕方 | evening | noun
+ドア | door | noun
+天気 | weather | noun
+自転車 | bicycle | noun
+男の子 | boy | noun
+草 | grass | noun
+アイスクリーム | ice cream | noun
+気持ち | feeling, mood | noun
+料理 | cooking, food | noun
+頭 | head | noun
+のど | throat | noun
+寒 | (part of 寒かった: was cold) | adjective | 寒い
+寒い | cold | adjective
+病院 | hospital | noun
+待合室 | waiting room | noun
+せき | cough | noun
+親切 | kind | adjective
+胸 | chest | noun
+音 | sound | noun
+インフルエンザ | flu | noun
+お茶 | tea | noun
+薬局 | pharmacy | noun
+薬 | medicine | noun
+元気 | healthy, well; energetic | adjective
+人 | person, people | noun
+新聞 | newspaper | noun
+田んぼ | rice field | noun
+村 | village | noun
+話 | story, talk | noun
+仕事 | work, job | noun
+計画 | plan | noun
+番号 | number | noun
+笑顔 | smile | noun
+目的地 | destination | noun
+ベンチ | bench | noun
+リード | leash, lead | noun
+店員 | shop assistant | noun
+緑 | green; greenery | noun
+誕生 | birth (誕生日 = birthday) | noun
+おじ | uncle | noun
+おば | aunt | noun
+スマート | smart (スマートフォン = smartphone) | noun | スマートフォン
+フォン | phone (スマートフォン = smartphone) | noun | スマートフォン
+スマートフォン | smartphone | noun
+スマ | (part of スマホ: smartphone) | noun | スマホ
+ホ | (part of スマホ: smartphone) | noun | スマホ
+スマホ | smartphone | noun
+プレゼント | present, gift | noun
+必要 | necessary | adjective
+手 | hand | noun
+指 | finger | noun
+次 | next | noun
+ビデオ | video | noun
+バス | bus | noun
+鼻 | nose | noun
+めがね | glasses | noun
+写真 | photo | noun
+ニュース | news | noun
+ラジオ | radio | noun
+近所 | neighbourhood | noun
+グループ | group | noun
+説明 | explanation | noun
+本当 | true; truth | noun
+ありがとう | thank you | interjection
+# --- adjectives ---
+好き | liked, favourite (〜が好き = to like) | adjective
+大好き | love, really like | adjective
+黒い | black | adjective
+白い | white | adjective
+速い | fast | adjective
+速くて | fast and (te-form) | adjective | 速い
+暑い | hot | adjective
+いい | good | adjective
+幸せ | happy | adjective
+上手 | good at, skilful | adjective
+うれしい | happy, glad | adjective
+うれ | (part of うれしい: happy) | adjective | うれしい
+小さくて | small and (te-form) | adjective | 小さい
+小さい | small | adjective
+小さな | small | adjective | 小さい
+大きな | big | adjective | 大きい
+大きい | big | adjective
+おいしい | delicious | adjective
+痛くて | hurting, painful and | adjective | 痛い
+痛い | painful, sore | adjective
+温かい | warm | adjective
+快適 | comfortable | adjective
+若い | young | adjective
+短く | short (adverbial) | adjective | 短い
+短い | short | adjective
+楽しい | fun, enjoyable | adjective
+静か | quiet | adjective
+新しい | new | adjective
+詳しい | knowledgeable; detailed | adjective
+
+# --- B1 stories ---
+まゆみ | Mayumi (name) | name
+あや | Aya (name) | name
+しん | (part of Shinji, a name) | name | しんじ
+じ | (part of a name or word) | name
+しんじ | Shinji (name) | name
+日本 | Japan | name
+長野 | Nagano | name
+# grammar & function words
+ません | not (polite negative) | verb | ます
+この | this | determiner
+その | that | determiner
+どの | which; every (どの家にも = every house) | determiner
+あれ | that (thing) | pronoun
+それ | that, it | pronoun
+ここ | here | pronoun
+私たち | we | pronoun
+人たち | people | noun
+ずつ | at a time, each (少しずつ = little by little) | particle
+ことに | (decide to: 〜ことにしました) | noun | こと
+よう | like, as (〜ように); seem | noun
+だから | so, that's why | conjunction
+それでも | even so | conjunction
+それに | besides, moreover | conjunction
+だけ | only, just | particle
+ば | if (conditional) | particle
+ければ | if (conditional ending) | particle
+なんて | such a thing as | particle
+とおり | as (言うとおり = just as she said) | noun
+にとって | for, to (someone) | particle
+ため | for the sake of; in order to | noun
+ほど | about; to the extent | particle
+きゃ | (なきゃ = must) | particle
+ちゃ | (ちゃだめ = must not) | particle
+だめ | no good, not allowed | adjective
+じゃあ | well then | conjunction
+ただ | just, merely | adverb
+まだ | still, yet | adverb
+本当は | actually, in truth | adverb
+わけ | reason (わけではない = it's not that) | noun
+たび | every time | noun
+しばらく | for a while | adverb
+なかなか | (not) easily | adverb
+よく | well; often | adverb
+もっと | more | adverb
+すっかり | completely | adverb
+ついに | finally | adverb
+こんなに | this much, so many | adverb
+初めて | for the first time | adverb
+早く | early | adverb
+今まで | until now | adverb
+一度 | once | adverb
+度 | times (何度も = many times) | noun
+いろいろ | various | adjective
+いくつか | some, several | adverb
+# numbers
+一九九五 | 1995 | numeral
+年 | year | noun
+三年 | three years | noun
+五十 | fifty | numeral
+四 | four | numeral
+二十 | twenty | numeral
+数 | several (数か月 = several months) | numeral
+月 | month | noun
+一日 | one day; a day | noun
+個 | (counter for small things) | noun
+十人 | ten people | noun
+キロ | kilometre | noun
+# verbs
+入れ | putting in (stem of 入れる) | verb | 入れる
+入れる | to put in | verb
+入れます | puts in | verb | 入れる
+入り | (stem of 入る: to enter, to fit) | verb | 入る
+話し | talking (stem of 話す) | verb | 話す
+話してい | (part of 話していました: were talking) | verb | 話す
+笑って | laughing | verb | 笑う
+着きました | arrived | verb | 着く
+乗っています | rides, is riding | verb | 乗る
+買った | bought | verb | 買う
+買 | (part of 買おう: let's buy) | verb | 買う
+おうと | (part of 買おうと: to buy) | verb | 買う
+押して | pushing | verb | 押す
+押す | to push | verb
+らいます | (part of もらいます: receive, have done) | verb | もらう
+もらう | to receive; to have someone do | verb
+使えない | can't use | verb | 使う
+開けて | opening | verb | 開ける
+開ける | to open | verb
+習いました | learned | verb | 習う
+習う | to learn | verb
+続けてい | (part of 続けていました: kept on) | verb | 続ける
+続ける | to continue | verb
+運んで | carrying | verb | 運ぶ
+運ぶ | to carry | verb
+泊まり | staying overnight (stem of 泊まる) | verb | 泊まる
+泊まって | staying overnight | verb | 泊まる
+泊まる | to stay overnight | verb
+かかります | costs; takes | verb | かかる
+黙って | silent, keeping quiet | verb | 黙る
+黙る | to be silent | verb
+直そう | let's fix it | verb | 直す
+直す | to fix, to repair | verb
+あき | (part of あきれた: exasperated) | verb | あきれる
+れた | (part of あきれた) | verb | あきれる
+あきれる | to be exasperated | verb
+りました | (end of a verb: なりました, わかりました) | verb | なる
+やめ | quitting (stem of やめる) | verb | やめる
+やめる | to quit, to stop | verb
+開き | opening (stem of 開く) | verb | 開く
+開く | to open | verb
+売って | selling | verb | 売る
+売っています | sells | verb | 売る
+売れ | sell (stem of 売れる) | verb | 売れる
+売れる | to sell (be sold) | verb
+売る | to sell | verb
+勝てない | can't win | verb | 勝つ
+勝つ | to win | verb
+使い | using (stem of 使う) | verb | 使う
+せて | (part of ねかせて: letting rest) | verb | ねかせる
+ねかせる | to let rest (dough) | verb
+焼き | baking (stem of 焼く) | verb | 焼く
+いと | (part of 〜たいと思いました: thought I'd like to) | particle
+置いて | placing | verb | 置く
+置く | to put, to place | verb
+流し | playing (music), stem of 流す | verb | 流す
+流す | to play (music); to let flow | verb
+出しました | served, put out | verb | 出す
+出し | taking out (stem of 出す) | verb | 出す
+出す | to take out; to serve | verb
+残った | left over | verb | 残る
+残る | to remain | verb
+捨て | throwing away (stem of 捨てる) | verb | 捨てる
+捨てる | to throw away | verb
+閉め | closing (stem of 閉める) | verb | 閉める
+閉める | to close | verb
+思った | thought | verb | 思う
+書き | writing (stem of 書く) | verb | 書く
+書く | to write | verb
+でき | (stem of できる: be formed, can do) | verb | できる
+できる | to be able; to be formed | verb
+わな | (part of やとわなければ: had to hire) | verb | やとう
+やとう | to hire | verb
+働いて | working | verb | 働く
+働いている | is working | verb | 働く
+働く | to work | verb
+持って | holding, carrying | verb | 持つ
+見えます | can be seen | verb | 見える
+始める | to start | verb
+終わり | end | noun
+飲んだ | drank | verb | 飲む
+聞 | (part of 聞いてみました: tried asking) | verb | 聞く
+いてみました | (part of 聞いてみました: tried asking) | verb | みる
+みる | to try (doing) | verb
+かい | (part of においをかいで: smelling) | verb | かぐ
+かぐ | to smell | verb
+作れば | if you make | verb | 作る
+過ご | (part of 過ごしました: spent) | verb | 過ごす
+過ごす | to spend (time) | verb
+取り | taking (だしを取る = to make stock) | verb | 取る
+取る | to take | verb
+温めます | warms | verb | 温める
+温める | to warm | verb
+わい | (part of わいてくる: come to the boil) | verb | わく
+わく | to boil | verb
+くる | to come | verb | 来る
+切って | cutting | verb | 切る
+切る | to cut | verb
+煮ました | simmered | verb | 煮る
+煮る | to simmer, to boil | verb
+わら | (part of やわらかく: soft) | adjective | やわらかい
+やわらかい | soft | adjective
+なっ | (part of なったら: when it becomes) | verb | なる
+弱くして | turning down (heat) | verb | 弱い
+とか | (part of とかします: dissolves) | verb | とかす
+とかす | to dissolve | verb
+します | does | verb | する
+わか | (part of わかしちゃ: boil) | verb | わかす
+わかす | to boil | verb
+なくなる | to disappear | verb
+作り | making (stem of 作る) | verb | 作る
+近づいています | is getting closer | verb | 近づく
+近づく | to approach | verb
+近 | (part of 近づいて: approaching) | verb | 近づく
+づいて | (part of 近づいて: approaching) | verb | 近づく
+登る | to climb | verb
+背負って | carrying on one's back | verb | 背負う
+背負う | to carry on one's back | verb
+始まり | beginning (stem of 始まる) | verb | 始まる
+始まる | to begin | verb
+食べました | ate | verb | 食べる
+休み | rest; break | noun
+がり | (part of 休みたがりました: wanted to rest) | verb | がる
+つき | (気がつきました = noticed) | verb | つく
+つく | to notice (気がつく) | verb
+降っ | (part of 降ったら: if it rains) | verb | 降る
+降る | to fall (rain, snow) | verb
+すべって | slipping | verb | すべる
+すべる | to slip | verb
+燃えていて | burning | verb | 燃える
+燃える | to burn | verb
+座り | sitting (stem of 座る) | verb | 座る
+鳴り | ringing, rumbling | verb | 鳴る
+鳴る | to ring, to rumble | verb
+ゆれました | shook | verb | ゆれる
+ゆれる | to shake | verb
+去って | leaving, passing | verb | 去る
+去る | to leave, to pass | verb
+晴れ | clearing up (stem of 晴れる) | verb | 晴れる
+晴れる | to clear up | verb
+出て | going out | verb | 出る
+失いました | lost | verb | 失う
+失う | to lose | verb
+見た | saw | verb | 見る
+疲れ | getting tired (stem of 疲れる) | verb | 疲れる
+疲れる | to get tired | verb
+# nouns
+車 | car | noun
+前 | before; in front | noun
+店 | shop | noun
+道 | road, path | noun
+こんぶ | kombu (kelp) | noun
+だし | dashi (soup stock) | noun
+完璧 | perfect | adjective
+冬 | winter | noun
+エンジン | engine | noun
+旅行 | trip, travel | noun
+山 | mountain | noun
+山の上 | on the mountain | noun
+上の | (part of 山の上の: on the mountain) | noun | 上
+農家 | farmer, farmhouse | noun
+修理 | repair | noun
+値段 | price | noun
+顔 | face; expression | noun
+屋 | shop (パン屋 = bakery) | noun
+スーパー | supermarket | noun
+毎朝 | every morning | noun
+テーブル | table | noun
+お客 | customer, guest | noun
+少なく | fewer, less | adjective | 少ない
+少ない | few | adjective
+味 | taste, flavour | noun
+豆腐 | tofu | noun
+野菜 | vegetables | noun
+作り方 | how to make, recipe | noun
+におい | smell | noun
+最後 | last; the end | noun
+かつお | bonito | noun
+ぶし | (part of かつおぶし: dried bonito flakes) | noun | かつおぶし
+かつおぶし | dried bonito flakes | noun
+みそ | miso | noun
+白みそ | white miso | noun
+赤みそ | red miso | noun
+すぎる | too (much) | verb
+小屋 | hut | noun
+山小屋 | mountain hut | noun
+頂上 | summit | noun
+登山 | mountain climbing | noun
+急 | steep; sudden | adjective
+川 | river | noun
+空 | sky | noun
+嵐 | storm | noun
+言葉 | word; language | noun
+外 | outside | noun
+局しか | only (radio) stations | noun | 局
+局 | station (radio) | noun
+夏 | summer | noun
+エアコン | air conditioner | noun
+髪 | hair | noun
+ぼさぼさ | messy (hair) | adjective
+思い出 | memory | noun
+運転 | driving | noun
+空っぽ | empty | adjective
+駐車 | parking | noun
+場 | place (駐車場 = car park) | noun
+練習 | practice | noun
+緊張 | nervousness | noun
+海 | sea | noun
+故障 | breakdown | noun
+近い | near, close | adjective
+トラクター | tractor | noun
+工場 | factory; garage (修理工場) | noun
+先月 | last month | noun
+整備 | maintenance | noun
+士 | (person: 整備士 = mechanic) | noun
+高い | expensive; high | adjective
+高 | (part of 高かった: was expensive) | adjective | 高い
+お金 | money | noun
+一員 | member | noun
+町 | town | noun
+無理 | impossible | adjective
+通り | street | noun
+安い | cheap | adjective
+家賃 | rent | noun
+品質 | quality | noun
+勝負 | contest (勝負する = to compete) | noun
+国産 | domestically produced | noun
+小麦粉 | flour | noun
+生地 | dough | noun
+音楽 | music | noun
+最初 | first, beginning | noun
+大変 | hard, difficult | adjective
+地元 | local | noun
+記者 | reporter | noun
+記事 | article | noun
+開店 | opening (of a shop) | noun
+列 | line, queue | noun
+常連 | regular customer | noun
+クッキー | cookie | noun
+ケーキ | cake | noun
+長く | long (adverbial) | adjective | 長い
+長い | long | adjective
+収入 | income | noun
+去年 | last year | noun
+なべ | pot | noun
+大事 | important | adjective
+大根 | daikon radish | noun
+にんじん | carrot | noun
+火 | fire; heat | noun
+香り | aroma | noun
+ねぎ | green onion | noun
+その日 | that day | noun
+しょっぱ | (part of しょっぱすぎる: too salty) | adjective | しょっぱい
+しょっぱい | salty | adjective
+うす | (part of うすすぎる: too weak) | adjective | うすい
+うすい | weak, thin | adjective
+ていねい | careful, polite | adjective
+弟 | younger brother | noun
+週末 | weekend | noun
+県 | prefecture | noun
+重い | heavy | adjective
+リュック | backpack | noun
+靴 | shoes | noun
+出発 | departure | noun
+森 | forest | noun
+空気 | air | noun
+しっとり | moist | adverb
+土 | soil, earth | noun
+岩 | rock | noun
+多い | many, a lot | adjective
+坂 | slope | noun
+お昼 | noon; lunch | noun
+おにぎり | rice ball | noun
+西 | west | noun
+雲 | cloud | noun
+気 | mind, spirit (気がつく = notice) | noun
+雨 | rain | noun
+危ない | dangerous | adjective
+直前 | just before | noun
+ストーブ | stove | noun
+者 | person (登山者 = climber) | noun
+雷 | thunder | noun
+がたがた | rattling | adverb
+星 | star | noun
+天の川 | the Milky Way | noun
+遠く | far away | noun
+機嫌 | mood | noun
+悪 | (part of 悪かった: was bad) | adjective | 悪い
+悪い | bad | adjective
+わかめ | wakame seaweed | noun
+いれば | if there are (people) | verb | いる
+弱い | weak; low (heat) | adjective

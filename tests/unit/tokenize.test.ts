@@ -150,6 +150,12 @@ describe('tokenize', () => {
     expect(w).not.toContain('飲');
   });
 
+  it('repairs ICU splits of ました, small っ and unknown katakana names, without over-merging compounds', () => {
+    const w = words('名前はコロです。三十八度ありました。旅の間ずっと話しました。席だった。兄が一人います。', 'ja');
+    for (const v of ['コロ', 'ありました', '話しました', 'だった', '一人', 'います', 'ずっと']) expect(w).toContain(v);
+    expect(w).not.toContain('一人います');
+  });
+
   it('does not make URLs or email addresses clickable', () => {
     expect(words('Visit https://example.com/a?b=1, or write to me@test.org. See www.foo.org.', 'en')).toEqual(['Visit', 'or', 'write', 'to', 'See']);
   });
