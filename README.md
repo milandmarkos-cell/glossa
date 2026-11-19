@@ -12,11 +12,25 @@ Read short stories in the language you're learning, tap the words you don't know
 
 Requires Node 22.12 or newer.
 
+Run these one at a time in a terminal (Terminal on Mac, PowerShell or Command Prompt on Windows):
+
 ```bash
-git clone https://github.com/milandmarkos-cell/glossa.git && cd glossa
-npm install
-npm run dev                 # open http://localhost:5173
+git clone https://github.com/milandmarkos-cell/glossa.git
 ```
+
+```bash
+cd glossa
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser. Keep the terminal window open while you use the app; press Ctrl+C in it to stop.
 
 ## Scripts
 
