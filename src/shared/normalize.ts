@@ -17,6 +17,7 @@ export function normalizeKey(surface: string, language: string): string {
   let s = surface.normalize('NFC').toLocaleLowerCase(lang.locale);
   s = s.replace(/’/g, "'").replace(EDGE_PUNCT, '').replace(INNER_PUNCT, '');
   if (lang.code === 'ar') s = s.replace(ARABIC_OPTIONAL, '');
+  if (lang.code === 'de') s = s.replace(/ß/g, 'ss'); // Straße = STRASSE = Strasse
   if (lang.keyScript === 'latn') s = cyrToLat(s);
   else if (lang.keyScript === 'cyrl') s = latToCyr(s);
   return s;

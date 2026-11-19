@@ -5,10 +5,14 @@ import { toScript, type DisplayScript } from '../../shared/script.ts';
 import type { ReaderPrefs } from '../../shared/types.ts';
 import { HighlightSheet, nextScopeClass } from './highlight.ts';
 import { WordPopover } from './WordPopover.tsx';
+import { useTranslation } from '../lib/translations.ts';
 
 export interface MarkedWord {
   key: string;
+  /** Display/dictionary-ish form (a lowercase occurrence when one exists). */
   surface: string;
+  /** Exact text of the clicked occurrence, as it appears in `sentence`. */
+  form: string;
   tokenIndex: number;
   sentence: string;
   offset: number;
@@ -81,7 +85,7 @@ export function ReaderView({ textId, language, body, prefs, savedKeys, initialMa
     const out: MarkedWord[] = [];
     for (const [k, i] of marks.current) {
       const ctx = contextFor(tk, tk.tokens[i]);
-      out.push({ key: tk.keys[k], surface: bestSurface(tk, occ.get(k) ?? [i], i), tokenIndex: i, ...ctx });
+      out.push({ key: tk.keys[k], surface: bestSurface(tk, occ.get(k) ?? [i], i), form: tk.tokens[i].text, tokenIndex: i, ...ctx });
     }
     onMarkedChange(out);
   }, [onMarkedChange, tk, occ]);
@@ -170,6 +174,10 @@ export function ReaderView({ textId, language, body, prefs, savedKeys, initialMa
   };
 
   const onClick = (e: MouseEvent) => {
+    // The 2nd click of a double-click would undo the 1st (mark → unmark): ignore it.
+    if (e.detail > 1) return;
+    // Finishing a text selection fires a click too; don't mark when the user selected text.
+    if (!getSelection()?.isCollapsed) return;
     const el = (e.target as HTMLElement).closest<HTMLElement>('[data-i]');
     if (!el) {
       setPopover(null);
@@ -247,6 +255,8 @@ export function ReaderView({ textId, language, body, prefs, savedKeys, initialMa
 
   const popTok = popover !== null ? tk.tokens[popover] : null;
   const script: DisplayScript = lang.scripts ? prefs.script : 'original';
+  const popItem = popTok ? { surface: popTok.text, sentence: contextFor(tk, popTok).sentence } : null;
+  const popTranslation = useTranslation(language, popItem);
 
   return (
     <div ref={rootRef} className="relative">
@@ -257,6 +267,7 @@ export function ReaderView({ textId, language, body, prefs, savedKeys, initialMa
         className={`passage ${scope}`}
         style={{ fontSize: prefs.fontSize, lineHeight: prefs.lineHeight }}
         onClick={onClick}
+        onMouseDown={(e) => e.detail > 1 && e.preventDefault() /* no word selection on double-click */}
         onKeyDown={onKeyDown}
         onFocus={onFocus}
         role="group"
@@ -276,6 +287,7 @@ export function ReaderView({ textId, language, body, prefs, savedKeys, initialMa
           occurrences={occ.get(popTok.k)?.length ?? 1}
           marked={marks.current.has(popTok.k)}
           saved={savedKeys.has(tk.keys[popTok.k])}
+          translation={popTranslation}
           onToggle={() => {
             const on = !marks.current.has(popTok.k);
             toggleMark(popTok.k, popTok.i, on);

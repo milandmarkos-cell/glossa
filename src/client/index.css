@@ -45,9 +45,11 @@ body { font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
 }
 .passage:lang(ar) { font-family: "Noto Naskh Arabic", "Geeza Pro", "Amiri", "Times New Roman", serif; }
 .passage p { white-space: pre-line; overflow-wrap: break-word; }
+/* Off-screen paragraphs skip style/layout/paint: keeps marking fast and first paint quick on book-length texts. */
+.passage p { content-visibility: auto; contain-intrinsic-size: auto 6em; }
 
 /* Word tokens. Marked/saved states are injected as [data-k] rules by the reader (see highlight.ts). */
-.w { cursor: pointer; border-radius: 0.2em; padding: 0.02em 0; transition: background-color 60ms; -webkit-tap-highlight-color: transparent; }
+.w { cursor: pointer; touch-action: manipulation; border-radius: 0.2em; padding: 0.02em 0; transition: background-color 60ms; -webkit-tap-highlight-color: transparent; }
 @media (hover: hover) { .w:hover { background: var(--hover); } }
 .w:focus { outline: none; }
 .w:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }

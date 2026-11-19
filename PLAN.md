@@ -142,3 +142,7 @@ After each milestone: `npm test`, `npm run typecheck`, run the app and click thr
 12. **Model default** `claude-opus-5-5`, overridable with `CLAUDE_MODEL`.
 13. **Native language** defaults to English (configurable in settings/onboarding).
 14. **No API key → graceful degradation**: reading, marking, library, SRS and games work; translations become manual entry; AI-generated texts and lemma maps are disabled with a visible notice.
+15. **Double-click is not a toggle**: the second click of a double-click is ignored, so a reflexive double-click/double-tap marks a word rather than marking and unmarking it.
+16. **Japanese token repair**: ICU splits kanji stems from okurigana (飲|み|ます), so a small rule-based merge keeps verbs whole until lemma support lands. Chinese and Korean wait for M6 lemmas.
+17. **Refusal fallbacks**: translation requests use server-side `fallbacks: "default"` on models that support it, so a rare refusal is retried on a fallback model instead of failing.
+18. **`GLOSSA_FAKE_AI=1`**: a deterministic fake translator for e2e and key-less demos; off by default.

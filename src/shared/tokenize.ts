@@ -51,6 +51,69 @@ export interface TokenizeOptions {
 }
 
 const HAS_LETTER = /\p{L}/u;
+// URLs and email addresses are never vocabulary: their segments are made non-clickable.
+const URL_OR_EMAIL = /\b(?:https?:\/\/|www\.)[^\s<>"«»]+[^\s<>"«».,;:!?)\]]|[\p{L}\p{N}._%+-]+@[\p{L}\p{N}-]+(?:\.[\p{L}\p{N}-]+)+/gu;
+
+// Japanese: ICU often splits a kanji stem from its okurigana (飲|み|ます, 持|って|い|ます).
+// Re-attach following hiragana to a kanji-only token unless the hiragana is a particle,
+// copula or honorific (日曜日|の stays split).
+const KANJI_ONLY = /^[\p{Script=Han}々〆]+$/u;
+const HIRAGANA_ONLY = /^\p{Script=Hiragana}+$/u;
+const JA_STOP = new Set([
+  'は', 'が', 'を', 'に', 'へ', 'で', 'と', 'も', 'の', 'や', 'か', 'ね', 'よ', 'な', 'から', 'まで', 'より',
+  'だけ', 'など', 'ぐらい', 'くらい', 'ので', 'のに', 'けど', 'けれど', 'には', 'では', 'とは', 'でも',
+  'です', 'でした', 'だ', 'だった', 'でしょう', 'じゃ', 'さん', 'ちゃん', 'くん', 'さま', 'ごろ', 'ずつ',
+]);
+
+interface Seg {
+  text: string;
+  index: number; // offset within paragraph
+  word: boolean;
+  merged?: boolean;
+}
+
+const MASU = new Set(['ます', 'ました', 'ません', 'ましょう', 'まして', 'ませんでした']);
+
+const adjacent = (a: Seg, b: Seg) => b.index === a.index + a.text.length;
+
+function mergeJapanese(input: Seg[]): Seg[] {
+  // 1. Runs of single hiragana characters are a word ICU didn't know (ゆ|い → ゆい, く|れ → くれ).
+  const segs: Seg[] = [];
+  for (const sg of input) {
+    const prev = segs[segs.length - 1];
+    const single = (x: Seg) => x.word && x.text.length === 1 && HIRAGANA_ONLY.test(x.text) && !JA_STOP.has(x.text);
+    if (prev && single(sg) && adjacent(prev, sg) && HIRAGANA_ONLY.test(prev.text) && prev.word && !JA_STOP.has(prev.text) && (prev.text.length === 1 || prev.merged)) {
+      prev.text += sg.text;
+      prev.merged = true;
+    } else segs.push({ ...sg });
+  }
+  // 2. Kanji stem + okurigana; 3. polite ます endings attach to the preceding word.
+  const out: Seg[] = [];
+  for (let i = 0; i < segs.length; i++) {
+    const cur = { ...segs[i] };
+    if (cur.word && KANJI_ONLY.test(cur.text)) {
+      while (i + 1 < segs.length) {
+        const nx = segs[i + 1];
+        if (!nx.word || !HIRAGANA_ONLY.test(nx.text) || JA_STOP.has(nx.text) || nx.index !== cur.index + cur.text.length) break;
+        cur.text += nx.text;
+        i++;
+      }
+    }
+    const prev = out[out.length - 1];
+    if (prev && cur.word && MASU.has(cur.text) && prev.word && !JA_STOP.has(prev.text) && adjacent(prev, cur)) {
+      prev.text += cur.text;
+      continue;
+    }
+    out.push(cur);
+  }
+  return out;
+}
+
+function urlRanges(text: string): [number, number][] {
+  const out: [number, number][] = [];
+  for (const m of text.matchAll(URL_OR_EMAIL)) out.push([m.index!, m.index! + m[0].length]);
+  return out;
+}
 // Elided clitic at word start: l', d', qu', j', n', s', c', m', t', dell', all', nell', sull'…
 const ELISION = /^(\p{L}{1,4})(['’])(?=\p{L})/u;
 
@@ -138,21 +201,29 @@ export function tokenize(body: string, language: string, opts: TokenizeOptions =
     const firstSentence = sentences.length - sentStarts.length;
     let sIdx = 0;
 
-    for (const w of seg.word.segment(pText)) {
+    const urls = urlRanges(pText);
+    const inUrl = (i: number) => urls.some(([a, b]) => i >= a && i < b);
+    let segs: Seg[] = Array.from(seg.word.segment(pText), (w) => ({
+      text: w.segment,
+      index: w.index,
+      word: !!w.isWordLike && HAS_LETTER.test(w.segment) && !inUrl(w.index),
+    }));
+    if (lang.code === 'ja') segs = mergeJapanese(segs);
+
+    for (const w of segs) {
       const start = p.start + w.index;
       while (sIdx + 1 < sentStarts.length && start >= sentStarts[sIdx + 1]) sIdx++;
       const sentence = firstSentence + sIdx;
-      const isWord = !!w.isWordLike && HAS_LETTER.test(w.segment);
-      if (isWord && lang.splitElision) {
-        const m = ELISION.exec(w.segment);
+      if (w.word && lang.splitElision) {
+        const m = ELISION.exec(w.text);
         if (m) {
           const clitic = m[1] + m[2];
           pushToken(clitic, start, true, sentence, pIndex);
-          pushToken(w.segment.slice(clitic.length), start + clitic.length, true, sentence, pIndex);
+          pushToken(w.text.slice(clitic.length), start + clitic.length, true, sentence, pIndex);
           continue;
         }
       }
-      pushToken(w.segment, start, isWord, sentence, pIndex);
+      pushToken(w.text, start, w.word, sentence, pIndex);
     }
     paragraphs.push({ index: pIndex, start: p.start, end: p.end, from, to: tokens.length });
   });

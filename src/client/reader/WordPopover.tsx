@@ -1,6 +1,7 @@
-import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { getLanguage } from '../../shared/languages.ts';
 import { speak, ttsSupported } from '../lib/tts.ts';
+import type { TranslationEntry } from '../lib/translations.ts';
 
 interface Props {
   anchor: HTMLElement;
@@ -11,8 +12,7 @@ interface Props {
   occurrences: number;
   marked: boolean;
   saved: boolean;
-  /** Translation details slot (filled lazily by the parent once available). */
-  details?: ReactNode;
+  translation?: TranslationEntry;
   onToggle: () => void;
   onClose: () => void;
 }
@@ -22,7 +22,7 @@ const WIDTH = 300;
 /**
  * Anchored card on wide screens; bottom sheet on phones (thumb-reachable, never covers the word's line).
  */
-export function WordPopover({ anchor, container, language, surface, sentence, occurrences, marked, saved, details, onToggle, onClose }: Props) {
+export function WordPopover({ anchor, container, language, surface, sentence, occurrences, marked, saved, translation, onToggle, onClose }: Props) {
   const lang = getLanguage(language);
   const ref = useRef<HTMLDivElement>(null);
   const [pos, setPos] = useState<{ top: number; left: number } | null>(null);
@@ -92,7 +92,9 @@ export function WordPopover({ anchor, container, language, surface, sentence, oc
         </div>
       </div>
 
-      <div className="mt-2 min-h-[1.5rem] text-[15px]">{details ?? <span className="text-[var(--muted)]">Translation is added when you finish reading.</span>}</div>
+      <div className="mt-2 min-h-[1.5rem] text-[15px]" aria-live="polite" data-testid="popover-translation">
+        <TranslationDetails entry={translation} />
+      </div>
 
       <p lang={lang.locale} dir={lang.dir} className="mt-3 line-clamp-3 text-sm text-[var(--muted)] italic">
         {sentence}
@@ -125,5 +127,21 @@ function SpeakerIcon() {
       <path d="M3 8v4h3l4 3.5v-11L6 8H3z" fill="currentColor" />
       <path d="M13 7.5a3.5 3.5 0 010 5M15 5a7 7 0 010 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
     </svg>
+  );
+}
+
+function TranslationDetails({ entry }: { entry?: TranslationEntry }) {
+  if (!entry || entry.state === 'loading') return <span className="animate-pulse text-[var(--muted)]">Translating…</span>;
+  if (entry.state === 'error')
+    return (
+      <span className="text-sm text-[var(--muted)]">
+        {entry.aiDisabled ? 'Automatic translation is off. You can type a translation when you finish reading.' : entry.reason}
+      </span>
+    );
+  return (
+    <span>
+      <span className="font-medium">{entry.info.translation}</span>
+      {entry.info.pos && <span className="ml-2 text-xs tracking-wide text-[var(--muted)] uppercase">{entry.info.pos}</span>}
+    </span>
   );
 }

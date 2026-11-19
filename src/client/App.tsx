@@ -2,6 +2,8 @@ import { BrowserRouter, NavLink, Route, Routes } from 'react-router';
 import { SettingsProvider } from './lib/settings.tsx';
 import { HomePage } from './pages/HomePage.tsx';
 import { ReaderPage } from './pages/ReaderPage.tsx';
+import { FinishPage } from './pages/FinishPage.tsx';
+import { LibraryPage } from './pages/LibraryPage.tsx';
 
 export function App() {
   return (
@@ -12,6 +14,8 @@ export function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/read/:id" element={<ReaderPage />} />
+            <Route path="/read/:id/finish" element={<FinishPage />} />
+            <Route path="/library" element={<LibraryPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
@@ -31,6 +35,9 @@ function Header() {
         </NavLink>
         <NavLink to="/" end className={link}>
           Read
+        </NavLink>
+        <NavLink to="/library" className={link}>
+          Library
         </NavLink>
       </nav>
     </header>

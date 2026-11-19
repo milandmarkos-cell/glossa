@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { Link, useParams } from 'react-router';
+import { Link, useNavigate, useParams } from 'react-router';
 import { getLanguage } from '../../shared/languages.ts';
 import { toScript } from '../../shared/script.ts';
 import type { TextDetail } from '../../shared/types.ts';
@@ -8,16 +8,8 @@ import { useSettings } from '../lib/settings.tsx';
 import { ReaderView, type MarkedWord } from '../reader/ReaderView.tsx';
 import { ReaderSettings } from '../reader/ReaderSettings.tsx';
 import { Attribution } from '../components/Attribution.tsx';
-
-const marksKey = (id: number) => `glossa:marks:${id}`;
-
-function loadMarks(id: number): string[] {
-  try {
-    return JSON.parse(sessionStorage.getItem(marksKey(id)) ?? '[]');
-  } catch {
-    return [];
-  }
-}
+import { loadMarks, saveMarks } from '../lib/marks.ts';
+import { translations } from '../lib/translations.ts';
 
 export function ReaderPage() {
   const id = Number(useParams().id);
@@ -27,7 +19,8 @@ export function ReaderPage() {
   const [error, setError] = useState<string | null>(null);
   const [savedKeys, setSavedKeys] = useState<ReadonlySet<string>>(new Set());
   const [marked, setMarked] = useState<MarkedWord[]>([]);
-  const initialMarked = useMemo(() => loadMarks(id), [id]);
+  const initialMarked = useMemo(() => loadMarks(id).map((m) => m.key), [id]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setText(null);
@@ -44,13 +37,11 @@ export function ReaderPage() {
   const onMarkedChange = useCallback(
     (words: MarkedWord[]) => {
       setMarked(words);
-      try {
-        sessionStorage.setItem(marksKey(id), JSON.stringify(words.map((w) => w.key)));
-      } catch {
-        /* storage full or disabled: marks just aren't restored */
-      }
+      saveMarks(id, words);
+      // Background prefetch: translations are usually ready by the time you finish.
+      if (text) translations.request(text.language, words.map((w) => ({ surface: w.form, sentence: w.sentence })));
     },
-    [id],
+    [id, text],
   );
 
   if (error) return <main className="mx-auto max-w-2xl px-4 py-16 text-center text-[var(--muted)]">{error}</main>;
@@ -96,6 +87,13 @@ export function ReaderPage() {
           <span className="text-sm text-[var(--muted)]" aria-live="polite" data-testid="marked-count">
             {marked.length === 0 ? 'Tap words you don’t know' : `${marked.length} word${marked.length === 1 ? '' : 's'} marked`}
           </span>
+          <button
+            type="button"
+            onClick={() => navigate(`/read/${id}/finish`)}
+            className="rounded-lg bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white hover:opacity-90"
+          >
+            Finish reading
+          </button>
         </div>
       </div>
     </main>

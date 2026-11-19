@@ -124,6 +124,11 @@ const MIGRATIONS: string[] = [
     PRIMARY KEY (kind, language, target, input_hash)
   );
   `,
+  // 2: the exact form the word had in its sentence (cloze needs it when the saved surface was edited).
+  `
+  ALTER TABLE word_contexts ADD COLUMN form TEXT;
+  CREATE INDEX words_user_lang ON words(user_id, language, created_at);
+  `,
 ];
 
 export function openDb(file: string): DB {

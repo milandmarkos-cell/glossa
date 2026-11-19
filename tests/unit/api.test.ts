@@ -4,6 +4,7 @@ import type { Server } from 'node:http';
 import { openDb } from '../../src/server/db.ts';
 import { seedSamples } from '../../src/server/seed.ts';
 import { createApp } from '../../src/server/app.ts';
+import { createTranslator } from '../../src/server/services/claude.ts';
 
 let server: Server;
 let base: string;
@@ -11,7 +12,7 @@ const db = openDb(':memory:');
 
 beforeAll(async () => {
   seedSamples(db);
-  server = createApp(db, { aiEnabled: false, model: 'test' }).listen(0);
+  server = createApp(db, { translator: createTranslator(db, null), model: 'test' }).listen(0);
   await new Promise((r) => server.once('listening', r));
   base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
 });
@@ -55,6 +56,8 @@ describe('API', () => {
 
   it('validates input', async () => {
     expect((await api('/api/texts', { method: 'POST', body: JSON.stringify({ language: 'xx', body: 'a' }) })).status).toBe(400);
+    expect((await api('/api/texts', { method: 'POST', body: JSON.stringify({ language: 'es', body: '   \n\n  ' }) })).status).toBe(400);
+    expect((await api('/api/texts', { method: 'POST', body: JSON.stringify({ language: 'es', body: '123 456 !!!' }) })).status).toBe(400);
     expect((await api('/api/texts/999999')).status).toBe(404);
     expect((await api('/api/nope')).status).toBe(404);
   });
